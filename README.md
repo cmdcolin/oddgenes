@@ -21,6 +21,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
 "About 70% of C. elegans mRNAs are trans-spliced to one of two 22 nucleotide spliced leaders. SL1 is used to trim off the 5' ends of pre-mRNAs and replace them with the SL1 sequence. This processing event is very closely related to cis-splicing, or intron removal."
 
+The region that is spliced out is called an outron
+
 http://www.wormbook.org/chapters/www_transsplicingoperons/transsplicingoperons.html
 
 ## Evolution
