@@ -36,7 +36,7 @@ http://www.wormbook.org/chapters/www_overviewgenestructure.2/genestructure.html
 
 ## Evolution
 
-### Possible bacteria->eukaryote HGT
+### Possible adaptive bacteria->eukaryote HGT
 
 A possible horizontal gene transfer from bacteria to eukaryotes is found in an insect that feeds on coffee beans. Changes that the gene had to undergo are covered (added poly-A tail, shine-dalgarno sequence deleted)
 
