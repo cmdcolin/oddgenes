@@ -54,3 +54,12 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306691/
 "Here, we systematically quantified translation initiation of green fluorescent protein (GFP) from all 64 codons and nanoluciferase from 12 codons on plasmids designed to interrogate a range of translation initiation conditions."
 
 https://www.sciencedaily.com/releases/2017/02/170221080506.htm
+
+
+## Transposons
+
+### Cross-species BovB transposon transfers
+
+Or "How a quarter of the cow genome came from snakes" http://phenomena.nationalgeographic.com/2013/01/01/how-a-quarter-of-the-cow-genome-came-from-snakes/
+
+Source http://www.pnas.org/content/110/3/1012.full
