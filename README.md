@@ -17,6 +17,12 @@ http://www.nature.com/articles/srep18087
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
+### Very large number of isoforms
+
+Dscam1 (Down syndrome cell adhesion molecule 1) in Drosophila is shown to potentially encode a maxium ~38016 transcripts and exhibits a high diversity of alternative splicing
+
+https://www.wikigenes.org/e/gene/e/35652.html
+
 
 ## Wormbase
 
