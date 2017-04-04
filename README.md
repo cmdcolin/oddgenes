@@ -19,11 +19,11 @@ The phenomenon of recursive splicing can remove sequences progressively inside a
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
-### Very large number of isoforms
+### Very large number of isoforms in DSCAM
 
-Dscam1 (Down syndrome cell adhesion molecule 1) in Drosophila is shown to potentially encode a maxium ~38016 transcripts and exhibits a high diversity of alternative splicing
+"Dscam has 24 exons; exon 4 has 12 variants, exon 6 has 48 variants, exon 9 has 33 variants, and exon 17 has two variants. The combination of exons 4, 6, and 9 leads to 19,008 possible isoforms with different extracellular domains (due to differences in Ig2, Ig3 and Ig4). With two different transmembrane domains from exon 17, the total possible protein products could reach 38,016 isoforms"
 
-https://www.wikigenes.org/e/gene/e/35652.html
+Ref https://en.wikipedia.org/wiki/DSCAM https://www.wikigenes.org/e/gene/e/35652.html
 
 
 ## Wormbase
@@ -49,9 +49,6 @@ http://www.wormbook.org/chapters/www_overviewgenestructure.2/genestructure.html
 A possible horizontal gene transfer from bacteria to eukaryotes is found in an insect that feeds on coffee beans. Changes that the gene had to undergo are covered (added poly-A tail, shine-dalgarno sequence deleted)
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306691/
-
-
-
 
 ## Codon usage
 
