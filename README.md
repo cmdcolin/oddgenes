@@ -68,3 +68,12 @@ https://www.sciencedaily.com/releases/2017/02/170221080506.htm
 Or "How a quarter of the cow genome came from snakes" http://phenomena.nationalgeographic.com/2013/01/01/how-a-quarter-of-the-cow-genome-came-from-snakes/
 
 Source http://www.pnas.org/content/110/3/1012.full
+
+
+## Regulation
+
+### Intron mediated enhancement (IME)
+
+It has been shown that some intron sequences can enhance expression similar to how promoter sequences work https://en.wikipedia.org/wiki/Intron-mediated_enhancement
+
+The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequences responsible for increasing mRNA accumulation are redundant and dispersed throughout the UBQ10 intron" http://www.plantcell.org/content/early/2017/04/03/tpc.17.00020.full.pdf+html
