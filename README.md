@@ -13,6 +13,8 @@ http://www.nature.com/articles/srep18087
 
 ### 0bp length exon
 
+The phenomenon of recursive splicing can remove sequences progressively inside an intron, so there can exist "0bp exons" that are just the splice-site sequences pasted together.
+
 "To identify potential zero nucleotide exon-type ratchet points, we parsed the RNA-Seq alignments to identify novel splice junctions where the reads mapped to an annotated 5' splice site and an unannotated 3' splice site, and the genomic sequence at the 3' splice site junction was AG/GT"
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
