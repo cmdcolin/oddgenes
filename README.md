@@ -28,7 +28,7 @@ Ref https://en.wikipedia.org/wiki/DSCAM https://www.wikigenes.org/e/gene/e/35652
 
 ## Wormbase
 
-### Widespread trans-splicing of different mRNAs in C. elegans
+### Adding leader sequence to mRNA
 
 "About 70% of C. elegans mRNAs are trans-spliced to one of two 22 nucleotide spliced leaders. SL1 is used to trim off the 5' ends of pre-mRNAs and replace them with the SL1 sequence. This processing event is very closely related to cis-splicing, or intron removal."
 
