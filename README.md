@@ -81,8 +81,8 @@ The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequenc
 
 ## Interesting gene names
 
-Tinman - https://en.wikipedia.org/wiki/Tinman_gene
-Sonic hedgehog (SHH) - https://en.wikipedia.org/wiki/Sonic_hedgehog
-Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
-Dracula (drc) - https://www.ncbi.nlm.nih.gov/pubmed/10985389
+* Tinman - https://en.wikipedia.org/wiki/Tinman_gene
+* Sonic hedgehog (SHH) - https://en.wikipedia.org/wiki/Sonic_hedgehog
+* Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
+* Dracula (drc) - https://www.ncbi.nlm.nih.gov/pubmed/10985389
 https://twitter.com/vividbiology
