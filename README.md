@@ -77,3 +77,12 @@ Source http://www.pnas.org/content/110/3/1012.full
 It has been shown that some intron sequences can enhance expression similar to how promoter sequences work https://en.wikipedia.org/wiki/Intron-mediated_enhancement
 
 The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequences responsible for increasing mRNA accumulation are redundant and dispersed throughout the UBQ10 intron" http://www.plantcell.org/content/early/2017/04/03/tpc.17.00020.full.pdf+html
+
+
+## Interesting gene names
+
+Tinman - https://en.wikipedia.org/wiki/Tinman_gene
+Sonic hedgehog (SHH) - https://en.wikipedia.org/wiki/Sonic_hedgehog
+Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
+Dracula (drc) - https://www.ncbi.nlm.nih.gov/pubmed/10985389
+https://twitter.com/vividbiology
