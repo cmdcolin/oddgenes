@@ -86,6 +86,6 @@ The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequenc
 * Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
 * Dracula (drc) - https://www.ncbi.nlm.nih.gov/pubmed/10985389
 * Sleeping Beauty transposon - https://en.wikipedia.org/wiki/Sleeping_Beauty_transposon_system
-
+* Skywalker protin - http://www.ebi.ac.uk/pdbe/entry/search/index?pubmed_id:27669036
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
