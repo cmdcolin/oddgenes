@@ -1,6 +1,6 @@
 # oddgenes
 
-A list of really weird gene annotations or things that break bioinformatics assumptions
+A list of weird gene annotations or things that break bioinformatics assumptions
 
 
 ## Gene structures
@@ -96,7 +96,7 @@ w: 14
 y: 35
 ```
 
-Did you expect that in your bioinformatics software? Note that the mouse genome, GRCm38.p5, does not contain any IUPAC letters in NC_000067-87
+Did you expect that in your bioinformatics software? Note that the mouse genome (GRCm38.p5) as far as I could tell does not contain any non-ACGT IUPAC letters
 
 
 ## Interesting gene names
