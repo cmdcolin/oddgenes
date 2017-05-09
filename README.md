@@ -1,6 +1,6 @@
 # oddgenes
 
-A list of really weird gene annotations
+A list of really weird gene annotations or things that break bioinformatics assumptions
 
 
 ## Gene structures
@@ -77,6 +77,26 @@ Source http://www.pnas.org/content/110/3/1012.full
 It has been shown that some intron sequences can enhance expression similar to how promoter sequences work https://en.wikipedia.org/wiki/Intron-mediated_enhancement
 
 The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequences responsible for increasing mRNA accumulation are redundant and dispersed throughout the UBQ10 intron" http://www.plantcell.org/content/early/2017/04/03/tpc.17.00020.full.pdf+html
+
+
+## Non-ACGT letters in fasta files
+
+The latest human genome, for example, downloaded from NCBI, contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
+
+
+Here is the incidence of non-ACGT IUPAC letters in the entire human genome GRCh38.p10 NC_000001-24
+
+```
+b: 2
+k: 8
+m: 8
+r: 26
+s: 5
+w: 14
+y: 35
+```
+
+Did you expect that in your bioinformatics software? Note that the mouse genome, GRCm38.p5, does not contain any IUPAC letters in NC_000067-87
 
 
 ## Interesting gene names
