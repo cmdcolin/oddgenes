@@ -200,4 +200,8 @@ NC_000024.10	222989	222990	NC_000024.10_222989_222990_for	1	+	W
 * Skywalker protin - http://www.ebi.ac.uk/pdbe/entry/search/index?pubmed_id:27669036
 * Time for coffee - http://www.plantcell.org/content/15/11/2719.abstract
 
+
+
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
+
+Many of the stories behind fly gene nomenclature is available at https://web.archive.org/web/20110716201703/http://www.flynome.com/cgi-bin/search?source=browse including the famous ForRentApartments dot com gene (just kidding but lol https://web.archive.org/web/20110716202150/http://www.flynome.com/cgi-bin/search?storyID=180)
