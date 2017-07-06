@@ -197,7 +197,7 @@ NC_000024.10	222989	222990	NC_000024.10_222989_222990_for	1	+	W
 * Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
 * Dracula (drc) - https://www.ncbi.nlm.nih.gov/pubmed/10985389
 * Sleeping Beauty transposon - https://en.wikipedia.org/wiki/Sleeping_Beauty_transposon_system
-* Skywalker protin - http://www.ebi.ac.uk/pdbe/entry/search/index?pubmed_id:27669036
+* Skywalker protein - http://www.ebi.ac.uk/pdbe/entry/search/index?pubmed_id:27669036
 * Time for coffee - http://www.plantcell.org/content/15/11/2719.abstract
 * Wtf4 - https://www.sciencedaily.com/releases/2017/06/170620093209.htm
 
