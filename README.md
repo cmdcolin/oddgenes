@@ -25,6 +25,22 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
 Ref https://en.wikipedia.org/wiki/DSCAM https://www.wikigenes.org/e/gene/e/35652.html
 
+### Translational frameshift
+
+"The main distinction between frameshifts resulting from mutation and those resulting from ribosomal frameshifting is that the latter are controlled by various mechanisms found in codons...Certain codons take longer to translate, because there are not equal amounts of tRNA of that particular codon in the cytosol..." which leads to ribosomal slippage into an alternative reading frame
+
+Ref https://en.wikipedia.org/wiki/Translational_frameshift
+
+### Stop codon readthrough
+
+In some cases a stop codon is not interpreted as such. "Translational readthrough is very common in viruses and bacteria, and has also been found as a gene regulatory principle in humans, yeasts, bacteria and drosophila"
+
+"Amino acids inserted at the stop codon depends of the identity of the stop codon itself: Gln, Tyr and Lys; have been found for UAA and UAG codon, while Cys, Trp, Arg for UGA codon have been identified by mass spectrometry [18]"
+ 
+
+https://en.wikipedia.org/wiki/Stop_codon#Translational_readthrough
+
+
 
 ## Wormbase
 
