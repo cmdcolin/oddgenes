@@ -19,6 +19,11 @@ The phenomenon of recursive splicing can remove sequences progressively inside a
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
+
+### Twintron
+
+A twintron is essentially an intron-within-an-intron, which could be formed by a mobile element (TE) insertion. The original idea is that the internal intron has to be spliced first before the outer one is, but several classes have been discovered. See https://en.wikipedia.org/wiki/Twintron
+
 ### Very large number of isoforms in Dscam
 
 "Dscam has 24 exons; exon 4 has 12 variants, exon 6 has 48 variants, exon 9 has 33 variants, and exon 17 has two variants. The combination of exons 4, 6, and 9 leads to 19,008 possible isoforms with different extracellular domains (due to differences in Ig2, Ig3 and Ig4). With two different transmembrane domains from exon 17, the total possible protein products could reach 38,016 isoforms"
