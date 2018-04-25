@@ -77,6 +77,21 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306691/
 
 https://www.sciencedaily.com/releases/2017/02/170221080506.htm
 
+## Molecular
+
+### Complex DNA structures
+
+DNA can form complex structures such as quadruplex or four stranded DNA instead of a standard double stranded (dsDNA) helix. This has had implications that it may have important biological function.
+
+See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
+
+## RNA world
+
+### RNA editing
+
+RNA editing is a post-transcriptional modification to the mRNA to change the bases. A-to-I editing is a common one in mammals which would make the RNA appear to have a G where there is an A is in the genomic DNA.
+
+Other editing occurs also https://en.wikipedia.org/wiki/RNA_editing
 
 ## Transposons
 
