@@ -73,6 +73,7 @@ This phenomena of epigenetic modifications being passed down across generations 
 
 https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance
 
+
 ## Codon usage
 
 ### Alternative start codons
@@ -98,6 +99,11 @@ See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
 RNA editing is a post-transcriptional modification to the mRNA to change the bases. A-to-I editing is a common one in mammals which would make the RNA appear to have a G where there is an A is in the genomic DNA.
 
 Other editing occurs also https://en.wikipedia.org/wiki/RNA_editing
+
+### Maternal RNAs being passed down
+
+Maternal RNAs being active against the zygote (e.g. https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition) and lead to complex transgenerational effects
+
 
 ## Transposons
 
