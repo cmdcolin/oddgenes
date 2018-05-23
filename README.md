@@ -104,6 +104,11 @@ Other editing occurs also https://en.wikipedia.org/wiki/RNA_editing
 
 Maternal RNAs being active against the zygote (e.g. https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition) and lead to complex transgenerational effects
 
+### Lowly expressed RNA has large effects
+
+A lncRNA VELUCT almost flies under the radar in a lung cancer screen due to being very lowly expressed such that it is "below the detection limit in total RNA from NCI-H460 cells by RT-qPCR as well as RNA-Seq", however this study confirms it as a factor in experiments
+
+https://www.ncbi.nlm.nih.gov/pubmed/28160600?dopt=Abstract
 
 ## Transposons
 
