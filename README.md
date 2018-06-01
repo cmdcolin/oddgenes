@@ -159,7 +159,7 @@ Did you expect that in your bioinformatics software? Note that the mouse genome 
 * Time for coffee - http://www.plantcell.org/content/15/11/2719.abstract
 * Wtf4 - https://www.sciencedaily.com/releases/2017/06/170620093209.htm
 * Mothers against decapentaplegic - https://en.wikipedia.org/wiki/Mothers_against_decapentaplegic
-* Saxophone (sax/decantaplegic) - http://www.sdbonline.org/sites/fly/gene/saxophon.htm
+* Saxophone (sax) - http://www.sdbonline.org/sites/fly/gene/saxophon.htm
 * Beethovan (btv) - http://www.uniprot.org/uniprot/Q0E8P6
 * Superman+kryptonite - https://en.wikipedia.org/wiki/Superman_(gene)
 * Wishful thinking (wit) - https://www.wikigenes.org/e/gene/e/44096.html
