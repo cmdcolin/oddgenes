@@ -161,6 +161,7 @@ Did you expect that in your bioinformatics software? Note that the mouse genome 
 * Mothers against decapentaplegic - https://en.wikipedia.org/wiki/Mothers_against_decapentaplegic
 * Beethovan (btv) - http://www.uniprot.org/uniprot/Q0E8P6
 * Superman+kryptonite - https://en.wikipedia.org/wiki/Superman_(gene)
+* Wishful thinking (wit) = https://www.wikigenes.org/e/gene/e/44096.html
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
