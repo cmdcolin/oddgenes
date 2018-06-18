@@ -118,6 +118,14 @@ Or "How a quarter of the cow genome came from snakes" http://phenomena.nationalg
 
 Source http://www.pnas.org/content/110/3/1012.full
 
+## Immunity
+
+### VDJ Recombination
+
+VDJ recombination is a process of somatic recombination (using "recombination signal sequences") that is done in immune cells. Different gene segments of class "V", class "D", and class "J" exons (sometimes to exons are referred to as "genes" themselves) are somatically rearranged into coherent genes that are then transcribed and immune diversity.
+
+https://en.wikipedia.org/wiki/V(D)J_recombination
+
 
 ## Regulation
 
