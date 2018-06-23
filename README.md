@@ -118,6 +118,13 @@ Or "How a quarter of the cow genome came from snakes" http://phenomena.nationalg
 
 Source http://www.pnas.org/content/110/3/1012.full
 
+### LINE1 important for embryonic development
+
+Transposon activity can mutate DNA as it will insert itself into the genome. The genome has functions for keeping transposons inactive. However, evidence shows that the LINE1 is important for embryonic development.
+
+https://www.ucsf.edu/news/2018/06/410781/not-junk-jumping-gene-critical-early-embryo
+
+
 ## Immunity
 
 ### VDJ Recombination
