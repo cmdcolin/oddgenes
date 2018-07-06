@@ -79,7 +79,7 @@ http://www.wormbook.org/chapters/www_transsplicingoperons/transsplicingoperons.h
 
 ### Polycistronic transcripts/operons
 
-"A characteristic feature of the worm genome is the existence of genes organized into operons. These polycistronic gene clusters contain two or more closely spaced genes, which are oriented in a head to tail direction. They are transcribed as a single polycistronic mRNA and separated into individual mRNAs by the process of trans-splicing"
+Although prevalent in bacteria, operons are not common in eukaryotes. However, they are common in C. elegans specifically. "A characteristic feature of the worm genome is the existence of genes organized into operons. These polycistronic gene clusters contain two or more closely spaced genes, which are oriented in a head to tail direction. They are transcribed as a single polycistronic mRNA and separated into individual mRNAs by the process of trans-splicing"
 
 http://www.wormbook.org/chapters/www_overviewgenestructure.2/genestructure.html
 
