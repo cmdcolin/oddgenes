@@ -43,6 +43,24 @@ In some cases a stop codon is not interpreted as such. When it is interpreted, i
 
 There are several other stop codon modifications described here http://www.nature.com/nrg/journal/v16/n9/box/nrg3963_BX2.html?foxtrotcallback=true
 
+### Non-canonical splice sites
+
+The standard splice site recognition sequence is an GU in RNA (or GT in DNA) and AG on the other. This recognition motif accounts for the large majority of splicing. If a different sequence is used it is said that a different spliceosome complex is being used "minor spliceosome"
+
+https://en.wikipedia.org/wiki/Minor_spliceosome
+
+### Cryptic splice sites
+
+Some exons harbor internal "splice sites" that might be unused or underused and are so called "cryptic splice sites" (that is my definition, don't take it as gospel).
+
+Review article https://academic.oup.com/nar/article/39/14/5837/1382796
+
+The snaptron project from Ben Langmead analyzed huge amounts of RNA-seq public data and found many types of these cryptic splicing http://snaptron.cs.jhu.edu/
+
+### Introns in archaea
+
+The only types of introns known conventionally in archaea are called "bulge-helix-bulge" but recently Group 1 introns have been discovered https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky414/4999243
+
 ## Wormbase
 
 ### Adding leader sequence to mRNA
