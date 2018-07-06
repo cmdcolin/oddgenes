@@ -63,9 +63,9 @@ The only types of introns known conventionally in archaea are called "bulge-heli
 
 ### Self-splicing RNA
 
-Note that group 1 itself is a "self splicing" function of RNA not requiring external spliceosome https://en.wikipedia.org/wiki/Group_I_catalytic_intron
+The Group 1 intron type mentioned above is a "self splicing" function of RNA not requiring external spliceosome https://en.wikipedia.org/wiki/Group_I_catalytic_intron
 
-Group 2 and group 3 with different mechanisms also exist
+Group 2 and group 3 with similar but different mechanisms also exist
 
 ## Wormbase
 
