@@ -61,6 +61,12 @@ The snaptron project from Ben Langmead analyzed huge amounts of RNA-seq public d
 
 The only types of introns known conventionally in archaea are called "bulge-helix-bulge" but recently Group 1 introns have been discovered https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky414/4999243
 
+### Self-splicing RNA
+
+Note that group 1 itself is a "self splicing" function of RNA not requiring external spliceosome https://en.wikipedia.org/wiki/Group_I_catalytic_intron
+
+Group 2 and group 3 with different mechanisms also exist
+
 ## Wormbase
 
 ### Adding leader sequence to mRNA
