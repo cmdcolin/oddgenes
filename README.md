@@ -206,3 +206,7 @@ Did you expect that in your bioinformatics software? Note that the mouse genome 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
 Many of the stories behind fly gene nomenclature is available at https://web.archive.org/web/20110716201703/http://www.flynome.com/cgi-bin/search?source=browse including the famous ForRentApartments dot com gene (just kidding but lol https://web.archive.org/web/20110716202150/http://www.flynome.com/cgi-bin/search?storyID=180)
+
+## Send PRs for more things!
+
+
