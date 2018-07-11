@@ -167,7 +167,9 @@ It has been shown that some intron sequences can enhance expression similar to h
 The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequences responsible for increasing mRNA accumulation are redundant and dispersed throughout the UBQ10 intron" http://www.plantcell.org/content/early/2017/04/03/tpc.17.00020.full.pdf+html
 
 
-## Non-ACGT letters in fasta files
+## File formats
+
+### Non-ACGT letters in fasta files
 
 The latest human genome, for example, downloaded from NCBI, contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
 
@@ -186,6 +188,50 @@ y: 35
 
 Did you expect that in your bioinformatics software? Note that the mouse genome (GRCm38.p5) as far as I could tell does not contain any non-ACGT IUPAC letters
 
+### Weird characters in FASTA sequence names
+
+In response to hg38 including a colon in sequence names, which conflicts with commonly used representation of a range as chr1:1-100 for example, people analyzed meta-character frequencies in sequence names  https://github.com/samtools/hts-specs/issues/291 
+
+```
+ENA
+#   16927
+*   1
+,   231
+-   122563947
+.   521540419
+/   236951
+\   0
+:   30181
+;   72892
+=   186611
+@   3713
+|   949
+
+Broad(?)
+     12 #
+    527 *
+    357 ,
+1451132 -
+1492749 .
+  86114 /
+ 233731 :
+   2034 =
+     17 @
+1735713 |
+
+Reference sequences
+ # 203
+ % 203
+ * 525
+ + 1
+ , 496
+ - 154226
+ . 1826561
+ : 1577
+ = 26
+ _ 4961932
+ | 1098333
+```
 
 ## Interesting gene names
 
