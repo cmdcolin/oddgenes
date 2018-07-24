@@ -97,6 +97,7 @@ This phenomena of epigenetic modifications being passed down across generations 
 
 https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance
 
+There are skeptics also http://www.wiringthebrain.com/2018/07/calibrating-scientific-skepticism-wider.html but the science is hopefully what speaks for itself
 
 ## Codon usage
 
