@@ -67,6 +67,13 @@ The Group 1 intron type mentioned above is a "self splicing" function of RNA not
 
 Group 2 and group 3 with similar but different mechanisms also exist
 
+### Codon tables
+
+Many eukaryotes use the "standard genetic code" for changing codons to amino acids but frequent changes occur across the domains of life. The NCBI "genetic code" table lists several of these and contains recent additions for particular species
+
+https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG31
+
+
 ## Wormbase
 
 ### Adding leader sequence to mRNA
