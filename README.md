@@ -126,6 +126,13 @@ See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
 
 ## RNA world
 
+### RNA modifications
+
+https://www.hindawi.com/journals/jna/2011/408053/tab1/
+
+updated link on hindawi should point here http://mods.rna.albany.edu/mods/
+
+
 ### RNA editing
 
 RNA editing is a post-transcriptional modification to the mRNA to change the bases. A-to-I editing is a common one in mammals which would make the RNA appear to have a G where there is an A is in the genomic DNA.
