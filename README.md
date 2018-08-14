@@ -43,6 +43,8 @@ In some cases a stop codon is not interpreted as such. When it is interpreted, i
 
 There are several other stop codon modifications described here http://www.nature.com/nrg/journal/v16/n9/box/nrg3963_BX2.html?foxtrotcallback=true
 
+From a gene annotation perspective, there are also other nasty "stop codon readthrough" usages due to genome misassembly, but we will pretend all our genomes come from heaven in perfect xerox form.
+
 ### Non-canonical splice sites
 
 The standard splice site recognition sequence is an GU in RNA (or GT in DNA) and AG on the other. This recognition motif accounts for the large majority of splicing. If a different sequence is used it is said that a different spliceosome complex is being used "minor spliceosome"
