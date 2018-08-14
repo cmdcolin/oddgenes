@@ -262,6 +262,7 @@ Reference sequences
 * Saxophone (sax) - http://www.sdbonline.org/sites/fly/gene/saxophon.htm
 * Beethovan (btv) - http://www.uniprot.org/uniprot/Q0E8P6
 * Superman+kryptonite - https://en.wikipedia.org/wiki/Superman_(gene)
+* Supervillin (SVIL) - https://www.uniprot.org/uniprot/O95425
 * Wishful thinking (wit) - https://www.wikigenes.org/e/gene/e/44096.html
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
