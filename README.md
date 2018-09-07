@@ -75,6 +75,14 @@ Many eukaryotes use the "standard genetic code" for changing codons to amino aci
 
 https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG31
 
+### Untranslated regions
+
+The 5' and 3' UTR (un-translated region) is a part of the pre-mRNA at the start and end of the gene respectively that is spliced away in the mature RNA
+
+This blog post by Ensembl shows how they annotate UTR and 19kb 3' UTR in Grin2b http://www.ensembl.info/2018/08/17/ensembl-insights-how-are-utrs-annotated/
+
+They have many important functionality and are often targets of miRNA binding which leads to degradation. In addition the 3' UTR is the target of polyadenylation and the poly-A tail is added to the pre-mRNA (it is not part of the genome) https://en.wikipedia.org/wiki/Polyadenylation
+
 
 ## Wormbase
 
