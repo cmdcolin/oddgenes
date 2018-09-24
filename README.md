@@ -274,6 +274,9 @@ Reference sequences
 * Superman+kryptonite - https://en.wikipedia.org/wiki/Superman_(gene)
 * Supervillin (SVIL) - https://www.uniprot.org/uniprot/O95425
 * Wishful thinking (wit) - https://www.wikigenes.org/e/gene/e/44096.html
+* Doublesex (dsx) - https://en.wikipedia.org/wiki/Doublesex
+* Fruitless (fru) - https://en.wikipedia.org/wiki/Fruitless_(gene)
+* Transformer (tra) - https://en.wikipedia.org/wiki/Transformer_(gene)
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
