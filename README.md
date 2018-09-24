@@ -277,6 +277,8 @@ Reference sequences
 * Doublesex (dsx) - https://en.wikipedia.org/wiki/Doublesex
 * Fruitless (fru) - https://en.wikipedia.org/wiki/Fruitless_(gene)
 * Transformer (tra) - https://en.wikipedia.org/wiki/Transformer_(gene)
+* Gypsy+Flamenco - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1206375/
+* Jockey - http://flybase.org/reports/FBgn0015952.html
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
