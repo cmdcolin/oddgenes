@@ -100,6 +100,20 @@ Although prevalent in bacteria, operons are not common in eukaryotes. However, t
 
 http://www.wormbook.org/chapters/www_overviewgenestructure.2/genestructure.html
 
+### Trans-splicing of exons on different strands
+
+A pre-mRNA from both strands of DNA eri6 and eri7 are combined to create eri-6/7
+
+Source http://forums.wormbase.org/index.php?topic=1225.0 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2756026/
+
+### Exon shared across different genes
+
+An example from drosophila, C. elegans, and rat shows a gene with a 5' exon being shared between two genes
+
+![](twosplice.png)
+
+Source http://forums.wormbase.org/index.php?topic=1225.0 https://www.fasebj.org/doi/full/10.1096/fj.00-0313rev
+
 ## Evolution
 
 ### Possible adaptive bacteria->eukaryote HGT
