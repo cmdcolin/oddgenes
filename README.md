@@ -196,6 +196,15 @@ VDJ recombination is a process of somatic recombination (using "recombination si
 
 https://en.wikipedia.org/wiki/V(D)J_recombination
 
+## Pseudogenes
+
+### A pseudogene that can protect against cancer in Elephants
+
+The LIF gene has many copies in Elephant but many are non-functional. One copy can be "turned back on" and play a role in cancer protection. They call this a "zombie gene"
+
+https://www.cell.com/cell-reports/fulltext/S2211-1247(18)31145-8
+
+https://www.sciencealert.com/lif6-pseudogene-elephant-tumour-suppression-solution-petos-paradox
 
 ## Regulation
 
@@ -226,6 +235,8 @@ y: 35
 ```
 
 Did you expect that in your bioinformatics software? Note that the mouse genome (GRCm38.p5) as far as I could tell does not contain any non-ACGT IUPAC letters
+
+
 
 ### Weird characters in FASTA sequence names
 
