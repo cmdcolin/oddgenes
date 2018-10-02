@@ -84,6 +84,15 @@ This blog post by Ensembl shows how they annotate UTR and 19kb 3' UTR in Grin2b 
 They have many important functionality and are often targets of miRNA binding which leads to degradation. In addition the 3' UTR is the target of polyadenylation and the poly-A tail is added to the pre-mRNA (it is not part of the genome) https://en.wikipedia.org/wiki/Polyadenylation
 
 
+## Flybase
+
+### Chimeric genes
+
+The gene Jingwei is a chimera of two genes, alcohol dehydrogenage and yellow emperor. Many chimeras are damaging but this has been selected for
+
+http://www.pnas.org/content/101/46/16246
+
+
 ## Wormbase
 
 ### Adding leader sequence to mRNA
@@ -308,6 +317,8 @@ Reference sequences
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
 Many of the stories behind fly gene nomenclature is available at https://web.archive.org/web/20110716201703/http://www.flynome.com/cgi-bin/search?source=browse including the famous ForRentApartments dot com gene (just kidding but lol https://web.archive.org/web/20110716202150/http://www.flynome.com/cgi-bin/search?storyID=180)
+
+Musing article: "What is in a (gene) name?" https://blogs.plos.org/toothandclaw/2012/06/17/whats-in-a-gene-name/
 
 ## Send PRs for more things!
 
