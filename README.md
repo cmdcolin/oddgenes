@@ -313,6 +313,7 @@ Reference sequences
 * Transformer (tra) - https://en.wikipedia.org/wiki/Transformer_(gene)
 * Gypsy+Flamenco - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1206375/
 * Jockey - http://flybase.org/reports/FBgn0015952.html
+* Tigger - https://www.omim.org/entry/612972
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
