@@ -81,8 +81,14 @@ The 5' and 3' UTR (un-translated region) is a part of the pre-mRNA at the start 
 
 This blog post by Ensembl shows how they annotate UTR and 19kb 3' UTR in Grin2b http://www.ensembl.info/2018/08/17/ensembl-insights-how-are-utrs-annotated/
 
-They have many important functionality and are often targets of miRNA binding which leads to degradation. In addition the 3' UTR is the target of polyadenylation and the poly-A tail is added to the pre-mRNA (it is not part of the genome) https://en.wikipedia.org/wiki/Polyadenylation
+They have many important functionality and are often targets of miRNA binding which leads to degradation. 
 
+
+### Poly-A tails
+
+A poly-A tail is added to the pre-mRNA on the 3' end of the transcript to protect it from degradation. The A signal is not part of the genome https://en.wikipedia.org/wiki/Polyadenylation
+
+A survey of poly-A using Oxford Nanopore found some transcript isoforms with 450bp ENST00000581230, with intron retention being a possible correlate of having a longer poly-A tails https://www.biorxiv.org/content/early/2018/11/09/459529.article-info
 
 ## Flybase
 
