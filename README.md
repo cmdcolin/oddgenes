@@ -159,7 +159,11 @@ https://www.sciencedaily.com/releases/2017/02/170221080506.htm
 
 ### Complex DNA structures
 
-DNA can form complex structures such as quadruplex or four stranded DNA instead of a standard double stranded (dsDNA) helix. This has had implications that it may have important biological function.
+The standard DNA double stranded helix is called B-DNA (https://genome.cshlp.org/content/early/2018/11/06/gr.241257.118.abstract)
+
+Other geometries are possible https://en.wikipedia.org/wiki/Nucleic_acid_double_helix#Helix_geometries
+
+Complex structures such as four stranded quadruplex have been found that could have biological functions
 
 See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
 
