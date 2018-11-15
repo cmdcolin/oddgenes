@@ -47,7 +47,7 @@ From a gene annotation perspective, there are also other nasty "stop codon readt
 
 ### Non-canonical splice sites
 
-The standard splice site recognition sequence is an GU in RNA (or GT in DNA) and AG on the other. This recognition motif accounts for the large majority of splicing. If a different sequence is used it is said that a different spliceosome complex is being used "minor spliceosome"
+The standard splice site recognition sequence is an GU in RNA (or GT in DNA) on the 5' end and AG on the 3' (remember, goes 5' to 3'). This recognition motif accounts for the large majority of splicing. If a different sequence is used it is said that a different spliceosome complex is being used "minor spliceosome"
 
 https://en.wikipedia.org/wiki/Minor_spliceosome
 
