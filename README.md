@@ -339,6 +339,7 @@ Reference sequences
 * Jockey - http://flybase.org/reports/FBgn0015952.html
 * Tigger - https://www.omim.org/entry/612972
 * Nanog - celtic legend https://www.sciencedaily.com/releases/2003/06/030602024530.htm (source https://twitter.com/EpgntxEinstein/status/1057359656220348417)
+* Jerky (jrk) - https://www.genecards.org/cgi-bin/carddisp.pl?gene=JRK
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
