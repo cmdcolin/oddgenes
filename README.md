@@ -90,6 +90,14 @@ A poly-A tail is added to the pre-mRNA on the 3' end of the transcript to protec
 
 A survey of poly-A using Oxford Nanopore found some transcript isoforms with 450bp ENST00000581230, with intron retention being a possible correlate of having a longer poly-A tails https://www.biorxiv.org/content/early/2018/11/09/459529.article-info
 
+### Bidirectional promoters
+
+Wikipedia https://en.wikipedia.org/wiki/Promoter_(genetics)#Bidirectional_(mammalian)
+
+"Bidirectional promoters are a common feature of mammalian genomes. About 11% of human genes are bidirectionally paired."
+
+"The two genes are often functionally related, and modification of their shared promoter region allows them to be co-regulated and thus co-expressed"
+
 ## Flybase
 
 ### Chimeric genes
@@ -191,6 +199,12 @@ Maternal RNAs being active against the zygote (e.g. https://en.wikipedia.org/wik
 A lncRNA VELUCT almost flies under the radar in a lung cancer screen due to being very lowly expressed such that it is "below the detection limit in total RNA from NCI-H460 cells by RT-qPCR as well as RNA-Seq", however this study confirms it as a factor in experiments
 
 https://www.ncbi.nlm.nih.gov/pubmed/28160600?dopt=Abstract
+
+### X chromosome inactivation
+
+X chromosome inactivation is produced by a non-coding transcript called Xist is transcribed on the X that is being inactivated and actually coats the X chromosome with itself. An anti-sense transcript called Tsix regulates Xist
+
+https://en.wikipedia.org/wiki/XIST
 
 ## Transposons
 
