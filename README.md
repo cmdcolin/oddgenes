@@ -11,6 +11,8 @@ Evidence given for a 1bp length exon in Arabadopsis and different splicing model
 
 http://www.nature.com/articles/srep18087
 
+Another 1bp exon is discussed here https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177959
+
 ### 0bp length exon
 
 The phenomenon of recursive splicing can remove sequences progressively inside an intron, so there can exist "0bp exons" that are just the splice-site sequences pasted together.
