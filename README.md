@@ -100,6 +100,21 @@ Wikipedia https://en.wikipedia.org/wiki/Promoter_(genetics)#Bidirectional_(mamma
 
 "The two genes are often functionally related, and modification of their shared promoter region allows them to be co-regulated and thus co-expressed"
 
+### Circular chromosomes
+
+Circularized chromosomes should be unsurprising to anyone working with plasmids but for gene annotation formats which use linear coordinates, representing anything wrapping around the origin is challenging
+
+Many genomic viewers do not do this well. For GFF format this is done by making the end go past the end of the genome. Below, the genome is 6407 bp in length, but the CDS feature extends past this and sets Is_circular=true
+
+
+```
+##gff-version 3.2.1
+# organism Enterobacteria phage f1
+# Note Bacteriophage f1, complete genome.
+J02448  GenBank region  1      6407    .       +       .       ID=J02448;Name=J02448;Is_circular=true;
+J02448  GenBank CDS     6006   7238    .       +       0       ID=geneII;Name=II;Note=protein II;
+```
+
 ## Flybase
 
 ### Chimeric genes
