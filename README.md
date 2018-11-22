@@ -77,6 +77,8 @@ Many eukaryotes use the "standard genetic code" for changing codons to amino aci
 
 https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG31
 
+One article explains how alternative genetic codes work https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6207430/
+
 ### Untranslated regions
 
 The 5' and 3' UTR (un-translated region) is a part of the pre-mRNA at the start and end of the gene respectively that is spliced away in the mature RNA
