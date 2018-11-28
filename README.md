@@ -55,7 +55,7 @@ https://en.wikipedia.org/wiki/Minor_spliceosome
 
 ### Cryptic splice sites
 
-Some exons harbor internal "splice sites" that might be unused or underused and are so called "cryptic splice sites" (that is my definition, don't take it as gospel).
+Some exons harbor internal splice sites (e.g. they get split) that might be unused or underused and are so called "cryptic splice sites"
 
 Review article https://academic.oup.com/nar/article/39/14/5837/1382796
 
@@ -65,8 +65,7 @@ The snaptron project from Ben Langmead analyzed huge amounts of RNA-seq public d
 
 Intron retention is a phenomenon where intron sequence is preserved in mature RNA
 
-It can occur in both abnormal and normal biological conditions
-
+It can occur in both abnormal and normal biological conditions. Transcript with IR often undergo nonsense-mediated decay.
 
 ### Introns in archaea
 
