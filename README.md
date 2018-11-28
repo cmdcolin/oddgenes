@@ -61,6 +61,13 @@ Review article https://academic.oup.com/nar/article/39/14/5837/1382796
 
 The snaptron project from Ben Langmead analyzed huge amounts of RNA-seq public data and found many types of these cryptic splicing http://snaptron.cs.jhu.edu/
 
+### Intron retention
+
+Intron retention is a phenomenon where intron sequence is preserved in mature RNA
+
+It can occur in both abnormal and normal biological conditions
+
+
 ### Introns in archaea
 
 The only types of introns known conventionally in archaea are called "bulge-helix-bulge" but recently Group 1 introns have been discovered https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky414/4999243
