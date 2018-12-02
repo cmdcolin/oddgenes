@@ -100,13 +100,10 @@ A poly-A tail is added to the pre-mRNA on the 3' end of the transcript to protec
 
 A survey of poly-A using Oxford Nanopore found some transcript isoforms with 450bp ENST00000581230, with intron retention being a possible correlate of having a longer poly-A tails https://www.biorxiv.org/content/early/2018/11/09/459529.article-info
 
-### Bidirectional promoters
 
-Wikipedia https://en.wikipedia.org/wiki/Promoter_(genetics)#Bidirectional_(mammalian)
+Intronic polyadenylation can also occur https://www.nature.com/articles/s41467-018-04112-z it is revealed by 3'-seq
 
-"Bidirectional promoters are a common feature of mammalian genomes. About 11% of human genes are bidirectionally paired."
 
-"The two genes are often functionally related, and modification of their shared promoter region allows them to be co-regulated and thus co-expressed"
 
 ### Circular chromosomes
 
@@ -272,6 +269,13 @@ It has been shown that some intron sequences can enhance expression similar to h
 
 The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequences responsible for increasing mRNA accumulation are redundant and dispersed throughout the UBQ10 intron" http://www.plantcell.org/content/early/2017/04/03/tpc.17.00020.full.pdf+html
 
+### Bidirectional promoters
+
+Wikipedia https://en.wikipedia.org/wiki/Promoter_(genetics)#Bidirectional_(mammalian)
+
+"Bidirectional promoters are a common feature of mammalian genomes. About 11% of human genes are bidirectionally paired."
+
+"The two genes are often functionally related, and modification of their shared promoter region allows them to be co-regulated and thus co-expressed"
 
 ## File formats
 
