@@ -306,6 +306,10 @@ y: 35
 
 Did you expect that in your bioinformatics software? Note that the mouse genome (GRCm38.p5) as far as I could tell does not contain any non-ACGT IUPAC letters
 
+### rs SNP identifiers occuring in multiple places
+
+Due to how dbSNP is creating, an rs SNP ID can occur in multiple places on the genome
+https://www.biostars.org/p/2323/
 
 
 ### Weird characters in FASTA sequence names
@@ -352,6 +356,8 @@ Reference sequences
  _ 4961932
  | 1098333
 ```
+
+Note that commas in FASTA names is being suggested as an illegal character because of the supplementary alignment tag in SAM/BAM using comma separated values
 
 ## Interesting gene names
 
