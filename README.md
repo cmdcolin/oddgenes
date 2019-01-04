@@ -385,6 +385,8 @@ Note that commas in FASTA names is being suggested as an illegal character becau
 * Jerky (jrk) - https://www.genecards.org/cgi-bin/carddisp.pl?gene=JRK
 * Hippo (Hpo) - https://www.wikigenes.org/e/gene/e/37247.html
 * Dishevelled (Dsh) - https://en.wikipedia.org/wiki/Dishevelled
+* Glass bottom boat (gbb) - http://www.sdbonline.org/sites/fly/dbzhnsky/60a-1.htm
+* Makes catepillars floppy (mcf) - https://www.pnas.org/content/99/16/10742 (source https://twitter.com/JUNIUS_64/status/1081007886560608256)
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
