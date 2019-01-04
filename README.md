@@ -368,7 +368,7 @@ Note that commas in FASTA names is being suggested as an illegal character becau
 * Sleeping Beauty transposon - https://en.wikipedia.org/wiki/Sleeping_Beauty_transposon_system
 * Skywalker protein - http://www.ebi.ac.uk/pdbe/entry/search/index?pubmed_id:27669036
 * Time for coffee - http://www.plantcell.org/content/15/11/2719.abstract
-* Wtf4 - https://www.sciencedaily.com/releases/2017/06/170620093209.htm
+* WTF - https://www.ebi.ac.uk/interpro/entry/IPR004982 https://www.sciencedaily.com/releases/2017/06/170620093209.htm
 * Mothers against decapentaplegic - https://en.wikipedia.org/wiki/Mothers_against_decapentaplegic
 * Saxophone (sax) - http://www.sdbonline.org/sites/fly/gene/saxophon.htm
 * Beethovan (btv) - http://www.uniprot.org/uniprot/Q0E8P6
