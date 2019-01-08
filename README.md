@@ -236,6 +236,14 @@ X chromosome inactivation is produced by a non-coding transcript called Xist is 
 
 https://en.wikipedia.org/wiki/XIST
 
+
+## Proteins
+
+### Removal of start codon in proteins
+
+This is probably obvious to many people who work on proteins but while the genome has almost all genes starting with a start codon which produces methionine, this is often post translationally removed https://en.m.wikipedia.org/wiki/Methionyl_aminopeptidase
+
+
 ## Transposons
 
 ### Cross-species BovB transposon transfers
