@@ -397,6 +397,7 @@ Note that commas in FASTA names is being suggested as an illegal character becau
 * Makes catepillars floppy (mcf) - https://www.pnas.org/content/99/16/10742 (source https://twitter.com/JUNIUS_64/status/1081007886560608256)
 * Eyeless http://flybase.org/reports/FBgn0005558.html
 * Straightjaket (stj) - http://flybase.org/reports/FBgn0261041.html
+* Huluwa http://science.sciencemag.org/content/362/6417/eaat1045 ref https://twitter.com/zhouwanding/status/1065960714978897921
 
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
