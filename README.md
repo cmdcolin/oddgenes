@@ -53,7 +53,14 @@ In some cases a stop codon is not interpreted as such. When it is interpreted, i
 
 There are several other stop codon modifications described here http://www.nature.com/nrg/journal/v16/n9/box/nrg3963_BX2.html?foxtrotcallback=true
 
-From a gene annotation perspective, there are also other nasty "stop codon readthrough" usages due to genome misassembly, but we will pretend all our genomes come from heaven in perfect xerox form.
+### Readthrough transcription
+
+
+See also this Ensembl blog on annotating readthrough transcription which joins multiple genes http://www.ensembl.info/2019/02/11/annotating-readthrough-transcription-in-ensembl/
+
+RNA-seq often makes extremely compelling cases for two-or-more different genes to be conjoined by splicing
+
+Some algorithms e.g. mikado https://academic.oup.com/gigascience/article/7/8/giy093/5057872 try to avoid this calling it artifactual fusion/chimera that can be due to some tandem duplication but it does seem to be very prevalent in real data sets
 
 ### Non-canonical splice sites
 
