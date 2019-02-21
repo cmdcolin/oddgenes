@@ -250,6 +250,11 @@ https://en.wikipedia.org/wiki/XIST
 
 This is probably obvious to many people who work on proteins but while the genome has almost all genes starting with a start codon which produces methionine, this is often post translationally removed https://en.m.wikipedia.org/wiki/Methionyl_aminopeptidase
 
+### Inteins
+
+An intein is like an intron but for a protein, a segment of protein that is spliced out https://en.wikipedia.org/wiki/Intein
+
+See section here https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md#pathological-cases
 
 ## Transposons
 
