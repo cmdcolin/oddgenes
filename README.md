@@ -182,6 +182,8 @@ A possible horizontal gene transfer from bacteria to eukaryotes is found in an i
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306691/
 
+also https://www.cell.com/cell/fulltext/S0092-8674(19)30097-2
+
 ### Transgenerational epigenetic inheritence
 
 This phenomena of epigenetic modifications being passed down across generations garners a lot of media attention and scientific attention. The idea of it being influenced by what "one does in life" such as experiencing famine is also very interesting.
