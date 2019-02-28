@@ -245,6 +245,15 @@ X chromosome inactivation is produced by a non-coding transcript called Xist is 
 
 https://en.wikipedia.org/wiki/XIST
 
+### Types of RNA
+
+There are many types of RNA some more weird an exotic than others, a large list https://en.wikipedia.org/wiki/List_of_RNAs
+
+Some are named based on where they are expressed or active
+
+Others are uniquely shaped. There are also circular RNA for example https://en.wikipedia.org/wiki/Circular_RNA
+
+Small and long non coding RNAs often fold into important structural shapes
 
 ## Proteins
 
