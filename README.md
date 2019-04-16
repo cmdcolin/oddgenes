@@ -135,6 +135,14 @@ J02448  GenBank region  1      6407    .       +       .       ID=J02448;Name=J0
 J02448  GenBank CDS     6006   7238    .       +       0       ID=geneII;Name=II;Note=protein II;
 ```
 
+### Overlapping genes
+
+It is possible for gene sequences to overlap possibly in alternate coding frames
+
+https://en.wikipedia.org/wiki/Overlapping_gene
+https://www.ncbi.nlm.nih.gov/m/pubmed/30552341/
+
+
 ## Flybase
 
 ### Chimeric genes
