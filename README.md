@@ -78,7 +78,7 @@ The snaptron project from Ben Langmead analyzed huge amounts of RNA-seq public d
 
 ### Intron retention
 
-Intron retention is a phenomenon where intron sequence is preserved in mature RNA
+Intron retention (IR) is a phenomenon where intron sequence is preserved, or doesn't get spliced out, in mature RNA
 
 It can occur in both abnormal and normal biological conditions. Transcript with IR often undergo nonsense-mediated decay.
 
