@@ -82,15 +82,19 @@ Intron retention is a phenomenon where intron sequence is preserved in mature RN
 
 It can occur in both abnormal and normal biological conditions. Transcript with IR often undergo nonsense-mediated decay.
 
-### Introns in archaea
-
-The only types of introns known conventionally in archaea are called "bulge-helix-bulge" but recently Group 1 introns have been discovered https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky414/4999243
 
 ### Self-splicing RNA
+
+Normally RNA is spliced by a specialized protein complex called a spliceosome. There is also self-splicing RNA where the splicing is done itself with RNA
 
 The Group 1 intron type mentioned above is a "self splicing" function of RNA not requiring external spliceosome https://en.wikipedia.org/wiki/Group_I_catalytic_intron
 
 Group 2 and group 3 with similar but different mechanisms also exist
+
+### Introns in archaea
+
+The only types of introns known conventionally in archaea are called "bulge-helix-bulge" but recently Group 1 introns have been discovered https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky414/4999243
+
 
 ### Codon tables
 
@@ -124,7 +128,7 @@ Intronic polyadenylation can also occur https://www.nature.com/articles/s41467-0
 
 The centromere is generally a very repetitive part of eukaryotic chromosomes, and eludes standard sequencing and genome assembly techniques.
 
-Techniques have made progress in sequencing this regin https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000241
+Techniques have made progress in sequencing this region https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000241
 
 "Centromeres are marked by the histone H3 variant centromere protein A (CENP-A; also called centromere identifier [Cid] in Drosophila and centromeric histone H3 [CenH3] in plants), which is necessary and sufficient for kinetochore activity"
 
