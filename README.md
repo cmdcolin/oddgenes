@@ -318,6 +318,15 @@ VDJ recombination is a process of somatic recombination (using "recombination si
 
 https://en.wikipedia.org/wiki/V(D)J_recombination
 
+### MHC region
+
+The MHC region is a very polymorphic region of the genome on chr6. I'm not personally aware of the intricacies of MHC beyond that it is a unique contributor of some additional hg38 alternative loci/contigs
+
+* https://en.wikipedia.org/wiki/Major_histocompatibility_complex
+
+* https://en.wikipedia.org/wiki/Human_leukocyte_antigen
+
+
 ## Pseudogenes
 
 ### A pseudogene that can protect against cancer in Elephants
