@@ -31,8 +31,10 @@ A twintron is essentially an intron-within-an-intron, which could be formed by a
 Satellite DNA study uncovers megabase scale introns
 https://www.biorxiv.org/content/early/2018/12/11/493254
 
-Example in human include Dystrophin spanning 2.3 million bp
-Example in paper kl-3 spans 4.3 million bp
+An example in this paper kl-3 spans 4.3 million bp
+
+In human, an example is Dystrophin spanning 2.3 million bp
+
 
 ### Very large number of isoforms in Dscam
 
@@ -268,6 +270,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/28160600?dopt=Abstract
 X chromosome inactivation is produced by a non-coding transcript called Xist is transcribed on the X that is being inactivated and actually coats the X chromosome with itself. An anti-sense transcript called Tsix regulates Xist
 
 https://en.wikipedia.org/wiki/XIST
+
+https://en.wikipedia.org/wiki/X-inactivation#Xist_and_Tsix_RNAs
 
 ### Types of RNA
 
