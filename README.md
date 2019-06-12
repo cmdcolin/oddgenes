@@ -224,6 +224,8 @@ There are skeptics also http://www.wiringthebrain.com/2018/07/calibrating-scient
 
 https://www.sciencedaily.com/releases/2017/02/170221080506.htm
 
+Testing in eukaryotes has also revealed alternative starts being viable https://en.wikipedia.org/wiki/Start_codon#Eukaryotes
+
 ## Molecular
 
 ### Complex DNA structures
