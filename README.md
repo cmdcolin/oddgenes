@@ -464,7 +464,7 @@ Great illustrations of interesting biology, including information about gene nam
 
 Many of the stories behind fly gene nomenclature is available at https://web.archive.org/web/20110716201703/http://www.flynome.com/cgi-bin/search?source=browse including the famous ForRentApartments dot com gene (just kidding but lol https://web.archive.org/web/20110716202150/http://www.flynome.com/cgi-bin/search?storyID=180)
 
-Musing article: "What is in a (gene) name?" https://blogs.plos.org/toothandclaw/2012/06/17/whats-in-a-gene-name/
+Musing article: "What is in a (gene) name?" https://web.archive.org/web/20180731060319/https://blogs.plos.org/toothandclaw/2012/06/17/whats-in-a-gene-name/
 
 ## Send PRs for more things!
 
