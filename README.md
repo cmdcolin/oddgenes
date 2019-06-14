@@ -53,7 +53,7 @@ Ref https://en.wikipedia.org/wiki/Translational_frameshift
 In some cases a stop codon is not interpreted as such. When it is interpreted, it is sometimes called "Stop codon readthrough" and can encode for an amino acid. The amino acid Selenocysteine is coded for by a stop codon (https://en.wikipedia.org/wiki/Selenocysteine) and Pyrrolysine also is coded for by a stop codon (https://en.wikipedia.org/wiki/Pyrrolysine). Both of these lie outside the conventional 20 amino acid code
 
 
-There are several other stop codon modifications described here http://www.nature.com/nrg/journal/v16/n9/box/nrg3963_BX2.html?foxtrotcallback=true
+There are several other stop codon modifications described here http://www.nature.com/nrg/journal/v16/n9/box/nrg3963
 
 ### Readthrough transcription
 
