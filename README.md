@@ -251,7 +251,7 @@ updated link on hindawi should point here http://mods.rna.albany.edu/mods/
 
 ### RNA editing
 
-RNA editing is a post-transcriptional modification to the mRNA to change the bases. A-to-I editing is a common one in mammals which would make the RNA appear to have a G where there is an A is in the genomic DNA.
+RNA editing is a post-transcriptional modification to the mRNA to change the bases. A-to-I editing is a common one in mammals which would make the RNA, when sequenced, to have a G instead of an A. So WGS would not show a SNP but the RNA-seq would appear to have A->G.
 
 Other editing occurs also https://en.wikipedia.org/wiki/RNA_editing
 
