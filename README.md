@@ -46,7 +46,10 @@ Ref https://en.wikipedia.org/wiki/DSCAM https://www.wikigenes.org/e/gene/e/35652
 
 "The main distinction between frameshifts resulting from mutation and those resulting from ribosomal frameshifting is that the latter are controlled by various mechanisms found in codons...Certain codons take longer to translate, because there are not equal amounts of tRNA of that particular codon in the cytosol..." which leads to ribosomal slippage into an alternative reading frame
 
+
 Ref https://en.wikipedia.org/wiki/Translational_frameshift
+
+https://www.sciencedirect.com/topics/neuroscience/ribosomal-frameshifting
 
 ### A Stop codon that is not a stop codon
 
@@ -54,6 +57,11 @@ In some cases a stop codon is not interpreted as such. When it is interpreted, i
 
 
 There are several other stop codon modifications described here https://www.nature.com/articles/nrg3963
+
+Selenocysteine can be coded via a SECIS sequence https://en.wikipedia.org/wiki/SECIS_element and resulting products are called selenoproteins
+
+Pyrolysine is coded through a pyIT tRNA gene that interprets the amber stop codon as pyrolysine
+
 
 ### Readthrough transcription
 
