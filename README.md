@@ -206,6 +206,10 @@ An example from drosophila, C. elegans, and rat shows a gene with a 5' exon bein
 
 Source http://forums.wormbase.org/index.php?topic=1225.0 https://www.fasebj.org/doi/full/10.1096/fj.00-0313rev
 
+An example here shows 5'UTR exons shared across different olfactory receptor genes ("Some OR genes share 5'UTR exons")
+
+https://www.biorxiv.org/content/biorxiv/early/2019/09/19/774612.full.pdf
+
 ## Evolution
 
 ### Possible adaptive bacteria->eukaryote HGT
