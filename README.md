@@ -86,6 +86,12 @@ Review article https://academic.oup.com/nar/article/39/14/5837/1382796
 
 The snaptron project from Ben Langmead analyzed huge amounts of RNA-seq public data and found many types of these cryptic splicing http://snaptron.cs.jhu.edu/
 
+### Wobble splicing
+
+NAGNAG, GYNGYN, repeats of the splicing signal cause modified transcriptional behavior
+
+"Another mechanism introducing small variations to protein isoforms is wobble splicing. Here, a GYN repeat at the donor splice site (5’ splice site; Y stands for C or T and N stands for A, C, G, or T) or an NAG repeat at the acceptor splice site (3’ splice site) leads to subtle length variations in the spliced transcripts and finally to alternative isoforms differing in few amino acids." ref https://onlinelibrary.wiley.com/doi/full/10.1002/bies.201900066?af=R
+
 ### Intron retention
 
 Intron retention (IR) is a phenomenon where intron sequence is preserved, or doesn't get spliced out, in mature RNA
