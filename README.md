@@ -313,6 +313,17 @@ An intein is like an intron but for a protein, a segment of protein that is spli
 
 See section here https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md#pathological-cases
 
+
+### Polyprotein
+
+Viral sequences can create a polyprotein which is fully transcribed and translated before being cleaved by a protease
+
+Dengue, HIV, flu, etc. use this
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6040172/
+https://www.sciencedirect.com/science/article/abs/pii/S0959440X15000597
+
+
 ## Transposons
 
 ### Cross-species BovB transposon transfers
