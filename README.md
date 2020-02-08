@@ -356,6 +356,21 @@ The MHC region is a very polymorphic region of the genome on chr6. I'm not perso
 * https://en.wikipedia.org/wiki/Human_leukocyte_antigen
 
 
+## Structural variations
+
+### Tandem duplication
+
+What is a tandem duplication? Why does it occur?
+
+Factors can include 
+
+* replication slippage
+* retrotransposition
+* unequal crossing over (UCO).
+* imperfect repair of double-strand breaks by nonhomologous end joining (NHEJ).
+
+Ref https://academic.oup.com/mbe/article/24/5/1190/1038942
+
 ## Pseudogenes
 
 ### A pseudogene that can protect against cancer in Elephants
