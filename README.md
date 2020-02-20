@@ -471,7 +471,7 @@ Reference sequences
 
 Note that commas in FASTA names is being suggested as an illegal character because of the supplementary alignment tag in SAM/BAM using comma separated values
 
-## Humungous chromosomes V1
+## Humongous chromosomes V1
 
 Genomes such as wheat have large chromosomes averaging 806Mbp but the BAI file format is limited to 2^29-1 ~ 536Mbp in size (this is due to the binning strategy, the max bin size is listed as 2^29)
 
