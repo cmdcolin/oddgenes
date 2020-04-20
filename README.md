@@ -520,6 +520,19 @@ The CG tag was invented in order to store CIGAR strings longer than 64kb, since 
 * Bad response to refridgeration (brr) https://twitter.com/hitenmadhani/status/1149471071675924481?s=20
 * Mindbomb (mib1) - https://www.sdbonline.org/sites/fly/hjmuller/mindbomb1.htm
 
+
+### Allele names
+
+Sometimes it is not the gene, but the allele that is named
+
+* Bad hair day http://www.informatics.jax.org/allele/MGI:3764934
+* Samba, chacha, bossa nova http://www.informatics.jax.org/allele/MGI:3764934
+* Yoda http://www.informatics.jax.org/allele/MGI:3797584
+
+Ref https://twitter.com/hmdc_mgi/status/1242893531779391496
+
+## More reading
+
 Great illustrations of interesting biology, including information about gene names https://twitter.com/vividbiology
 
 Many of the stories behind fly gene nomenclature is available at https://web.archive.org/web/20110716201703/http://www.flynome.com/cgi-bin/search?source=browse including the famous ForRentApartments dot com gene (just kidding but lol https://web.archive.org/web/20110716202150/http://www.flynome.com/cgi-bin/search?storyID=180)
