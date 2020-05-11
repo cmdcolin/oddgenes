@@ -389,6 +389,8 @@ It has been shown that some intron sequences can enhance expression similar to h
 
 The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequences responsible for increasing mRNA accumulation are redundant and dispersed throughout the UBQ10 intron" http://www.plantcell.org/content/early/2017/04/03/tpc.17.00020.full.pdf+html
 
+The classic peppered moth phenotype is a intron TE insertion https://wp.unil.ch/genomeeee/2016/12/16/peppered-moth-melanism-mutation-is-a-transposable-element/
+
 ### Bidirectional promoters
 
 Wikipedia https://en.wikipedia.org/wiki/Promoter_(genetics)#Bidirectional_(mammalian)
