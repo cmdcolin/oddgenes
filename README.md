@@ -521,7 +521,7 @@ The CG tag was invented in order to store CIGAR strings longer than 64kb, since 
 * frameshifts or pseudogene? - check sequence - https://www.ncbi.nlm.nih.gov/gene/?term=24562233%5Buid%5D
 * Bad response to refridgeration (brr) https://twitter.com/hitenmadhani/status/1149471071675924481?s=20
 * Mindbomb (mib1) - https://www.sdbonline.org/sites/fly/hjmuller/mindbomb1.htm
-
+* β'COP http://flybase.org/reports/FBgn0025724.html (https://twitter.com/DarrenObbard/status/1260613447198412800)
 
 ### Allele names
 
