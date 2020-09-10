@@ -36,6 +36,13 @@ An example in this paper kl-3 spans 4.3 million bp
 In human, an example is Dystrophin spanning 2.3 million bp
 
 
+### Backsplicing and circRNAs
+
+The process of "backsplicing" circularizes RNAs. There can be alternative backsplicing too
+
+See https://academic.oup.com/nar/article/48/4/1779/5715065
+
+
 ### Very large number of isoforms in Dscam
 
 "Dscam has 24 exons; exon 4 has 12 variants, exon 6 has 48 variants, exon 9 has 33 variants, and exon 17 has two variants. The combination of exons 4, 6, and 9 leads to 19,008 possible isoforms with different extracellular domains (due to differences in Ig2, Ig3 and Ig4). With two different transmembrane domains from exon 17, the total possible protein products could reach 38,016 isoforms"
