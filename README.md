@@ -531,6 +531,7 @@ The CG tag was invented in order to store CIGAR strings longer than 64kb, since 
 * β'COP http://flybase.org/reports/FBgn0025724.html (https://twitter.com/DarrenObbard/status/1260613447198412800)
 * King-tubby https://www.uniprot.org/uniprot/B0XFQ9 see also tubby https://www.uniprot.org/uniprot/P50586
 * fucK https://www.uniprot.org/uniprot/?query=fuck&sort=score
+* Halloween genes https://en.wikipedia.org/wiki/Halloween_genes
 
 ### Allele names
 
