@@ -147,15 +147,6 @@ Intronic polyadenylation can also occur https://www.nature.com/articles/s41467-0
 
 
 
-### Content of the centromere
-
-The centromere is generally a very repetitive part of eukaryotic chromosomes, and eludes standard sequencing and genome assembly techniques.
-
-Techniques have made progress in sequencing this region https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000241
-
-"Centromeres are marked by the histone H3 variant centromere protein A (CENP-A; also called centromere identifier [Cid] in Drosophila and centromeric histone H3 [CenH3] in plants), which is necessary and sufficient for kinetochore activity"
-
-"To identify the centromeric DNA sequences of D. melanogaster, we combined a long-read genome assembly approach [19] with four replicate CENP-A ChIPs on chromatin from D. melanogaster embryos, followed by paired-end Illumina sequencing (ChIP-seq). We also performed ChIP-seq in D. melanogaster Schneider 2 (S2) cells, a widely used model for cell division studies. We took four complementary approaches to discover regions of the genome enriched for CENP-A: (1) identifying simple repeats enriched for CENP-A based on kmers, (2) mapping reads to a comprehensive repeat library to summarize enriched transposable elements (TEs) and complex repeats, (3) using de novo assembly methods to assemble contigs from the ChIP reads and calculating enrichment relative to input post hoc, and (4) mapping reads to a heterochromatin-enriched assembly [19] and calling ChIP peaks "
 
 ### Circular chromosomes
 
