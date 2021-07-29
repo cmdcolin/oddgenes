@@ -2,7 +2,6 @@
 
 A list of weird gene annotations or things that break bioinformatics assumptions
 
-
 ## Gene structures
 
 ### 1bp length exon
@@ -21,7 +20,6 @@ The phenomenon of recursive splicing can remove sequences progressively inside a
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
-
 ### Twintron
 
 A twintron is essentially an intron-within-an-intron, which could be formed by a mobile element (TE) insertion. The original idea is that the internal intron has to be spliced first before the outer one is, but several classes have been discovered. See https://en.wikipedia.org/wiki/Twintron
@@ -35,13 +33,11 @@ An example in this paper kl-3 spans 4.3 million bp
 
 In human, an example is Dystrophin spanning 2.3 million bp
 
-
 ### Backsplicing and circRNAs
 
 The process of "backsplicing" circularizes RNAs. There can be alternative backsplicing too
 
 See https://academic.oup.com/nar/article/48/4/1779/5715065
-
 
 ### Very large number of isoforms in Dscam
 
@@ -53,7 +49,6 @@ Ref https://en.wikipedia.org/wiki/DSCAM https://www.wikigenes.org/e/gene/e/35652
 
 "The main distinction between frameshifts resulting from mutation and those resulting from ribosomal frameshifting is that the latter are controlled by various mechanisms found in codons...Certain codons take longer to translate, because there are not equal amounts of tRNA of that particular codon in the cytosol..." which leads to ribosomal slippage into an alternative reading frame
 
-
 Ref https://en.wikipedia.org/wiki/Translational_frameshift
 
 https://www.sciencedirect.com/topics/neuroscience/ribosomal-frameshifting
@@ -62,16 +57,13 @@ https://www.sciencedirect.com/topics/neuroscience/ribosomal-frameshifting
 
 In some cases a stop codon is not interpreted as such. When it is interpreted, it is sometimes called "Stop codon readthrough" and can encode for an amino acid. The amino acid Selenocysteine is coded for by a stop codon (https://en.wikipedia.org/wiki/Selenocysteine) and Pyrrolysine also is coded for by a stop codon (https://en.wikipedia.org/wiki/Pyrrolysine). Both of these lie outside the conventional 20 amino acid code
 
-
 There are several other stop codon modifications described here https://www.nature.com/articles/nrg3963
 
 Selenocysteine can be coded via a SECIS sequence https://en.wikipedia.org/wiki/SECIS_element and resulting products are called selenoproteins
 
 Pyrolysine is coded through a pyIT tRNA gene that interprets the amber stop codon as pyrolysine
 
-
 ### Readthrough transcription
-
 
 See also this Ensembl blog on annotating readthrough transcription which joins multiple genes http://www.ensembl.info/2019/02/11/annotating-readthrough-transcription-in-ensembl/
 
@@ -105,7 +97,6 @@ Intron retention (IR) is a phenomenon where intron sequence is preserved, or doe
 
 It can occur in both abnormal and normal biological conditions. Transcript with IR often undergo nonsense-mediated decay.
 
-
 ### Self-splicing RNA
 
 Normally RNA is spliced by a specialized protein complex called a spliceosome. There is also self-splicing RNA where the splicing is done itself with RNA
@@ -117,7 +108,6 @@ Group 2 and group 3 with similar but different mechanisms also exist
 ### Introns in archaea
 
 The only types of introns known conventionally in archaea are called "bulge-helix-bulge" but recently Group 1 introns have been discovered https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky414/4999243
-
 
 ### Codon tables
 
@@ -133,8 +123,7 @@ The 5' and 3' UTR (un-translated region) is a part of the pre-mRNA at the start 
 
 This blog post by Ensembl shows how they annotate UTR and 19kb 3' UTR in Grin2b http://www.ensembl.info/2018/08/17/ensembl-insights-how-are-utrs-annotated/
 
-They have many important functionality and are often targets of miRNA binding which leads to degradation. 
-
+They have many important functionality and are often targets of miRNA binding which leads to degradation.
 
 ### Poly-A tails
 
@@ -142,18 +131,13 @@ A poly-A tail is added to the pre-mRNA on the 3' end of the transcript to protec
 
 A survey of poly-A using Oxford Nanopore found some transcript isoforms with 450bp ENST00000581230, with intron retention being a possible correlate of having a longer poly-A tails https://www.biorxiv.org/content/early/2018/11/09/459529.article-info
 
-
 Intronic polyadenylation can also occur https://www.nature.com/articles/s41467-018-04112-z it is revealed by 3'-seq
-
-
-
 
 ### Circular chromosomes
 
 Circularized chromosomes should be unsurprising to anyone working with plasmids but for gene annotation formats which use linear coordinates, representing anything wrapping around the origin is challenging
 
 Many genomic viewers do not do this well. For GFF format this is done by making the end go past the end of the genome. Below, the genome is 6407 bp in length, but the CDS feature extends past this and sets Is_circular=true
-
 
 ```
 ##gff-version 3.2.1
@@ -170,7 +154,6 @@ It is possible for gene sequences to overlap possibly in alternate coding frames
 https://en.wikipedia.org/wiki/Overlapping_gene
 https://www.ncbi.nlm.nih.gov/m/pubmed/30552341/
 
-
 ## Flybase
 
 ### Chimeric genes
@@ -178,7 +161,6 @@ https://www.ncbi.nlm.nih.gov/m/pubmed/30552341/
 The gene Jingwei is a chimera of two genes, alcohol dehydrogenage and yellow emperor. Many chimeras are damaging but this has been selected for
 
 http://www.pnas.org/content/101/46/16246
-
 
 ## Wormbase
 
@@ -256,6 +238,12 @@ Complex structures such as four stranded quadruplex have been found that could h
 
 See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
 
+### Polytene chromosome
+
+Some organisms, famously insect salivary glands, create many copies of genes through multiple phases of incomplete DNA replication (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768140/)
+
+![](polytene.png)
+
 ## RNA world
 
 ### RNA modifications
@@ -263,7 +251,6 @@ See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
 https://www.hindawi.com/journals/jna/2011/408053/tab1/
 
 updated link on hindawi should point here http://mods.rna.albany.edu/mods/
-
 
 ### RNA editing
 
@@ -311,7 +298,6 @@ An intein is like an intron but for a protein, a segment of protein that is spli
 
 See section here https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md#pathological-cases
 
-
 ### Polyprotein
 
 Viral sequences can create a polyprotein which is fully transcribed and translated before being cleaved by a protease
@@ -320,7 +306,6 @@ Dengue, HIV, flu, etc. use this
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6040172/
 https://www.sciencedirect.com/science/article/abs/pii/S0959440X15000597
-
 
 ## Transposons
 
@@ -336,7 +321,6 @@ Transposon activity can mutate DNA as it will insert itself into the genome. The
 
 https://www.ucsf.edu/news/2018/06/410781/not-junk-jumping-gene-critical-early-embryo
 
-
 ## Immunity
 
 ### VDJ Recombination
@@ -349,10 +333,9 @@ https://en.wikipedia.org/wiki/V(D)J_recombination
 
 The MHC region is a very polymorphic region of the genome on chr6. I'm not personally aware of the intricacies of MHC beyond that it is a unique contributor of some additional hg38 alternative loci/contigs
 
-* https://en.wikipedia.org/wiki/Major_histocompatibility_complex
+- https://en.wikipedia.org/wiki/Major_histocompatibility_complex
 
-* https://en.wikipedia.org/wiki/Human_leukocyte_antigen
-
+- https://en.wikipedia.org/wiki/Human_leukocyte_antigen
 
 ## Structural variations
 
@@ -360,12 +343,12 @@ The MHC region is a very polymorphic region of the genome on chr6. I'm not perso
 
 What is a tandem duplication? Why does it occur?
 
-Factors can include 
+Factors can include
 
-* replication slippage
-* retrotransposition
-* unequal crossing over (UCO).
-* imperfect repair of double-strand breaks by nonhomologous end joining (NHEJ).
+- replication slippage
+- retrotransposition
+- unequal crossing over (UCO).
+- imperfect repair of double-strand breaks by nonhomologous end joining (NHEJ).
 
 Ref https://academic.oup.com/mbe/article/24/5/1190/1038942
 
@@ -397,12 +380,19 @@ Wikipedia https://en.wikipedia.org/wiki/Promoter_(genetics)#Bidirectional_(mamma
 
 "The two genes are often functionally related, and modification of their shared promoter region allows them to be co-regulated and thus co-expressed"
 
+## Chromosomal abnormalities
+
+### Loss of Y chromosome
+
+Older men can have a mosaic loss of the Y chromosome in blood samples
+
+https://www.karger.com/Article/FullText/508564 (found from https://www.biostars.org/p/9482437/)
+
 ## File formats
 
 ### Non-ACGT letters in fasta files
 
 The latest human genome, for example, downloaded from NCBI, contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
-
 
 Here is the incidence of non-ACGT IUPAC letters in the entire human genome GRCh38.p10 NC_000001-24
 
@@ -423,10 +413,9 @@ Did you expect that in your bioinformatics software? Note that the mouse genome 
 Due to how dbSNP is creating, an rs SNP ID can occur in multiple places on the genome
 https://www.biostars.org/p/2323/
 
-
 ### Weird characters in FASTA sequence names
 
-In response to hg38 including a colon in sequence names, which conflicts with commonly used representation of a range as chr1:1-100 for example, people analyzed meta-character frequencies in sequence names  https://github.com/samtools/hts-specs/issues/291 
+In response to hg38 including a colon in sequence names, which conflicts with commonly used representation of a range as chr1:1-100 for example, people analyzed meta-character frequencies in sequence names https://github.com/samtools/hts-specs/issues/291
 
 ```
 ENA
@@ -487,52 +476,52 @@ The CG tag was invented in order to store CIGAR strings longer than 64kb, since 
 
 ## Interesting gene names
 
-* Tinman - https://en.wikipedia.org/wiki/Tinman_gene
-* Sonic hedgehog (SHH) - https://en.wikipedia.org/wiki/Sonic_hedgehog
-* Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
-* Dracula (drc) - https://www.ncbi.nlm.nih.gov/pubmed/10985389
-* Sleeping Beauty transposon - https://en.wikipedia.org/wiki/Sleeping_Beauty_transposon_system
-* Skywalker protein - http://www.ebi.ac.uk/pdbe/entry/search/index?pubmed_id:27669036
-* Time for coffee - http://www.plantcell.org/content/15/11/2719.abstract
-* WTF - https://www.ebi.ac.uk/interpro/entry/IPR004982 https://www.sciencedaily.com/releases/2017/06/170620093209.htm
-* Mothers against decapentaplegic - https://en.wikipedia.org/wiki/Mothers_against_decapentaplegic
-* Saxophone (sax) - http://www.sdbonline.org/sites/fly/gene/saxophon.htm
-* Beethovan (btv) - http://www.uniprot.org/uniprot/Q0E8P6
-* Superman+kryptonite - https://en.wikipedia.org/wiki/Superman_(gene)
-* Supervillin (SVIL) - https://www.uniprot.org/uniprot/O95425
-* Wishful thinking (wit) - https://www.wikigenes.org/e/gene/e/44096.html
-* Doublesex (dsx) - https://en.wikipedia.org/wiki/Doublesex
-* Fruitless (fru) - https://en.wikipedia.org/wiki/Fruitless_(gene)
-* Transformer (tra) - https://en.wikipedia.org/wiki/Transformer_(gene)
-* Gypsy+Flamenco - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1206375/
-* Jockey - http://flybase.org/reports/FBgn0015952.html
-* Tigger - https://www.omim.org/entry/612972
-* Nanog - celtic legend https://www.sciencedaily.com/releases/2003/06/030602024530.htm (source https://twitter.com/EpgntxEinstein/status/1057359656220348417)
-* Jerky (jrk) - https://www.genecards.org/cgi-bin/carddisp.pl?gene=JRK
-* Hippo (Hpo) - https://www.wikigenes.org/e/gene/e/37247.html
-* Dishevelled (Dsh) - https://en.wikipedia.org/wiki/Dishevelled
-* Glass bottom boat (gbb) - http://www.sdbonline.org/sites/fly/dbzhnsky/60a-1.htm
-* Makes catepillars floppy (mcf) - https://www.pnas.org/content/99/16/10742 (source https://twitter.com/JUNIUS_64/status/1081007886560608256)
-* Eyeless http://flybase.org/reports/FBgn0005558.html
-* Straightjaket (stj) - http://flybase.org/reports/FBgn0261041.html
-* Huluwa http://science.sciencemag.org/content/362/6417/eaat1045 ref https://twitter.com/zhouwanding/status/1065960714978897921
-* frameshifts or pseudogene? - check sequence - https://www.ncbi.nlm.nih.gov/gene/?term=24562233%5Buid%5D
-* Bad response to refridgeration (brr) https://twitter.com/hitenmadhani/status/1149471071675924481?s=20
-* Mindbomb (mib1) - https://www.sdbonline.org/sites/fly/hjmuller/mindbomb1.htm
-* β'COP http://flybase.org/reports/FBgn0025724.html (https://twitter.com/DarrenObbard/status/1260613447198412800)
-* King-tubby https://www.uniprot.org/uniprot/B0XFQ9 see also tubby https://www.uniprot.org/uniprot/P50586
-* fucK https://www.uniprot.org/uniprot/?query=fuck&sort=score
-* Halloween genes https://en.wikipedia.org/wiki/Halloween_genes
-* VANDAL21 https://www.arabidopsis.org/servlets/TairObject?type=transposon_family&id=139
-* HotDog domain - superfamily of genes/proteins https://www.wikidata.org/wiki/Q24785143 https://www.ebi.ac.uk/interpro/entry/IPR029069
+- Tinman - https://en.wikipedia.org/wiki/Tinman_gene
+- Sonic hedgehog (SHH) - https://en.wikipedia.org/wiki/Sonic_hedgehog
+- Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
+- Dracula (drc) - https://www.ncbi.nlm.nih.gov/pubmed/10985389
+- Sleeping Beauty transposon - https://en.wikipedia.org/wiki/Sleeping_Beauty_transposon_system
+- Skywalker protein - http://www.ebi.ac.uk/pdbe/entry/search/index?pubmed_id:27669036
+- Time for coffee - http://www.plantcell.org/content/15/11/2719.abstract
+- WTF - https://www.ebi.ac.uk/interpro/entry/IPR004982 https://www.sciencedaily.com/releases/2017/06/170620093209.htm
+- Mothers against decapentaplegic - https://en.wikipedia.org/wiki/Mothers_against_decapentaplegic
+- Saxophone (sax) - http://www.sdbonline.org/sites/fly/gene/saxophon.htm
+- Beethovan (btv) - http://www.uniprot.org/uniprot/Q0E8P6
+- Superman+kryptonite - https://en.wikipedia.org/wiki/Superman_(gene)
+- Supervillin (SVIL) - https://www.uniprot.org/uniprot/O95425
+- Wishful thinking (wit) - https://www.wikigenes.org/e/gene/e/44096.html
+- Doublesex (dsx) - https://en.wikipedia.org/wiki/Doublesex
+- Fruitless (fru) - https://en.wikipedia.org/wiki/Fruitless_(gene)
+- Transformer (tra) - https://en.wikipedia.org/wiki/Transformer_(gene)
+- Gypsy+Flamenco - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1206375/
+- Jockey - http://flybase.org/reports/FBgn0015952.html
+- Tigger - https://www.omim.org/entry/612972
+- Nanog - celtic legend https://www.sciencedaily.com/releases/2003/06/030602024530.htm (source https://twitter.com/EpgntxEinstein/status/1057359656220348417)
+- Jerky (jrk) - https://www.genecards.org/cgi-bin/carddisp.pl?gene=JRK
+- Hippo (Hpo) - https://www.wikigenes.org/e/gene/e/37247.html
+- Dishevelled (Dsh) - https://en.wikipedia.org/wiki/Dishevelled
+- Glass bottom boat (gbb) - http://www.sdbonline.org/sites/fly/dbzhnsky/60a-1.htm
+- Makes catepillars floppy (mcf) - https://www.pnas.org/content/99/16/10742 (source https://twitter.com/JUNIUS_64/status/1081007886560608256)
+- Eyeless http://flybase.org/reports/FBgn0005558.html
+- Straightjaket (stj) - http://flybase.org/reports/FBgn0261041.html
+- Huluwa http://science.sciencemag.org/content/362/6417/eaat1045 ref https://twitter.com/zhouwanding/status/1065960714978897921
+- frameshifts or pseudogene? - check sequence - https://www.ncbi.nlm.nih.gov/gene/?term=24562233%5Buid%5D
+- Bad response to refridgeration (brr) https://twitter.com/hitenmadhani/status/1149471071675924481?s=20
+- Mindbomb (mib1) - https://www.sdbonline.org/sites/fly/hjmuller/mindbomb1.htm
+- β'COP http://flybase.org/reports/FBgn0025724.html (https://twitter.com/DarrenObbard/status/1260613447198412800)
+- King-tubby https://www.uniprot.org/uniprot/B0XFQ9 see also tubby https://www.uniprot.org/uniprot/P50586
+- fucK https://www.uniprot.org/uniprot/?query=fuck&sort=score
+- Halloween genes https://en.wikipedia.org/wiki/Halloween_genes
+- VANDAL21 https://www.arabidopsis.org/servlets/TairObject?type=transposon_family&id=139
+- HotDog domain - superfamily of genes/proteins https://www.wikidata.org/wiki/Q24785143 https://www.ebi.ac.uk/interpro/entry/IPR029069
 
 ### Allele names
 
 Sometimes it is not the gene, but the allele that is named
 
-* Bad hair day http://www.informatics.jax.org/allele/MGI:3764934
-* Samba, chacha, bossa nova http://www.informatics.jax.org/allele/MGI:3764934
-* Yoda http://www.informatics.jax.org/allele/MGI:3797584
+- Bad hair day http://www.informatics.jax.org/allele/MGI:3764934
+- Samba, chacha, bossa nova http://www.informatics.jax.org/allele/MGI:3764934
+- Yoda http://www.informatics.jax.org/allele/MGI:3797584
 
 Ref https://twitter.com/hmdc_mgi/status/1242893531779391496
 
@@ -545,5 +534,3 @@ Many of the stories behind fly gene nomenclature is available at https://web.arc
 Musing article: "What is in a (gene) name?" https://web.archive.org/web/20180731060319/https://blogs.plos.org/toothandclaw/2012/06/17/whats-in-a-gene-name/
 
 ## Send PRs for more things!
-
-
