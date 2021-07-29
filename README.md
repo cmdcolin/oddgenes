@@ -240,9 +240,14 @@ See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
 
 ### Polytene chromosome
 
-Some organisms, famously insect salivary glands, create many copies of genes through multiple phases of incomplete DNA replication (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768140/)
+Some organisms, famously insect salivary glands, create many copies of genes through multiple phases of incomplete DNA replication https://en.wikipedia.org/wiki/Polytene_chromosom
 
 ![](polytene.png)
+
+Figure source https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768140/
+
+"Polytene chromosomes are produced by endoreplication, in which chromosomal DNA undergoes mitotic replication, but the strands do not separate. Ten rounds of endoreplication produces 210 = 1,024 DNA strands, which when arranged alongside of each other produce distinctive banding patterns. Endoreplication occurs in cells of the larval salivary glands of many species of Diptera, and increases production of mRNA for Glue Protein that the larvae use to anchor themselves to the walls of (for example) culture vials."
+from https://www.mun.ca/biology/scarr/Polytene_Chromosomes.html
 
 ## RNA world
 
