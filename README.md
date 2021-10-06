@@ -152,7 +152,13 @@ J02448  GenBank CDS     6006   7238    .       +       0       ID=geneII;Name=II
 It is possible for gene sequences to overlap possibly in alternate coding frames
 
 https://en.wikipedia.org/wiki/Overlapping_gene
-https://www.ncbi.nlm.nih.gov/m/pubmed/30552341/
+
+Some articles 
+
+- The novel EHEC gene asa overlaps the TEGT transporter gene in antisense and is regulated by NaCl and growth phase https://www.ncbi.nlm.nih.gov/m/pubmed/30552341/
+- Overlapping genes in natural and engineered genomes https://www.nature.com/articles/s41576-021-00417-w
+- Uncovering de novo gene birth in yeast using deep transcriptomics https://www.nature.com/articles/s41467-021-20911-3
+
 
 ## Flybase
 
