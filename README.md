@@ -506,7 +506,7 @@ The CG tag was invented in order to store CIGAR strings longer than 64kb, since 
 - Doublesex (dsx) - https://en.wikipedia.org/wiki/Doublesex
 - Fruitless (fru) - https://en.wikipedia.org/wiki/Fruitless_(gene)
 - Transformer (tra) - https://en.wikipedia.org/wiki/Transformer_(gene)
-- Gypsy+Flamenco - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1206375/
+- Gypsy+Flamenco - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1206375/ also described in wiki https://en.wikipedia.org/wiki/Piwi-interacting_RNA#History_and_loci
 - Jockey - http://flybase.org/reports/FBgn0015952.html
 - Tigger - https://www.omim.org/entry/612972
 - Nanog - celtic legend https://www.sciencedaily.com/releases/2003/06/030602024530.htm (source https://twitter.com/EpgntxEinstein/status/1057359656220348417)
