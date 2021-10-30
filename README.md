@@ -279,6 +279,8 @@ A lncRNA VELUCT almost flies under the radar in a lung cancer screen due to bein
 
 https://www.ncbi.nlm.nih.gov/pubmed/28160600?dopt=Abstract
 
+Note that X inactivation relies on relatively lowly expressed RNA also https://twitter.com/mitchguttman/status/1454256452990734336
+
 ### X chromosome inactivation
 
 X chromosome inactivation is produced by a non-coding transcript called Xist is transcribed on the X that is being inactivated and actually coats the X chromosome with itself. An anti-sense transcript called Tsix regulates Xist
