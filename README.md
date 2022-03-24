@@ -483,6 +483,19 @@ The axolotl genome has individual chromosomes that are of size 3.14 Gbp https://
 
 The BAM and CRAM formats can only store 2^31-1 length https://en.wikipedia.org/wiki/2,147,483,647 so bgzip/tabix SAM is used
 
+## Largest genomes
+
+Just some honorable mentions for largest genome
+
+- Polychaos dubium/Amoeba dubium/Chaos chaos - ~600-1300Gbp (unsequenced, 1968 back of envelope measurement, needs confirmation) https://en.wikipedia.org/wiki/Polychaos_dubium (another ref https://bionumbers.hms.harvard.edu/bionumber.aspx?&id=117342)
+- Paris japonica (canopy plant) - ~149Gbp (unsequenced)  https://en.wikipedia.org/wiki/Paris_japonica
+- Tmesipteris_obliqua (fern) - ~147Gbp (unsequenced) - https://en.wikipedia.org/wiki/Tmesipteris_obliqua
+- Marbled lungfish - 133Gbp (unsequenced) (https://en.wikipedia.org/wiki/Marbled_lungfish
+- Australian lungfish - 43Gbp (sequenced)  https://www.smithsonianmag.com/smart-news/australian-lungfish-has-biggest-genome-ever-sequenced-180976837/
+- Axolotl - 32Gbp (sequenced) https://en.wikipedia.org/wiki/Axolotl
+- Coastal redwood - 26Gbp (seqeunced) https://www.ucdavis.edu/climate/news/coast-redwood-and-sequoia-genome-sequences-completed
+- Loblolly pine - 22Gbp (sequenced) https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2014/03/genomelog030.jpg
+
 ## Humongous CIGAR strings
 
 The CG tag was invented in order to store CIGAR strings longer than 64kb, since n_cigar_opt is a uint16
