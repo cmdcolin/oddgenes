@@ -488,7 +488,7 @@ The BAM and CRAM formats can only store 2^31-1 length https://en.wikipedia.org/w
 Just some honorable mentions for largest genome
 
 - Polychaos dubium/Amoeba dubium/Chaos chaos - ~600-1300Gbp (unsequenced, 1968 back of envelope measurement, needs confirmation) https://en.wikipedia.org/wiki/Polychaos_dubium (another ref https://bionumbers.hms.harvard.edu/bionumber.aspx?&id=117342)
-- Dinoflagellates - up to 250Gbp (unsequenced, 1987 book referenced in this paper, needs confirmation, has weird chromosome structures) https://www.nature.com/articles/s41588-021-00841-y
+- Dinoflagellates - up to 250Gbp (unsequenced, 1987 book referenced in this paper, needs confirmation, has weird chromosome "rod-like" structures) https://www.nature.com/articles/s41588-021-00841-y
 - Paris japonica (canopy plant) - ~149Gbp (unsequenced)  https://en.wikipedia.org/wiki/Paris_japonica
 - Tmesipteris_obliqua (fern) - ~147Gbp (unsequenced) - https://en.wikipedia.org/wiki/Tmesipteris_obliqua
 - Marbled lungfish - 133Gbp (unsequenced) (https://en.wikipedia.org/wiki/Marbled_lungfish
