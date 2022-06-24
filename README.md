@@ -47,17 +47,19 @@ Ref https://en.wikipedia.org/wiki/DSCAM https://www.wikigenes.org/e/gene/e/35652
 
 ### Translational frameshift
 
-"The main distinction between frameshifts resulting from mutation and those resulting from ribosomal frameshifting is that the latter are controlled by various mechanisms found in codons...Certain codons take longer to translate, because there are not equal amounts of tRNA of that particular codon in the cytosol..." which leads to ribosomal slippage into an alternative reading frame.  
+"The main distinction between frameshifts resulting from mutation and those resulting from ribosomal frameshifting is that the latter are controlled by various mechanisms found in codons...Certain codons take longer to translate, because there are not equal amounts of tRNA of that particular codon in the cytosol..." which leads to ribosomal slippage into an alternative reading frame.
 
 Ref https://en.wikipedia.org/wiki/Translational_frameshift
 
 https://www.sciencedirect.com/topics/neuroscience/ribosomal-frameshifting
 
 ### Ribosome hopping
+
 "Ribosome hopping involves ribosomes skipping over large portions of an mRNA without translating them"
 Ref https://pubmed.ncbi.nlm.nih.gov/24711422/
 
 ### Internal Ribosome Entry Sites (IRES)
+
 "Eukaryotic mRNAs are typically monocistronic and translated only a single Open Reading Frame. Some viruses can reinititate translation after translation termination using an IRES"
 Ref https://en.wikipedia.org/wiki/Internal_ribosome_entry_site
 
@@ -143,7 +145,7 @@ Intronic polyadenylation can also occur https://www.nature.com/articles/s41467-0
 
 ### Circular chromosomes
 
-Circularized chromosomes should be unsurprising to anyone working with plasmids and many prokaryotic genomes but for gene annotation formats which use linear coordinates, representing anything wrapping around the origin is challenging. 
+Circularized chromosomes should be unsurprising to anyone working with plasmids and many prokaryotic genomes but for gene annotation formats which use linear coordinates, representing anything wrapping around the origin is challenging.
 
 Many genomic viewers do not do this well. For GFF format this is done by making the end go past the end of the genome. Below, the genome is 6407 bp in length, but the CDS feature extends past this and sets Is_circular=true
 
@@ -154,6 +156,7 @@ Many genomic viewers do not do this well. For GFF format this is done by making 
 J02448  GenBank region  1      6407    .       +       .       ID=J02448;Name=J02448;Is_circular=true;
 J02448  GenBank CDS     6006   7238    .       +       0       ID=geneII;Name=II;Note=protein II;
 ```
+
 ### Dynamic DNA structures in vivo
 
 The replication of the 2 micron plasmid found in Saccharomyces cerevisiae relies on a programmed DNA rearrangement; in any population of cells two different states of the 2 micron plasmid can be expected and these will interconvert in later generations.
@@ -165,12 +168,11 @@ It is possible for gene sequences to overlap possibly in alternate coding frames
 
 https://en.wikipedia.org/wiki/Overlapping_gene
 
-Some articles 
+Some articles
 
 - The novel EHEC gene asa overlaps the TEGT transporter gene in antisense and is regulated by NaCl and growth phase https://www.ncbi.nlm.nih.gov/m/pubmed/30552341/
 - Overlapping genes in natural and engineered genomes https://www.nature.com/articles/s41576-021-00417-w
 - Uncovering de novo gene birth in yeast using deep transcriptomics https://www.nature.com/articles/s41467-021-20911-3
-
 
 ## Flybase
 
@@ -274,6 +276,7 @@ from https://www.mun.ca/biology/scarr/Polytene_Chromosomes.html
 https://www.hindawi.com/journals/jna/2011/408053/tab1/
 
 updated link on hindawi should point here http://mods.rna.albany.edu/mods/
+(this link now dead too, see maybe http://genesilico.pl/modomics/modifications)
 
 ### RNA editing
 
@@ -353,7 +356,6 @@ https://www.ucsf.edu/news/2018/06/410781/not-junk-jumping-gene-critical-early-em
 VDJ recombination is a process of somatic recombination (using "recombination signal sequences") that is done in immune cells. Different gene segments of class "V", class "D", and class "J" exons (sometimes to exons are referred to as "genes" themselves) are somatically rearranged into coherent genes that are then transcribed and immune diversity. Splicing at the DNA level is not precise, with terminal transferase adding random nucleotides to further diversify the sequences
 
 https://en.wikipedia.org/wiki/V(D)J_recombination
-
 
 ### MHC region
 
@@ -502,11 +504,11 @@ Just some honorable mentions for largest genome
 
 - Polychaos dubium/Amoeba dubium/Chaos chaos - ~600-1300Gbp (unsequenced, 1968 back of envelope measurement, needs confirmation) https://en.wikipedia.org/wiki/Polychaos_dubium (another ref https://bionumbers.hms.harvard.edu/bionumber.aspx?&id=117342)
 - Dinoflagellates - up to 250Gbp (unsequenced, 1987 book referenced in this paper, needs confirmation, has weird chromosome "rod-like" structures) https://www.nature.com/articles/s41588-021-00841-y
-- Paris japonica (canopy plant) - ~149Gbp (unsequenced)  https://en.wikipedia.org/wiki/Paris_japonica
+- Paris japonica (canopy plant) - ~149Gbp (unsequenced) https://en.wikipedia.org/wiki/Paris_japonica
 - Tmesipteris_obliqua (fern) - ~147Gbp (unsequenced) - https://en.wikipedia.org/wiki/Tmesipteris_obliqua
 - Marbled lungfish - ~133Gbp (unsequenced) https://en.wikipedia.org/wiki/Marbled_lungfish
 - European mistletoe - ~90Gbp (partial sequence) https://onlinelibrary.wiley.com/doi/10.1111/tpj.15558
-- Australian lungfish - ~43Gbp (sequenced)  https://www.smithsonianmag.com/smart-news/australian-lungfish-has-biggest-genome-ever-sequenced-180976837/
+- Australian lungfish - ~43Gbp (sequenced) https://www.smithsonianmag.com/smart-news/australian-lungfish-has-biggest-genome-ever-sequenced-180976837/
 - Axolotl - ~32Gbp (sequenced) https://en.wikipedia.org/wiki/Axolotl
 - Coastal redwood - ~26Gbp (sequenced) https://www.ucdavis.edu/climate/news/coast-redwood-and-sequoia-genome-sequences-completed
 - Loblolly pine - ~22Gbp (sequenced) https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2014/03/genomelog030.jpg
