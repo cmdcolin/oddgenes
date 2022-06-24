@@ -57,7 +57,7 @@ https://www.sciencedirect.com/topics/neuroscience/ribosomal-frameshifting
 "Ribosome hopping involves ribosomes skipping over large portions of an mRNA without translating them"
 Ref https://pubmed.ncbi.nlm.nih.gov/24711422/
 
-# Internal Ribosome Entry Sites (IRES)
+### Internal Ribosome Entry Sites (IRES)
 "Eukaryotic mRNAs are typically monocistronic and translated only a single Open Reading Frame. Some viruses can reinititate translation after translation termination using an IRES"
 Ref https://en.wikipedia.org/wiki/Internal_ribosome_entry_site
 
