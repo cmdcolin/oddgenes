@@ -47,11 +47,19 @@ Ref https://en.wikipedia.org/wiki/DSCAM https://www.wikigenes.org/e/gene/e/35652
 
 ### Translational frameshift
 
-"The main distinction between frameshifts resulting from mutation and those resulting from ribosomal frameshifting is that the latter are controlled by various mechanisms found in codons...Certain codons take longer to translate, because there are not equal amounts of tRNA of that particular codon in the cytosol..." which leads to ribosomal slippage into an alternative reading frame
+"The main distinction between frameshifts resulting from mutation and those resulting from ribosomal frameshifting is that the latter are controlled by various mechanisms found in codons...Certain codons take longer to translate, because there are not equal amounts of tRNA of that particular codon in the cytosol..." which leads to ribosomal slippage into an alternative reading frame.  
 
 Ref https://en.wikipedia.org/wiki/Translational_frameshift
 
 https://www.sciencedirect.com/topics/neuroscience/ribosomal-frameshifting
+
+### Ribosome hopping
+"Ribosome hopping involves ribosomes skipping over large portions of an mRNA without translating them"
+Ref https://pubmed.ncbi.nlm.nih.gov/24711422/
+
+### Internal Ribosome Entry Sites (IRES)
+"Eukaryotic mRNAs are typically monocistronic and translated only a single Open Reading Frame. Some viruses can reinititate translation after translation termination using an IRES"
+Ref https://en.wikipedia.org/wiki/Internal_ribosome_entry_site
 
 ### A Stop codon that is not a stop codon
 
@@ -135,7 +143,7 @@ Intronic polyadenylation can also occur https://www.nature.com/articles/s41467-0
 
 ### Circular chromosomes
 
-Circularized chromosomes should be unsurprising to anyone working with plasmids but for gene annotation formats which use linear coordinates, representing anything wrapping around the origin is challenging
+Circularized chromosomes should be unsurprising to anyone working with plasmids and many prokaryotic genomes but for gene annotation formats which use linear coordinates, representing anything wrapping around the origin is challenging. 
 
 Many genomic viewers do not do this well. For GFF format this is done by making the end go past the end of the genome. Below, the genome is 6407 bp in length, but the CDS feature extends past this and sets Is_circular=true
 
@@ -146,6 +154,10 @@ Many genomic viewers do not do this well. For GFF format this is done by making 
 J02448  GenBank region  1      6407    .       +       .       ID=J02448;Name=J02448;Is_circular=true;
 J02448  GenBank CDS     6006   7238    .       +       0       ID=geneII;Name=II;Note=protein II;
 ```
+### Dynamic DNA structures in vivo
+
+The replication of the 2 micron plasmid found in Saccharomyces cerevisiae relies on a programmed DNA rearrangement; in any population of cells two different states of the 2 micron plasmid can be expected and these will interconvert in later generations.
+Reference: https://pubmed.ncbi.nlm.nih.gov/23541845/
 
 ### Overlapping genes
 
@@ -301,7 +313,7 @@ Small and long non coding RNAs often fold into important structural shapes
 
 ## Proteins
 
-### Removal of start codon in proteins
+### Removal of start amino acid in proteins
 
 This is probably obvious to many people who work on proteins but while the genome has almost all genes starting with a start codon which produces methionine, this is often post translationally removed https://en.m.wikipedia.org/wiki/Methionyl_aminopeptidase
 
@@ -313,7 +325,7 @@ See section here https://github.com/The-Sequence-Ontology/Specifications/blob/ma
 
 ### Polyprotein
 
-Viral sequences can create a polyprotein which is fully transcribed and translated before being cleaved by a protease
+Viral sequences can create a polyprotein which is fully transcribed and translated before being cleaved by a protease. In some viruses (such as coronaviruses) their translation involves ribosomal frameshifting.
 
 Dengue, HIV, flu, etc. use this
 
@@ -338,9 +350,10 @@ https://www.ucsf.edu/news/2018/06/410781/not-junk-jumping-gene-critical-early-em
 
 ### VDJ Recombination
 
-VDJ recombination is a process of somatic recombination (using "recombination signal sequences") that is done in immune cells. Different gene segments of class "V", class "D", and class "J" exons (sometimes to exons are referred to as "genes" themselves) are somatically rearranged into coherent genes that are then transcribed and immune diversity.
+VDJ recombination is a process of somatic recombination (using "recombination signal sequences") that is done in immune cells. Different gene segments of class "V", class "D", and class "J" exons (sometimes to exons are referred to as "genes" themselves) are somatically rearranged into coherent genes that are then transcribed and immune diversity. Splicing at the DNA level is not precise, with terminal transferase adding random nucleotides to further diversify the sequences
 
 https://en.wikipedia.org/wiki/V(D)J_recombination
+
 
 ### MHC region
 
