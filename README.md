@@ -280,13 +280,13 @@ updated link on hindawi should point here http://mods.rna.albany.edu/mods/
 
 ### RNA editing
 
-RNA editing is a post-transcriptional modification to the mRNA to change the bases. A-to-I editing is a common one in mammals which would make the RNA, when sequenced, to have a G instead of an A. So WGS would not show a SNP but the RNA-seq would appear to have A->G.
+RNA editing is a post-transcriptional modification to the mRNA, which can change what we would see when the RNA is sequenced. A-to-I editing is common in some species, which would make the RNA, when sequenced, appear to have a G instead of an A. If the genome was sequenced, it would not show a SNP but the RNA-seq would appear to have A->G.
 
 Other editing occurs also https://en.wikipedia.org/wiki/RNA_editing
 
 ### Maternal RNAs being passed down
 
-Maternal RNAs being active against the zygote (e.g. https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition) and lead to complex transgenerational effects
+Maternal RNAs can show activity in the zygote (e.g. https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition) which can lead to complex transgenerational effects
 
 ### Lowly expressed RNA has large effects
 
@@ -298,11 +298,13 @@ Note that X inactivation relies on relatively lowly expressed RNA also https://t
 
 ### X chromosome inactivation
 
-X chromosome inactivation is produced by a non-coding transcript called Xist is transcribed on the X that is being inactivated and actually coats the X chromosome with itself. An anti-sense transcript called Tsix regulates Xist
+X chromosome inactivation is produced by a non-coding transcript called Xist that is transcribed on the X that is being inactivated. The Xist transcript "coats" the X chromosome with itself. An anti-sense transcript called Tsix regulates Xist
 
 https://en.wikipedia.org/wiki/XIST
 
 https://en.wikipedia.org/wiki/X-inactivation#Xist_and_Tsix_RNAs
+
+https://www.youtube.com/watch?v=y3ST0whbA4k (great series from iBiology on X chromosome inactivation)
 
 ### Types of RNA
 
@@ -353,13 +355,13 @@ https://www.ucsf.edu/news/2018/06/410781/not-junk-jumping-gene-critical-early-em
 
 ### VDJ Recombination
 
-VDJ recombination is a process of somatic recombination (using "recombination signal sequences") that is done in immune cells. Different gene segments of class "V", class "D", and class "J" exons (sometimes to exons are referred to as "genes" themselves) are somatically rearranged into coherent genes that are then transcribed and immune diversity. Splicing at the DNA level is not precise, with terminal transferase adding random nucleotides to further diversify the sequences
+VDJ recombination is a process of somatic recombination that is done in immune cells. It recognizes certain "recombination signal sequences". Different gene segments of class "V", class "D", and class "J" exons (sometimes the exons are referred to as "genes" themselves in literature) are somatically rearranged into coherent genes that are then transcribed to create immune diversity. Splicing at the DNA level is not precise, with terminal transferase adding random nucleotides to further diversify the sequences
 
 https://en.wikipedia.org/wiki/V(D)J_recombination
 
 ### MHC region
 
-The MHC region is a very polymorphic region of the genome on chr6. I'm not personally aware of the intricacies of MHC beyond that it is a unique contributor of some additional hg38 alternative loci/contigs
+The MHC region is a very polymorphic region of the genome on chr6. I'm not personally familiar with all the intricacies of MHC beyond that it is a unique contributor of some additional hg38 alternative loci/contigs due to it's high diversity
 
 - https://en.wikipedia.org/wiki/Major_histocompatibility_complex
 
@@ -369,9 +371,9 @@ The MHC region is a very polymorphic region of the genome on chr6. I'm not perso
 
 ### Tandem duplication
 
-What is a tandem duplication? Why does it occur?
+A tandem duplication can be seen as a piece of DNA that is seen as a copy side by side in the genome. But why would this occur? 
 
-Factors can include
+Some biological factors can include
 
 - replication slippage
 - retrotransposition
@@ -420,7 +422,7 @@ https://www.karger.com/Article/FullText/508564 (found from https://www.biostars.
 
 ### Non-ACGT letters in fasta files
 
-The latest human genome, for example, downloaded from NCBI, contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
+The latest human genome, for example, downloaded from NCBI (Genbank specifically https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.40, RefSeq does not have this e.g. https://www.ncbi.nlm.nih.gov/projects/genome/guide/human/index.shtml is just ACGT), contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
 
 Here is the incidence of non-ACGT IUPAC letters in the entire human genome GRCh38.p10 NC_000001-24
 
