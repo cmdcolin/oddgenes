@@ -528,7 +528,7 @@ Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
 
 ## Humongous CIGAR strings
 
-The CG tag was invented in order to store CIGAR strings longer than 64k operations, since n_cigar_opt is a uint16
+The CG tag was invented in order to store CIGAR strings longer than 64k operations, since n_cigar_opt is a uint16 in BAM. The CIGAR string is relevant only for BAM files, CRAM uses a different storage mechanism for CIGAR type data (e.g. the reference based compression).
 
 ## Interesting gene names
 
