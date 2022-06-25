@@ -137,9 +137,9 @@ They have many important functionality and are often targets of miRNA binding wh
 
 ### Poly-A tails
 
-A poly-A tail is added to the pre-mRNA on the 3' end of the transcript to protect it from degradation. The A signal is not part of the genome https://en.wikipedia.org/wiki/Polyadenylation
+A poly-A tail is added to the pre-mRNA on the 3' end of the transcript to protect it from degradation. There is a "poly-A site" in the genome, but the poly-A tail is not part of the genome https://en.wikipedia.org/wiki/Polyadenylation
 
-A survey of poly-A using Oxford Nanopore found some transcript isoforms with 450bp ENST00000581230, with intron retention being a possible correlate of having a longer poly-A tails https://www.biorxiv.org/content/early/2018/11/09/459529.article-info
+A survey of poly-A using Oxford Nanopore found a transcript isoform with a 450bp poly-A tail ENST00000581230, with intron retention being a possible correlate of having a longer poly-A tails https://www.biorxiv.org/content/early/2018/11/09/459529.article-info
 
 Intronic polyadenylation can also occur https://www.nature.com/articles/s41467-018-04112-z it is revealed by 3'-seq
 
@@ -371,7 +371,7 @@ The MHC region is a very polymorphic region of the genome on chr6. I'm not perso
 
 ### Tandem duplication
 
-A tandem duplication can be seen as a piece of DNA that is seen as a copy side by side in the genome. But why would this occur? 
+A tandem duplication can be seen as a piece of DNA that copied side by side in the genome. But why would this occur? 
 
 Some biological factors can include
 
@@ -424,19 +424,33 @@ https://www.karger.com/Article/FullText/508564 (found from https://www.biostars.
 
 The latest human genome, for example, downloaded from NCBI (Genbank specifically https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.40, RefSeq does not have this e.g. https://www.ncbi.nlm.nih.gov/projects/genome/guide/human/index.shtml is just ACGT), contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
 
-Here is the incidence of non-ACGT IUPAC letters in the entire human genome GRCh38.p10 NC_000001-24
+Here is the incidence of non-ACGT IUPAC letters in the entire human genome GRCh38.p14 from https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.fna.gz
 
 ```
-b: 2
-k: 8
-m: 8
-r: 26
-s: 5
-w: 14
-y: 35
+{
+          'B' => 2,
+          'K' => 8,
+          'Y' => 36,
+          'M' => 8,
+          'R' => 29,
+          'W' => 15,
+          'N' => 161611379,
+          'T' => 559373567,
+          'A' => 558619211,
+          't' => 366543471,
+          'a' => 364497992,
+          'c' => 229022463,
+          'C' => 413530454,
+          'S' => 5,
+          'g' => 231314379,
+          'G' => 413917617
+};
 ```
 
 Did you expect that in your bioinformatics software? Note that the mouse genome (GRCm38.p5) as far as I could tell does not contain any non-ACGT IUPAC letters
+
+See [count_fasta_letters.pl](count_fasta_letters.pl) for a script to count this
+
 
 ### rs SNP identifiers occuring in multiple places
 
