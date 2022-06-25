@@ -260,7 +260,9 @@ See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
 
 ### Polytene chromosome
 
-Some organisms, famously insect salivary glands, create many copies of genes through multiple phases of incomplete DNA replication https://en.wikipedia.org/wiki/Polytene_chromosome
+Some organisms, famously insects in their salivary glands, create many copies
+of genes through multiple phases of incomplete DNA replication
+https://en.wikipedia.org/wiki/Polytene_chromosome
 
 ![](polytene.png)
 
@@ -371,7 +373,7 @@ The MHC region is a very polymorphic region of the genome on chr6. I'm not perso
 
 ### Tandem duplication
 
-A tandem duplication can be seen as a piece of DNA that copied side by side in the genome. But why would this occur? 
+A tandem duplication can be seen as a piece of DNA that copied side by side in the genome. But why would this occur?
 
 Some biological factors can include
 
@@ -422,9 +424,9 @@ https://www.karger.com/Article/FullText/508564 (found from https://www.biostars.
 
 ### Non-ACGT letters in fasta files
 
-The latest human genome, for example, downloaded from NCBI (Genbank specifically https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.40, RefSeq does not have this e.g. https://www.ncbi.nlm.nih.gov/projects/genome/guide/human/index.shtml is just ACGT), contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
+The latest human genome, for example, downloaded from NCBI, contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
 
-Here is the incidence of non-ACGT IUPAC letters in the entire human genome GRCh38.p14 from https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.fna.gz
+Here is the incidence of non-ACGTN IUPAC letters in the entire human genome GRCh38.p14 from https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.fna.gz
 
 ```
 {
@@ -438,11 +440,9 @@ Here is the incidence of non-ACGT IUPAC letters in the entire human genome GRCh3
 };
 ```
 
-
 Did you expect that in your bioinformatics software? Note that the mouse genome (GRCm38.p5) as far as I could tell does not contain any non-ACGT IUPAC letters
 
-See [count_fasta_letters.pl](count_fasta_letters.pl) for a script to count this
-
+See [count_fasta_letters.pl](count_fasta_letters.pl) for a script to count this. The UCSC hg38.fa.gz does not have any non-ACGTN letters
 
 ### rs SNP identifiers occuring in multiple places
 
@@ -528,7 +528,7 @@ Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
 
 ## Humongous CIGAR strings
 
-The CG tag was invented in order to store CIGAR strings longer than 64kb, since n_cigar_opt is a uint16
+The CG tag was invented in order to store CIGAR strings longer than 64k operations, since n_cigar_opt is a uint16
 
 ## Interesting gene names
 
