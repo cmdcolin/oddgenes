@@ -428,24 +428,16 @@ Here is the incidence of non-ACGT IUPAC letters in the entire human genome GRCh3
 
 ```
 {
-          'B' => 2,
-          'K' => 8,
-          'Y' => 36,
-          'M' => 8,
-          'R' => 29,
-          'W' => 15,
-          'N' => 161611379,
-          'T' => 559373567,
-          'A' => 558619211,
-          't' => 366543471,
-          'a' => 364497992,
-          'c' => 229022463,
-          'C' => 413530454,
-          'S' => 5,
-          'g' => 231314379,
-          'G' => 413917617
+  'B' => 2,
+  'K' => 8,
+  'Y' => 36,
+  'M' => 8,
+  'R' => 29,
+  'W' => 15,
+  'S' => 5
 };
 ```
+
 
 Did you expect that in your bioinformatics software? Note that the mouse genome (GRCm38.p5) as far as I could tell does not contain any non-ACGT IUPAC letters
 
