@@ -509,13 +509,13 @@ Note that commas in FASTA names is being suggested as an illegal character becau
 
 ## Humongous chromosomes V1
 
-Genomes such as wheat have large chromosomes averaging 806Mbp but the BAI file format is limited to 2^29-1 ~ 536Mbp in size (this is due to the binning strategy, the max bin size is listed as 2^29)
+Genomes such as wheat have large chromosomes averaging 806Mbp but the BAI/TBI file formats are limited to 2^29-1 ~ 536Mbp in size (this is due to the binning strategy, the max bin size is listed as 2^29). The CSI index format was created to help index BAM and tabix files with large chromosomes.
 
 ## Humongous chromosomes V2
 
 The axolotl genome has individual chromosomes that are of size 3.14 Gbp https://genome.cshlp.org/content/29/2/317.long (2019) which is almost as big as the entire human genome
 
-The BAM and CRAM formats can only store 2^31-1 length https://en.wikipedia.org/wiki/2,147,483,647 so bgzip/tabix SAM is used
+The BAM and CRAM formats can only store 2^31-1 (~2.14Gbp) length chromosomes however so bgzip/tabix SAM is used (discussion https://github.com/samtools/hts-specs/issues/655)
 
 ## Largest genomes
 
