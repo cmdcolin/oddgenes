@@ -164,7 +164,7 @@ Reference: https://pubmed.ncbi.nlm.nih.gov/23541845/
 
 ### Overlapping genes
 
-It is possible for gene sequences to overlap possibly in alternate coding frames
+It is possible for gene sequences to overlap, on different strands (sense-antisense) or same strand, possibly in alternate coding frames
 
 https://en.wikipedia.org/wiki/Overlapping_gene
 
