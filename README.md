@@ -426,7 +426,7 @@ https://www.karger.com/Article/FullText/508564 (found from https://www.biostars.
 
 The latest human genome, for example, downloaded from NCBI, contains a number of Non-ACGT letters in the form of IUPAC codes https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
 
-Here is the incidence of non-ACGTN IUPAC letters in the entire human genome GRCh38.p14 from https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.fna.gz
+Here is the incidence of non-ACGTN IUPAC letters in the entire human genome GRCh38.p14 from https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.fna.gz (same for the "analysis set" files in https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/)
 
 ```
 {
@@ -442,7 +442,7 @@ Here is the incidence of non-ACGTN IUPAC letters in the entire human genome GRCh
 
 Did you expect that in your bioinformatics software? Note that the mouse genome (GRCm38.p5) as far as I could tell does not contain any non-ACGT IUPAC letters
 
-See [count_fasta_letters.pl](count_fasta_letters.pl) for a script to count this. The UCSC hg38.fa.gz does not have any non-ACGTN letters
+See [count_fasta_letters.pl](count_fasta_letters.pl) for a script to count this. The UCSC hg38.fa.gz does not have any non-ACGTN letters.
 
 ### rs SNP identifiers occuring in multiple places
 
