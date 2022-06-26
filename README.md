@@ -73,6 +73,10 @@ Selenocysteine can be coded via a SECIS sequence https://en.wikipedia.org/wiki/S
 
 Pyrolysine is coded through a pyIT tRNA gene that interprets the amber stop codon as pyrolysine
 
+Stop codons can also be removed by RNA editing, as in the case of mammalian apoliprotein B, B100 isoform.
+
+Some bacterial systems are suspected to have no dedicated stop codon but instead all termination is context dependent https://pubmed.ncbi.nlm.nih.gov/27426948/ 
+
 ### Readthrough transcription
 
 See also this Ensembl blog on annotating readthrough transcription which joins multiple genes http://www.ensembl.info/2019/02/11/annotating-readthrough-transcription-in-ensembl/
@@ -118,6 +122,9 @@ Group 2 and group 3 with similar but different mechanisms also exist
 ### Introns in archaea
 
 The only types of introns known conventionally in archaea are called "bulge-helix-bulge" but recently Group 1 introns have been discovered https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky414/4999243
+
+### Stop codon completed by polyadenylation
+In mammalian mitochondria, some messages are polyadenylated after a U residue which is the U in a UAA stop codon -- the polyadenylation completes the stop codon
 
 ### Codon tables
 
@@ -284,7 +291,11 @@ updated link on hindawi should point here http://mods.rna.albany.edu/mods/
 
 RNA editing is a post-transcriptional modification to the mRNA, which can change what we would see when the RNA is sequenced. A-to-I editing is common in some species, which would make the RNA, when sequenced, appear to have a G instead of an A. If the genome was sequenced, it would not show a SNP but the RNA-seq would appear to have A->G.
 
+RNA editing can be conditional; mammalian apolipoprotein B is synthesized as a 48 kilodalton form or a 100 kilodalton form; the latter is created by editing out a stop codon to enable read through
+
 Other editing occurs also https://en.wikipedia.org/wiki/RNA_editing
+
+Editing in some ciliate mitochondria adds information to messages and can increase the length of the final message by over 2-fold.
 
 ### Maternal RNAs being passed down
 
