@@ -73,7 +73,7 @@ Selenocysteine can be coded via a SECIS sequence https://en.wikipedia.org/wiki/S
 
 Pyrolysine is coded through a pyIT tRNA gene that interprets the amber stop codon as pyrolysine
 
-STop codons can also be removed by RNA editing, as in the case of mammalian apoliprotein B, B100 isoform.
+Stop codons can also be removed by RNA editing, as in the case of mammalian apoliprotein B, B100 isoform.
 
 Some bacterial systems are suspected to have no dedicated stop codon but instead all termination is context dependent https://pubmed.ncbi.nlm.nih.gov/27426948/ 
 
