@@ -589,7 +589,7 @@ The CG tag was invented in order to store CIGAR strings longer than 64k operatio
 Sometimes it is not the gene, but the allele that is named
 
 - Bad hair day http://www.informatics.jax.org/allele/MGI:3764934
-- Samba, chacha, bossa nova http://www.informatics.jax.org/allele/MGI:3764934
+- Samba, chacha, bossa nova http://www.informatics.jax.org/allele/MGI:3708457
 - Yoda http://www.informatics.jax.org/allele/MGI:3797584
 
 Ref https://twitter.com/hmdc_mgi/status/1242893531779391496
