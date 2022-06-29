@@ -413,7 +413,7 @@ It has been shown that some intron sequences can enhance expression similar to h
 
 The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the sequences responsible for increasing mRNA accumulation are redundant and dispersed throughout the UBQ10 intron" http://www.plantcell.org/content/early/2017/04/03/tpc.17.00020.full.pdf+html
 
-The classic peppered moth phenotype is a intron TE insertion https://wp.unil.ch/genomeeee/2016/12/16/peppered-moth-melanism-mutation-is-a-transposable-element/
+The classic peppered moth phenotype is a intron TE insertion https://www.nature.com/articles/nature17951 (may not be strictly IME, I'm personally not sure)
 
 ### Bidirectional promoters
 
@@ -457,12 +457,12 @@ See [count_fasta_letters.pl](count_fasta_letters.pl) for a script to count this.
 
 ### rs SNP identifiers occuring in multiple places
 
-Due to how dbSNP is creating, an rs SNP ID can occur in multiple places on the genome
+Due to how dbSNP is created (based on alignments), an rs ID can occur in multiple places on the genome
 https://www.biostars.org/p/2323/
 
 ### Weird characters in FASTA sequence names
 
-In response to hg38 including a colon in sequence names, which conflicts with commonly used representation of a range as chr1:1-100 for example, people analyzed meta-character frequencies in sequence names https://github.com/samtools/hts-specs/issues/291
+In response to hg38 including a colon in sequence names, which conflicts with commonly used representation of a range as chr1:1-100 for example (note: SAMv1.pdf contains a regex to help resolve this), people analyzed meta-character frequencies in sequence names https://github.com/samtools/hts-specs/issues/291
 
 ```
 ENA
