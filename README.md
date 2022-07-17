@@ -431,6 +431,8 @@ Older men can have a mosaic loss of the Y chromosome in blood samples
 
 https://www.karger.com/Article/FullText/508564 (found from https://www.biostars.org/p/9482437/)
 
+may be associated with cardiac issues https://www.science.org/doi/10.1126/science.abn3100
+
 ## File formats
 
 ### Non-ACGT letters in fasta files
