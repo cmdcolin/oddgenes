@@ -535,7 +535,8 @@ Just some honorable mentions for largest genome
 - Coastal redwood - ~26Gbp (sequenced) https://www.ucdavis.edu/climate/news/coast-redwood-and-sequoia-genome-sequences-completed https://www.ncbi.nlm.nih.gov/genome/?term=redwood
 - Loblolly pine - ~22Gbp (sequenced) https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2014/03/genomelog030.jpg https://www.ncbi.nlm.nih.gov/genome/?term=loblolly+pine
 - Wheat genome - ~17Gbp https://academic.oup.com/gigascience/article/6/11/gix097/4561661 https://www.ncbi.nlm.nih.gov/genome/?term=wheat
-- Onion  (see also https://en.wikipedia.org/wiki/Onion_Test)
+
+
 Inspired by twitter thread https://twitter.com/PetrovADmitri/status/1506824610360168455
 
 Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
