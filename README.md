@@ -527,13 +527,13 @@ Just some honorable mentions for largest genome
 - Dinoflagellates - up to 250Gbp (unsequenced, 1987 book referenced in this paper, needs confirmation, has weird chromosome "rod-like" structures) https://www.nature.com/articles/s41588-021-00841-y
 - Paris japonica (canopy plant) - ~149Gbp (unsequenced) https://en.wikipedia.org/wiki/Paris_japonica
 - Tmesipteris_obliqua (fern) - ~147Gbp (unsequenced) - https://en.wikipedia.org/wiki/Tmesipteris_obliqua
-- Marbled lungfish - ~133Gbp (unsequenced) https://en.wikipedia.org/wiki/Marbled_lungfish
-- European mistletoe - ~90Gbp (partial sequence) https://onlinelibrary.wiley.com/doi/10.1111/tpj.15558
-- Australian lungfish - ~43Gbp (sequenced) https://www.smithsonianmag.com/smart-news/australian-lungfish-has-biggest-genome-ever-sequenced-180976837/
-- Axolotl - ~32Gbp (sequenced) https://en.wikipedia.org/wiki/Axolotl
-- Coastal redwood - ~26Gbp (sequenced) https://www.ucdavis.edu/climate/news/coast-redwood-and-sequoia-genome-sequences-completed
-- Loblolly pine - ~22Gbp (sequenced) https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2014/03/genomelog030.jpg
-- Wheat genome - ~17Gbp https://academic.oup.com/gigascience/article/6/11/gix097/4561661
+- Marbled lungfish (Neoceratodus forsteri) - ~133Gbp (unsequenced) https://en.wikipedia.org/wiki/Marbled_lungfish 
+- European mistletoe - ~90Gbp (partial sequence) https://onlinelibrary.wiley.com/doi/10.1111/tpj.15558 
+- Neoceratodus forsteri (Australian lungfish) - ~43Gbp (sequenced) https://www.smithsonianmag.com/smart-news/australian-lungfish-has-biggest-genome-ever-sequenced-180976837/ https://www.ncbi.nlm.nih.gov/genome/?term=Neoceratodus+forsteri
+- Ambystoma mexicanum (axolotl) - ~32Gbp (sequenced) https://en.wikipedia.org/wiki/Axolotl https://www.ncbi.nlm.nih.gov/genome/?term=axolotl
+- Coastal redwood - ~26Gbp (sequenced) https://www.ucdavis.edu/climate/news/coast-redwood-and-sequoia-genome-sequences-completed https://www.ncbi.nlm.nih.gov/genome/?term=redwood
+- Loblolly pine - ~22Gbp (sequenced) https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2014/03/genomelog030.jpg https://www.ncbi.nlm.nih.gov/genome/?term=loblolly+pine
+- Wheat genome - ~17Gbp https://academic.oup.com/gigascience/article/6/11/gix097/4561661 https://www.ncbi.nlm.nih.gov/genome/?term=wheat
 
 Inspired by twitter thread https://twitter.com/PetrovADmitri/status/1506824610360168455
 
