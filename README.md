@@ -531,10 +531,11 @@ Just some honorable mentions for largest genome
 - European mistletoe - ~90Gbp (partial sequence) https://onlinelibrary.wiley.com/doi/10.1111/tpj.15558 
 - Neoceratodus forsteri (Australian lungfish) - ~43Gbp (sequenced) https://www.smithsonianmag.com/smart-news/australian-lungfish-has-biggest-genome-ever-sequenced-180976837/ https://www.ncbi.nlm.nih.gov/genome/?term=Neoceratodus+forsteri
 - Ambystoma mexicanum (axolotl) - ~32Gbp (sequenced) https://en.wikipedia.org/wiki/Axolotl https://www.ncbi.nlm.nih.gov/genome/?term=axolotl
+- Allium ursinum (wild garlic) - ~30gb https://en.wikipedia.org/wiki/Onion_Test
 - Coastal redwood - ~26Gbp (sequenced) https://www.ucdavis.edu/climate/news/coast-redwood-and-sequoia-genome-sequences-completed https://www.ncbi.nlm.nih.gov/genome/?term=redwood
 - Loblolly pine - ~22Gbp (sequenced) https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2014/03/genomelog030.jpg https://www.ncbi.nlm.nih.gov/genome/?term=loblolly+pine
 - Wheat genome - ~17Gbp https://academic.oup.com/gigascience/article/6/11/gix097/4561661 https://www.ncbi.nlm.nih.gov/genome/?term=wheat
-
+- Onion  (see also https://en.wikipedia.org/wiki/Onion_Test)
 Inspired by twitter thread https://twitter.com/PetrovADmitri/status/1506824610360168455
 
 Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
