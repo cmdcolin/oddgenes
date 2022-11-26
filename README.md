@@ -33,6 +33,8 @@ An example in this paper kl-3 spans 4.3 million bp
 
 In human, an example is Dystrophin spanning 2.3 million bp
 
+Note: these very large introns require that very large amounts of DNA would be transcribed into RNA, before just removing most of the transcribed RNA via intron splicing, which is sort of "wasteful" on a molecular level
+
 ### Backsplicing and circRNAs
 
 The process of "backsplicing" circularizes RNAs. There can be alternative backsplicing too
