@@ -589,6 +589,7 @@ The CG tag was invented in order to store CIGAR strings longer than 64k operatio
 - HotDog domain - superfamily of genes/proteins https://www.wikidata.org/wiki/Q24785143 https://www.ebi.ac.uk/interpro/entry/IPR029069
 - Flower/fwe - https://flybase.org/reports/FBgn0261722.html
 - Brahma https://www.sdbonline.org/sites/fly/polycomb/brahma.htm
+- Pokemon/pikachu/zubat - https://twitter.com/c0nc0rdance/status/1617191187365888002
 - Bring lots of money (blom7α) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781463/ https://www.uniprot.org/uniprotkb/Q7Z7F0/entry
 
 ### Allele names
