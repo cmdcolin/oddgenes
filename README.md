@@ -299,6 +299,13 @@ Other editing occurs also https://en.wikipedia.org/wiki/RNA_editing
 
 Editing in some ciliate mitochondria adds information to messages and can increase the length of the final message by over 2-fold.
 
+### Post-Transcriptional Exon Shuffling (PTES)
+
+While the exon structure of most mRNAs follows the linear sequence of the transcribed DNA, there are a few cases where mature mRNAs contain exons in a non-linear order. 
+
+Al-Balool and Weber _et al_ (2011) validated several cases of PTES in human genes that are evolutionarily conserved, including _MAN1A2_, _PHC3_, _TLE4_, and _CDK13_: https://genome.cshlp.org/content/21/11/1788.short
+
+
 ### Maternal RNAs being passed down
 
 Maternal RNAs can show activity in the zygote (e.g. https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition) which can lead to complex transgenerational effects
