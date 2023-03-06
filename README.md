@@ -401,6 +401,11 @@ production of mRNA for Glue Protein that the larvae use to anchor themselves to
 the walls of (for example) culture vials." from
 https://www.mun.ca/biology/scarr/Polytene_Chromosomes.html
 
+### Endoreplication
+
+The above section about polytene chromosomes mentions endoreplication but this can also affect many other contexts and was mentioned as an issue in genome assembly of some plants. A talk given about vanilla bean found a lot of endoreplication during their genome assembly which leads to very uneven coverage. They tried to select tissue samples that had the least amount of endoreplication. https://plan.core-apps.com/pag_2023/abstract/e26dbeb1-df8f-4c57-a062-dcaf881b79f4
+
+
 ### DNA modifications
 
 There are many chemical modifications that can happen to DNA, leading to an
