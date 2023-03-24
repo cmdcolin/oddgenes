@@ -760,6 +760,7 @@ Just some honorable mentions for largest genome
   https://en.wikipedia.org/wiki/Marbled_lungfish
 - European mistletoe - ~90Gbp (partial sequence)
   https://onlinelibrary.wiley.com/doi/10.1111/tpj.15558
+- Antarctic krill - ~48Gbp https://www.cell.com/cell/pdf/S0092-8674(23)00107-1.pdf
 - Neoceratodus forsteri (Australian lungfish) - ~43Gbp (sequenced)
   https://www.smithsonianmag.com/smart-news/australian-lungfish-has-biggest-genome-ever-sequenced-180976837/
   https://www.ncbi.nlm.nih.gov/genome/?term=Neoceratodus+forsteri
