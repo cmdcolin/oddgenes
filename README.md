@@ -525,6 +525,10 @@ Dengue, HIV, flu, etc. use this
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6040172/
 https://www.sciencedirect.com/science/article/abs/pii/S0959440X15000597
 
+### Interesting molecular structures
+
+https://github.com/molstar/molstar/blob/master/docs/interesting-pdb-entries.md
+
 ## Transposons
 
 ### Cross-species BovB transposon transfers
