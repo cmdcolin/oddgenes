@@ -860,6 +860,7 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
 - Bring lots of money (blom7α)
   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781463/
   https://www.uniprot.org/uniprotkb/Q7Z7F0/entry
+- MAGOH - mago nashi (grandchildless) https://www.uniprot.org/uniprotkb/P61326/entry
 
 ### Allele names
 
