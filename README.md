@@ -2,6 +2,8 @@
 
 A list of weird gene annotations or things that break bioinformatics assumptions
 
+See also https://github.com/cmdcolin/oddbiology/ for more just general weird bio, with some focus on genomes too
+
 ## Gene structures
 
 ### 1bp length exon
@@ -178,11 +180,22 @@ https://en.wikipedia.org/wiki/Group_I_catalytic_intron
 
 Group 2 and group 3 with similar but different mechanisms also exist
 
-### Introns in archaea
+### Bulge helix bulge introns (archael tRNA)
 
-The only types of introns known conventionally in archaea are called
-"bulge-helix-bulge" but recently Group 1 introns have been discovered
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky414/4999243
+There are some small intron types called "bulge-helix-bulge" in archaea (and other organisms)
+
+![](img/bhb.jpg)
+
+From https://www.embopress.org/doi/full/10.1038/embor.2008.101
+
+The figure above shows that the orange part is excised as an intron for the tRNA
+
+### Introns in viruses
+
+Introns were actually first discovered in viruses before eukaryotes, and the wikipedia article on introns details this
+
+https://en.wikipedia.org/wiki/Intron#Discovery_and_etymology (see also https://www.proquest.com/docview/303935681/)
+
 
 ### Stop codon completed by polyadenylation
 
@@ -787,6 +800,7 @@ Inspired by twitter thread
 https://twitter.com/PetrovADmitri/status/1506824610360168455
 
 Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
+
 
 ## Humongous CIGAR strings
 
