@@ -68,7 +68,7 @@ exon 17, the total possible protein products could reach 38,016 isoforms"
 Ref https://en.wikipedia.org/wiki/DSCAM
 https://www.wikigenes.org/e/gene/e/35652.html
 
-### Translational frameshift
+### Translational frameshift/Ribosomal frameshift/Programmed ribosomal frameshift
 
 "The main distinction between frameshifts resulting from mutation and those
 resulting from ribosomal frameshifting is that the latter are controlled by
@@ -79,6 +79,10 @@ cytosol..." which leads to ribosomal slippage into an alternative reading frame.
 Ref https://en.wikipedia.org/wiki/Translational_frameshift
 
 https://www.sciencedirect.com/topics/neuroscience/ribosomal-frameshifting
+
+The SARS-CoV-2 genome uses ribosomal frameshifting and this video shows a 3D animation of the process, showing a 'pseudoknot' in the RNA contributes to it https://www.youtube.com/watch?v=gLcueW61QMU
+
+Lecture featuring explanation in context of viral https://youtu.be/b5BX5A3dGUQ?t=2980
 
 ### Ribosome hopping
 
