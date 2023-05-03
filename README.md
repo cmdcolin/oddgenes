@@ -242,7 +242,7 @@ which leads to degradation.
 
 Polyadenylation is the addition of a string of "A"s to the pre-mRNA on the 3'
 end of the transcript (the "A"s are not part of the genome). There is a "poly-A
-signal" in the genome is recognized by the "RNA cleavage complex" and after it
+signal" in the genome that is recognized by the "RNA cleavage complex" and after it
 is cleaved, the poly-A tail is added
 https://en.wikipedia.org/wiki/Polyadenylation
 
