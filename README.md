@@ -16,11 +16,13 @@ http://www.nature.com/articles/srep18087
 Another 1bp exon is discussed here
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177959
 
-Microexons in general are a topic and are "involved in important biological
+Microexons in general are an interesting topic and are "involved in important biological
 processes in brain development and human cancers" (ref
 https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531(23)00013-6)
 yet are commonly misannotated (e.g. in plants
 https://www.nature.com/articles/s41467-022-28449-8)
+
+See also cryptic splicing
 
 ### 0bp length exon
 
