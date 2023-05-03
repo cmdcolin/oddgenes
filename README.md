@@ -779,6 +779,9 @@ file formats are limited to 2^29-1 ~ 536Mbp in size (this is due to the binning
 strategy, the max bin size is listed as 2^29). The CSI index format was created
 to help index BAM and tabix files with large chromosomes.
 
+Bonus: I made a web tool to help visualize BAI files to show how the binning index works https://cmdcolin.github.io/bam_index_visualizer/
+
+
 ## Humongous chromosomes V2
 
 The axolotl genome has individual chromosomes that are of size 3.14 Gbp
