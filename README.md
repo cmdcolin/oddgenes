@@ -2,7 +2,7 @@
 
 A list of weird gene annotations or things that break bioinformatics assumptions
 
-See also https://github.com/cmdcolin/oddbiology/ for more just general weird bio, with some focus on genomes too
+See also https://github.com/cmdcolin/oddbiology/ for more weird bio
 
 ## Gene structures
 
@@ -15,6 +15,12 @@ http://www.nature.com/articles/srep18087
 
 Another 1bp exon is discussed here
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177959
+
+Microexons in general are a topic and are "involved in important biological
+processes in brain development and human cancers" (ref
+https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531(23)00013-6)
+yet are commonly misannotated (e.g. in plants
+https://www.nature.com/articles/s41467-022-28449-8)
 
 ### 0bp length exon
 
@@ -29,13 +35,6 @@ sequence at the 3' splice site junction was AG/GT"
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
-### Twintron
-
-A twintron is essentially an intron-within-an-intron, which could be formed by a
-mobile element (TE) insertion. The original idea is that the internal intron has
-to be spliced first before the outer one is, but several classes have been
-discovered. See https://en.wikipedia.org/wiki/Twintron
-
 ### Very large introns
 
 Satellite DNA study uncovers megabase scale introns
@@ -45,7 +44,7 @@ An example in this paper kl-3 spans 4.3 million bp
 
 In human, an example is Dystrophin spanning 2.3 million bp
 
-Note: these very large introns require that very large amounts of DNA would be
+Note: these very large introns require that very large amounts of DNA to be
 transcribed into RNA, before just removing most of the transcribed RNA via
 intron splicing, which is sort of "wasteful" on a molecular level
 
@@ -182,7 +181,8 @@ Group 2 and group 3 with similar but different mechanisms also exist
 
 ### Bulge helix bulge introns (archael tRNA)
 
-There are some small intron types called "bulge-helix-bulge" in archaea (and other organisms)
+There are some small intron types called "bulge-helix-bulge" in archaea (and
+other organisms)
 
 ![](img/bhb.jpg)
 
@@ -190,18 +190,30 @@ From https://www.embopress.org/doi/full/10.1038/embor.2008.101
 
 The figure above shows that the orange part is excised as an intron for the tRNA
 
+### Twintron
+
+A twintron is essentially an intron-within-an-intron, and has similar qualities
+to the 0bp splicing mentioned above. A twintron may be defined as one where the
+internal intron has to be spliced first before the outer one is (may be referred
+to as a nested intron if internal is not necessary to be spliced out before the
+next)
+
+See https://en.wikipedia.org/wiki/Twintron
+
+![](img/twintron.png)
+
+Figure from https://doi.org/10.1080/15476286.2015.1103427 showing twintron
+conformations with a) spliceosome type introns (the spliceosome is a protein
+complex that performs splicing) b) ribosomal type introns (e.g. self splicing
+RNA) and c) tRNA/bulge helix bulge type introns
+
 ### Introns in viruses
 
-Introns were actually first discovered in viruses before eukaryotes, and the wikipedia article on introns details this
+Introns were actually first discovered in viruses before eukaryotes, and the
+wikipedia article on introns details this
 
-https://en.wikipedia.org/wiki/Intron#Discovery_and_etymology (see also https://www.proquest.com/docview/303935681/)
-
-
-### Stop codon completed by polyadenylation
-
-In mammalian mitochondria, some messages are polyadenylated after a U residue
-which is the U in a UAA stop codon -- the polyadenylation completes the stop
-codon
+https://en.wikipedia.org/wiki/Intron#Discovery_and_etymology (see also
+https://www.proquest.com/docview/303935681/)
 
 ### Codon tables
 
@@ -226,11 +238,12 @@ http://www.ensembl.info/2018/08/17/ensembl-insights-how-are-utrs-annotated/
 They have many important functionality and are often targets of miRNA binding
 which leads to degradation.
 
-### Poly-A tails
+### Polyadenylation
 
-A poly-A tail is added to the pre-mRNA on the 3' end of the transcript to
-protect it from degradation. There is a "poly-A site" in the genome, but the
-poly-A tail is not part of the genome
+Polyadenylation is the addition of a string of "A"s to the pre-mRNA on the 3'
+end of the transcript (the "A"s are not part of the genome). There is a "poly-A
+signal" in the genome is recognized by the "RNA cleavage complex" and after it
+is cleaved, the poly-A tail is added
 https://en.wikipedia.org/wiki/Polyadenylation
 
 A survey of poly-A using Oxford Nanopore found a transcript isoform with a 450bp
@@ -238,8 +251,18 @@ poly-A tail ENST00000581230, with intron retention being a possible correlate of
 having a longer poly-A tails
 https://www.biorxiv.org/content/early/2018/11/09/459529.article-info
 
-Intronic polyadenylation can also occur
-https://www.nature.com/articles/s41467-018-04112-z it is revealed by 3'-seq
+"Intronic polyadenylation" can also occur, which leads to different isoforms
+(the wording intronic polyadenylation is maybe a bit odd, but my understanding
+is that the "transcription stops" at a poly-A site inside an intron essentially)
+
+![](img/ipa.png)
+
+Figure showing "intronic polyadenylation" (IpA) creating a different isoform
+from https://www.nature.com/articles/s41467-018-04112-z
+
+In mammalian mitochondria, some messages are polyadenylated after a U residue
+which is the U in a UAA stop codon -- the polyadenylation completes the stop
+codon
 
 ### Circular chromosomes
 
@@ -329,7 +352,7 @@ http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2756026/
 An example from drosophila, C. elegans, and rat shows a gene with a 5' exon
 being shared between two genes
 
-![](twosplice.png)
+![](img/twosplice.png)
 
 Source http://forums.wormbase.org/index.php?topic=1225.0
 https://www.fasebj.org/doi/full/10.1096/fj.00-0313rev
@@ -401,7 +424,7 @@ Some organisms, famously insects in their salivary glands, create many copies of
 genes through multiple phases of incomplete DNA replication
 https://en.wikipedia.org/wiki/Polytene_chromosome
 
-![](polytene.png)
+![](img/polytene.png)
 
 Figure source https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768140/
 
@@ -416,8 +439,13 @@ https://www.mun.ca/biology/scarr/Polytene_Chromosomes.html
 
 ### Endoreplication
 
-The above section about polytene chromosomes mentions endoreplication but this can also affect many other contexts and was mentioned as an issue in genome assembly of some plants. A talk given about vanilla bean found a lot of endoreplication during their genome assembly which leads to very uneven coverage. They tried to select tissue samples that had the least amount of endoreplication. https://plan.core-apps.com/pag_2023/abstract/e26dbeb1-df8f-4c57-a062-dcaf881b79f4
-
+The above section about polytene chromosomes mentions endoreplication but this
+can also affect many other contexts and was mentioned as an issue in genome
+assembly of some plants. A talk given about vanilla bean found a lot of
+endoreplication during their genome assembly which leads to very uneven
+coverage. They tried to select tissue samples that had the least amount of
+endoreplication.
+https://plan.core-apps.com/pag_2023/abstract/e26dbeb1-df8f-4c57-a062-dcaf881b79f4
 
 ### DNA modifications
 
@@ -778,7 +806,8 @@ Just some honorable mentions for largest genome
   https://en.wikipedia.org/wiki/Marbled_lungfish
 - European mistletoe - ~90Gbp (partial sequence)
   https://onlinelibrary.wiley.com/doi/10.1111/tpj.15558
-- Antarctic krill - ~48Gbp https://www.cell.com/cell/pdf/S0092-8674(23)00107-1.pdf
+- Antarctic krill - ~48Gbp
+  https://www.cell.com/cell/pdf/S0092-8674(23)00107-1.pdf
 - Neoceratodus forsteri (Australian lungfish) - ~43Gbp (sequenced)
   https://www.smithsonianmag.com/smart-news/australian-lungfish-has-biggest-genome-ever-sequenced-180976837/
   https://www.ncbi.nlm.nih.gov/genome/?term=Neoceratodus+forsteri
@@ -800,7 +829,6 @@ Inspired by twitter thread
 https://twitter.com/PetrovADmitri/status/1506824610360168455
 
 Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
-
 
 ## Humongous CIGAR strings
 
@@ -874,7 +902,8 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
 - Bring lots of money (blom7α)
   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781463/
   https://www.uniprot.org/uniprotkb/Q7Z7F0/entry
-- MAGOH - mago nashi (grandchildless) https://www.uniprot.org/uniprotkb/P61326/entry
+- MAGOH - mago nashi (grandchildless)
+  https://www.uniprot.org/uniprotkb/P61326/entry
 
 ### Allele names
 
