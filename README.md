@@ -16,8 +16,8 @@ http://www.nature.com/articles/srep18087
 Another 1bp exon is discussed here
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177959
 
-Microexons in general are an interesting topic and are "involved in important biological
-processes in brain development and human cancers" (ref
+Microexons in general are an interesting topic and are "involved in important
+biological processes in brain development and human cancers" (ref
 https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531(23)00013-6)
 yet are commonly misannotated (e.g. in plants
 https://www.nature.com/articles/s41467-022-28449-8)
@@ -44,9 +44,13 @@ https://www.biorxiv.org/content/early/2018/12/11/493254
 
 An example in this paper kl-3 spans 4.3 million bp
 
-In human, an example is Dystrophin spanning 2.3 million bp
+In human, an example is Dystrophin. "Dystrophin is coded for by the DMD gene –
+the largest known human gene, covering 2.4 megabases (0.08% of the human genome)
+at locus Xp21. The primary transcript in muscle measures about 2,100 kilobases
+and takes 16 hours to transcribe; the mature mRNA measures 14.0 kilobases"
+https://en.wikipedia.org/wiki/Dystrophin
 
-Note: these very large introns require that very large amounts of DNA to be
+Note: these very large introns require very large amounts of DNA to be
 transcribed into RNA, before just removing most of the transcribed RNA via
 intron splicing, which is sort of "wasteful" on a molecular level
 
@@ -80,9 +84,12 @@ Ref https://en.wikipedia.org/wiki/Translational_frameshift
 
 https://www.sciencedirect.com/topics/neuroscience/ribosomal-frameshifting
 
-The SARS-CoV-2 genome uses ribosomal frameshifting and this video shows a 3D animation of the process, showing a 'pseudoknot' in the RNA contributes to it https://www.youtube.com/watch?v=gLcueW61QMU
+SARS-CoV-2 uses ribosomal frameshifting and this video shows a 3D animation of
+the process, showing a 'pseudoknot' in the RNA contributes to it
+https://www.youtube.com/watch?v=gLcueW61QMU
 
-Lecture featuring explanation in context of viral https://youtu.be/b5BX5A3dGUQ?t=2980
+Another lecture explaining frameshift in viruses
+https://youtu.be/b5BX5A3dGUQ?t=2980
 
 ### Ribosome hopping
 
@@ -248,8 +255,8 @@ which leads to degradation.
 
 Polyadenylation is the addition of a string of "A"s to the pre-mRNA on the 3'
 end of the transcript (the "A"s are not part of the genome). There is a "poly-A
-signal" in the genome that is recognized by the "RNA cleavage complex" and after it
-is cleaved, the poly-A tail is added
+signal" in the genome that is recognized by the "RNA cleavage complex" and after
+it is cleaved, the poly-A tail is added
 https://en.wikipedia.org/wiki/Polyadenylation
 
 A survey of poly-A using Oxford Nanopore found a transcript isoform with a 450bp
@@ -316,10 +323,13 @@ Some articles
 
 ### Chimeric genes
 
-The gene Jingwei is a chimera (or fusion) of two genes, alcohol dehydrogenage and yellow
-emperor. Many chimeras are damaging but this has been selected for
+The gene Jingwei is a chimera (or fusion) of two genes, alcohol dehydrogenage
+and yellow emperor. Many chimeras are damaging but this has been selected for
 
 http://www.pnas.org/content/101/46/16246
+
+Two Cytochrome P450 genes that don't confer any insecticide resitance on their
+own but a chimeric P450 does https://pubmed.ncbi.nlm.nih.gov/22949643/
 
 ## Wormbase
 
@@ -783,8 +793,8 @@ file formats are limited to 2^29-1 ~ 536Mbp in size (this is due to the binning
 strategy, the max bin size is listed as 2^29). The CSI index format was created
 to help index BAM and tabix files with large chromosomes.
 
-Bonus: I made a web tool to help visualize BAI files to show how the binning index works https://cmdcolin.github.io/bam_index_visualizer/
-
+Bonus: I made a web tool to help visualize BAI files to show how the binning
+index works https://cmdcolin.github.io/bam_index_visualizer/
 
 ## Humongous chromosomes V2
 
