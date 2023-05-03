@@ -312,7 +312,7 @@ Some articles
 
 ### Chimeric genes
 
-The gene Jingwei is a chimera of two genes, alcohol dehydrogenage and yellow
+The gene Jingwei is a chimera (or fusion) of two genes, alcohol dehydrogenage and yellow
 emperor. Many chimeras are damaging but this has been selected for
 
 http://www.pnas.org/content/101/46/16246
