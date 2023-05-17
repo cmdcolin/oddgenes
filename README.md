@@ -463,6 +463,37 @@ coverage. They tried to select tissue samples that had the least amount of
 endoreplication.
 https://plan.core-apps.com/pag_2023/abstract/e26dbeb1-df8f-4c57-a062-dcaf881b79f4
 
+### Endo-(poly)ploidy
+
+Different cells may have different numbers of copies of chromosomes and it also
+occurs in some human cell types: "polyploid cells can exist in otherwise diploid
+organisms (endopolyploidy). In humans, polyploid cells are found in critical
+tissues, such as liver and placenta. A general term often used to describe the
+generation of polyploid cells is endoreplication, which refers to multiple
+genome duplications without intervening division/cytokinesis"
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4442802/
+
+### Range of ploidy
+
+Wikipedia lists this table with examples of organisms with different ploidy
+https://en.wikipedia.org/wiki/Polyploidy#Types
+
+- haploid (one set; 1x), for example male European fire ants
+- diploid (two sets; 2x), for example humans
+- triploid (three sets; 3x), for example sterile saffron crocus, or seedless
+  watermelons, also common in the phylum Tardigrada[7]
+- tetraploid (four sets; 4x), for example, Plains viscacha rat, Salmonidae
+  fish,[8] the cotton Gossypium hirsutum[9]
+- pentaploid (five sets; 5x), for example Kenai Birch (Betula kenaica)
+- hexaploid (six sets; 6x), for example some species of wheat,[10] kiwifruit[11]
+- heptaploid or septaploid (seven sets; 7x)
+- octaploid or octoploid, (eight sets; 8x), for example Acipenser (genus of
+  sturgeon fish), dahlias
+- decaploid (ten sets; 10x), for example certain strawberries
+- dodecaploid or duodecaploid (twelve sets; 12x), for example the plants Celosia
+  argentea and Spartina anglica [12] or the amphibian Xenopus ruwenzoriensis.
+- tetratetracontaploid (forty-four sets; 44x), for example black mulberry[13]
+
 ### DNA modifications
 
 There are many chemical modifications that can happen to DNA, leading to an
