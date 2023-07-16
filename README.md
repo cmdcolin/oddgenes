@@ -672,7 +672,7 @@ Some biological factors can include
 - replication slippage
 - retrotransposition
 - unequal crossing over (UCO).
-- imperfect repair of double-strand breaks by nonhomologous end joining (NHEJ).
+- imperfect repair of double-strand breaks by nonhomologous end joining (NHEJ) (specifically generates 1-100bp range indels according to article)
 
 Ref https://academic.oup.com/mbe/article/24/5/1190/1038942
 
