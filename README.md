@@ -473,6 +473,13 @@ generation of polyploid cells is endoreplication, which refers to multiple
 genome duplications without intervening division/cytokinesis"
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4442802/
 
+
+### Programmed DNA elimination
+
+"While we commonly assume the genome to be largely identical across different cells of a multicellular organism, a number of species undergo a developmentally regulated elimination process by which the genome in somatic cells is reduced, while the germline genome remains intact. This process, called Programmed DNA Elimination (PDE), affects a number of species including copepod crustaceans, lamprey fish, single-celled ciliates and nematode worms (though not C. elegans!)."
+
+From ISMB2023 abstract "Deciphering developmentally programmed DNA elimination in Mesorhabditis nematodes"
+
 ### Range of ploidy
 
 Wikipedia lists this table with examples of organisms with different ploidy
