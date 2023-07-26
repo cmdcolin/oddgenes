@@ -480,6 +480,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4442802/
 
 From ISMB2023 abstract "Deciphering developmentally programmed DNA elimination in Mesorhabditis nematodes"
 
+See also "internal eliminated sequences"
+
 ### Range of ploidy
 
 Wikipedia lists this table with examples of organisms with different ploidy
