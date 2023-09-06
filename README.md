@@ -963,6 +963,7 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
   https://www.uniprot.org/uniprotkb/Q7Z7F0/entry
 - MAGOH - mago nashi (grandchildless)
   https://www.uniprot.org/uniprotkb/P61326/entry
+- IGL@ - locus https://en.wikipedia.org/wiki/IGL@
 
 ### Allele names
 
