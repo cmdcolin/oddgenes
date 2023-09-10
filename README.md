@@ -328,7 +328,7 @@ and yellow emperor. Many chimeras are damaging but this has been selected for
 
 http://www.pnas.org/content/101/46/16246
 
-Two Cytochrome P450 genes that don't confer any insecticide resitance on their
+Two Cytochrome P450 genes that don't confer any insecticide resistance on their
 own but a chimeric P450 does https://pubmed.ncbi.nlm.nih.gov/22949643/
 
 ## Wormbase
@@ -390,7 +390,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306691/
 
 also https://www.cell.com/cell/fulltext/S0092-8674(19)30097-2
 
-### Transgenerational epigenetic inheritence
+### Transgenerational epigenetic inheritance
 
 This phenomena of epigenetic modifications being passed down across generations
 garners a lot of media attention and scientific attention. The idea of it being
@@ -769,7 +769,7 @@ Did you expect that in your bioinformatics software? Note that the mouse genome
 See [count_fasta_letters.pl](count_fasta_letters.pl) for a script to count this.
 The UCSC hg38.fa.gz does not have any non-ACGTN letters.
 
-### rs SNP identifiers occuring in multiple places
+### rs SNP identifiers occurring in multiple places
 
 Due to how dbSNP is created (based on alignments), an rs ID can occur in
 multiple places on the genome https://www.biostars.org/p/2323/
@@ -932,7 +932,7 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
 - Dishevelled (Dsh) - https://en.wikipedia.org/wiki/Dishevelled
 - Glass bottom boat (gbb) -
   http://www.sdbonline.org/sites/fly/dbzhnsky/60a-1.htm
-- Makes catepillars floppy (mcf) - https://www.pnas.org/content/99/16/10742
+- Makes caterpillars floppy (mcf) - https://www.pnas.org/content/99/16/10742
   (source https://twitter.com/JUNIUS_64/status/1081007886560608256)
 - Eyeless http://flybase.org/reports/FBgn0005558.html
 - Straightjaket (stj) - http://flybase.org/reports/FBgn0261041.html
@@ -940,7 +940,7 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
   https://twitter.com/zhouwanding/status/1065960714978897921
 - frameshifts or pseudogene? - check sequence -
   https://www.ncbi.nlm.nih.gov/gene/?term=24562233%5Buid%5D
-- Bad response to refridgeration (brr)
+- Bad response to refrigeration (brr)
   https://twitter.com/hitenmadhani/status/1149471071675924481?s=20
 - Mindbomb (mib1) - https://www.sdbonline.org/sites/fly/hjmuller/mindbomb1.htm
 - β'COP http://flybase.org/reports/FBgn0025724.html
