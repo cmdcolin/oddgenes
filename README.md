@@ -964,6 +964,7 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
 - MAGOH - mago nashi (grandchildless)
   https://www.uniprot.org/uniprotkb/P61326/entry
 - IGL@ - locus https://en.wikipedia.org/wiki/IGL@
+- Spooky toxin - https://en.wikipedia.org/wiki/Ssm_spooky_toxin (https://twitter.com/depthsofwiki/status/1712555421918245242)
 
 ### Allele names
 
