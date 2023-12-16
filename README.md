@@ -967,6 +967,12 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
 - Spooky toxin - https://en.wikipedia.org/wiki/Ssm_spooky_toxin (https://twitter.com/depthsofwiki/status/1712555421918245242)
 - Always early (aly) - http://flybase.org/reports/FBgn0004372.html
 
+
+### Extracted all fly gene names
+
+Many odd names https://gist.github.com/cmdcolin/1a078121c7af8c52cb6396eccc4e2cda
+
+
 ### Allele names
 
 Sometimes it is not the gene, but the allele that is named
