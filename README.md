@@ -898,6 +898,13 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
 
 ## Interesting gene names
 
+
+## Update Dec 2023
+
+I extracted all the genes from a number of model organism databases here https://cmdcolin.github.io/genes/
+
+Here are some random highlights from earlier work
+
 - Tinman - https://en.wikipedia.org/wiki/Tinman_gene
 - Sonic hedgehog (SHH) - https://en.wikipedia.org/wiki/Sonic_hedgehog
 - Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
@@ -966,11 +973,6 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
 - IGL@ - locus https://en.wikipedia.org/wiki/IGL@
 - Spooky toxin - https://en.wikipedia.org/wiki/Ssm_spooky_toxin (https://twitter.com/depthsofwiki/status/1712555421918245242)
 - Always early (aly) - http://flybase.org/reports/FBgn0004372.html
-
-
-### Extracted all fly gene names
-
-Many odd names https://gist.github.com/cmdcolin/1a078121c7af8c52cb6396eccc4e2cda
 
 
 ### Allele names
