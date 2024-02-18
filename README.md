@@ -421,6 +421,14 @@ https://en.wikipedia.org/wiki/Start_codon#Eukaryotes
 
 ## Molecular
 
+### 4-base/quaternary/quadruplet codons
+
+3-base codon system is assumed by many, but engineered tRNAs can decode 4-base codons with potential applications for using amino acids outside the 20 canonical ones
+
+review https://elifesciences.org/articles/78869
+
+evolving improved 4-base efficiency https://www.nature.com/articles/s41467-021-25948-y
+
 ### Complex DNA structures
 
 The standard DNA double stranded helix is called B-DNA
