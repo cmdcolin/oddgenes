@@ -72,6 +72,14 @@ exon 17, the total possible protein products could reach 38,016 isoforms"
 Ref https://en.wikipedia.org/wiki/DSCAM
 https://www.wikigenes.org/e/gene/e/35652.html
 
+### Small introns
+
+According to wikipedia "a 2015 study suggests that the shortest known metazoan intron length is 30 base pairs (bp) belonging to the human MST1L gene (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4675715/). The shortest known introns belong to the heterotrich ciliates, such as Stentor coeruleus, in which most (> 95%) introns are 15 or 16 bp long (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5659724/)"
+
+
+A novel splicing factor may be involved in small introns https://www.news-medical.net/news/20240215/Novel-splicing-mechanism-for-short-introns-discovered.aspx
+
+
 ### Translational frameshift/Ribosomal frameshift/Programmed ribosomal frameshift
 
 "The main distinction between frameshifts resulting from mutation and those
@@ -90,6 +98,7 @@ https://www.youtube.com/watch?v=gLcueW61QMU
 
 Another lecture explaining frameshift in viruses
 https://youtu.be/b5BX5A3dGUQ?t=2980
+
 
 ### Ribosome hopping
 
