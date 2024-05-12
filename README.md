@@ -497,9 +497,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4442802/
 
 "While we commonly assume the genome to be largely identical across different cells of a multicellular organism, a number of species undergo a developmentally regulated elimination process by which the genome in somatic cells is reduced, while the germline genome remains intact. This process, called Programmed DNA Elimination (PDE), affects a number of species including copepod crustaceans, lamprey fish, single-celled ciliates and nematode worms (though not C. elegans!)."
 
-From ISMB2023 abstract "Deciphering developmentally programmed DNA elimination in Mesorhabditis nematodes"
+From ISMB2023 video "Deciphering developmentally programmed DNA elimination in Mesorhabditis nematodes" https://www.youtube.com/watch?v=2x6ElKeISRY
 
-See also "internal eliminated sequences"
+See also the term "internal eliminated sequences" (IES)
 
 ### Range of ploidy
 
