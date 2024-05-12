@@ -644,7 +644,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0959440X15000597
 ### Interesting PDB entries
 
 From another repo
-https://github.com/molstar/molstar/blob/master/docs/interesting-pdb-entries.md
+https://github.com/molstar/molstar/blob/master/docs/docs/misc/interesting-pdb-entries.md
 
 ## Transposons
 
