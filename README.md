@@ -773,6 +773,7 @@ In organisms with normally linear chromosomes, circular or "ring" chromosomes ca
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/da/NLM_ring_chromosome.jpg)
 
+There are also smaller fragments that can be circularized called "supernumerary small ring chromosomes" (sSRC) or their normal linear part, "supernumary small marker chromosomes" (sSMC) https://en.wikipedia.org/wiki/Small_supernumerary_marker_chromosome
 
 ## File formats
 
