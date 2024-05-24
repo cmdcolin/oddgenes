@@ -747,6 +747,15 @@ promoter region allows them to be co-regulated and thus co-expressed"
 
 ## Chromosomal abnormalities
 
+
+### Uniparental disomy (UPD)
+
+A child can inherit both copies of the genome from one parent, instead of the "usual" one copy from mom, one from dad
+
+"UPD arises usually from the failure of the two members of a chromosome pair to separate properly into two daughter cells during meiosis in the parent’s germline (nondisjunction). The resulting abnormal gametes contain either two copies of a chromosome (disomic) or no copy of that chromosome (nullisomic), instead of the normal single copy of each chromosome (haploid).  This leads to a conception with either three copies of one chromosome (trisomy) or a single copy of a chromosome (monosomy). If a second event occurs by either the loss of one of the extra chromosomes in a trisomy or the duplication of the single chromosome in a monosomy, the karyotypically normal cell may have a growth advantage as compared to the aneuploid cells. UPD results primarily from one of these “rescue” events" 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3111049/
+
 ### Loss of Y chromosome
 
 Older men can have a mosaic loss of the Y chromosome in blood samples
