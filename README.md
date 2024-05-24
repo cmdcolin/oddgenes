@@ -704,6 +704,7 @@ Some biological factors can include
 
 Ref https://academic.oup.com/mbe/article/24/5/1190/1038942
 
+
 ## Pseudogenes
 
 ### A pseudogene that can protect against cancer in Elephants
@@ -755,6 +756,14 @@ https://www.biostars.org/p/9482437/)
 
 may be associated with cardiac issues
 https://www.science.org/doi/10.1126/science.abn3100
+
+
+### Ring chromosome
+
+In organisms with normally linear chromosomes, circular or "ring" chromosomes can form from aberrant proceseses https://en.wikipedia.org/wiki/Ring_chromosome
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/da/NLM_ring_chromosome.jpg)
+
 
 ## File formats
 
