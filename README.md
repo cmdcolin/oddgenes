@@ -928,7 +928,7 @@ https://twitter.com/PetrovADmitri/status/1506824610360168455
 
 Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
 
-See also the plant C-value database. Genome sizes this large are measured in https://cvalues.science.kew.org/ ("C-value is the amount, in picograms, of DNA contained within a haploid nucleus")
+See also the plant C-value database, which is a measurement you will sometimes see instead of base pair length https://cvalues.science.kew.org/ ("C-value is the amount, in picograms, of DNA contained within a haploid nucleus")
 
 ## Humongous CIGAR strings
 
