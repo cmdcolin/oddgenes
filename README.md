@@ -895,6 +895,7 @@ Just some honorable mentions for largest genome
 - Dinoflagellates - up to 250Gbp (unsequenced, 1987 book referenced in this
   paper, needs confirmation, has weird chromosome "rod-like" structures)
   https://www.nature.com/articles/s41588-021-00841-y
+- Tmesipteris oblanceolata (fork fern) - ~160Gb (unsequenced) https://www.nature.com/articles/d41586-024-01567-7
 - Paris japonica (canopy plant) - ~149Gbp (unsequenced)
   https://en.wikipedia.org/wiki/Paris_japonica
 - Tmesipteris_obliqua (fern) - ~147Gbp (unsequenced) -
