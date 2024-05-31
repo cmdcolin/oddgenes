@@ -928,6 +928,8 @@ https://twitter.com/PetrovADmitri/status/1506824610360168455
 
 Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
 
+See also the plant C-value database. Genome sizes this large are measured in https://cvalues.science.kew.org/ ("C-value is the amount, in picograms, of DNA contained within a haploid nucleus")
+
 ## Humongous CIGAR strings
 
 The CG tag was invented in order to store CIGAR strings longer than 64k
