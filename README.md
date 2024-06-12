@@ -756,9 +756,9 @@ A child can inherit both copies of the genome from one parent, instead of the "u
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3111049/
 
-### Loss of Y chromosome
+### Mosaic loss of Y chromosome
 
-Older men can have a mosaic loss of the Y chromosome in blood samples
+Older men can have a mosaic loss of the Y chromosome https://en.wikipedia.org/wiki/Mosaic_loss_of_chromosome_Y
 
 https://www.karger.com/Article/FullText/508564 (found from
 https://www.biostars.org/p/9482437/)
@@ -766,6 +766,9 @@ https://www.biostars.org/p/9482437/)
 may be associated with cardiac issues
 https://www.science.org/doi/10.1126/science.abn3100
 
+### Mosaic loss of X chromosome
+
+Similar to the above but for X https://www.cancer.gov/news-events/press-releases/2024/genetic-factors-predict-x-chromosome-loss
 
 ### Ring chromosome
 
