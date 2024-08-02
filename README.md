@@ -1017,7 +1017,7 @@ Here are some random highlights from earlier work
 - IGL@ - locus https://en.wikipedia.org/wiki/IGL@
 - Spooky toxin - https://en.wikipedia.org/wiki/Ssm_spooky_toxin (https://twitter.com/depthsofwiki/status/1712555421918245242)
 - Always early (aly) - http://flybase.org/reports/FBgn0004372.html
-
+- Lonely guy (LOG) - https://onlinelibrary.wiley.com/doi/full/10.1111/pbi.13783
 
 ### Allele names
 
