@@ -115,12 +115,12 @@ termination using an IRES" Ref
 https://en.wikipedia.org/wiki/Internal_ribosome_entry_site
 
 
-## Stop codon readthrough/translational readthrough
+### Stop codon readthrough/translational readthrough
 
 "Stop codon suppression or translational readthrough occurs when in translation a stop codon is interpreted as a sense codon, that is, when a (standard) amino acid is 'encoded' by the stop codon. Mutated tRNAs can be the cause of readthrough, but also certain nucleotide motifs close to the stop codon. Translational readthrough is very common in viruses and bacteria, and has also been found as a gene regulatory principle in humans, yeasts, bacteria and drosophila.[28][29] This kind of endogenous translational readthrough constitutes a variation of the genetic code, because a stop codon codes for an amino acid. In the case of human malate dehydrogenase, the stop codon is read through with a frequency of about 4%.[30] The amino acid inserted at the stop codon depends on the identity of the stop codon itself: Gln, Tyr, and Lys have been found for the UAA and UAG codons, while Cys, Trp, and Arg for the UGA codon have been identified by mass spectrometry.[31] Extent of readthrough in mammals have widely variable extents, and can broadly diversify the proteome and affect cancer progression.[32] "
 
 
-## Stop codon re-assignment: selenocysteine
+### Stop codon re-assignment: selenocysteine
 
 The amino acid Selenocysteine is coded for by a "opal" (UGA) stop codon
 (https://en.wikipedia.org/wiki/Selenocysteine)
@@ -134,7 +134,7 @@ Selenocysteine can be coded via a SECIS sequence
 https://en.wikipedia.org/wiki/SECIS_element and resulting products are called
 ([selenoproteins](https://en.wikipedia.org/wiki/Selenoprotein))
 
-## Stop codon re-assignment: pyrrolysine
+### Stop codon re-assignment: pyrrolysine
 
 Pyrrolysine also is coded for
 by the "amber" (UAG) stop codon (https://en.wikipedia.org/wiki/Pyrrolysine), not present in humans
@@ -144,7 +144,7 @@ by the "amber" (UAG) stop codon (https://en.wikipedia.org/wiki/Pyrrolysine), not
 There are several other stop codon modifications described here
 https://www.nature.com/articles/nrg3963
 
-## Stop codons can also be removed by RNA editing
+### Stop codons can also be removed by RNA editing
 
 as in the case of mammalian apoliprotein B, B100 isoform.
 
@@ -152,7 +152,7 @@ as in the case of mammalian apoliprotein B, B100 isoform.
 
 https://pubmed.ncbi.nlm.nih.gov/8409768/
 
-## Stop codons can be added by polyadenylation
+### Stop codons can be added by polyadenylation
 
 There is a stop codon not in the genome, but one is added post-transcriptionally by polyadenylation
 
@@ -160,7 +160,7 @@ Noted in vertebrate mitochondrial section here
 https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2
 
 
-## Ciliates with "No stop codons"
+### Ciliates with "No stop codons"
 
 "Flexibility in the nuclear genetic code has been demonstrated in ciliates that reassign standard stop codons to amino acids...Surprisingly, in two of these species, we find efficient translation of all 64 codons as standard amino acids and recognition of either one or all three stop codons"
 
