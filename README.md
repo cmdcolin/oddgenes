@@ -136,6 +136,8 @@ codon as pyrolysine
 Stop codons can also be removed by RNA editing, as in the case of mammalian
 apoliprotein B, B100 isoform.
 
+Stop codons can also be added by poladenylation (see vertebrate mitochondrial notes here https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2)
+
 Some bacterial systems are suspected to have no dedicated stop codon but instead
 all termination is context dependent https://pubmed.ncbi.nlm.nih.gov/27426948/
 
