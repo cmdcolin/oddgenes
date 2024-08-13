@@ -114,32 +114,57 @@ Reading Frame. Some viruses can reinititate translation after translation
 termination using an IRES" Ref
 https://en.wikipedia.org/wiki/Internal_ribosome_entry_site
 
-### A Stop codon that is not a stop codon
 
-In some cases a stop codon is not interpreted as such. When it is interpreted,
-it is sometimes called "Stop codon readthrough" and can encode for an amino
-acid. The amino acid Selenocysteine is coded for by a stop codon
-(https://en.wikipedia.org/wiki/Selenocysteine) and Pyrrolysine also is coded for
-by a stop codon (https://en.wikipedia.org/wiki/Pyrrolysine). Both of these lie
-outside the conventional 20 amino acid code
+## Stop codon readthrough/translational readthrough
+
+"Stop codon suppression or translational readthrough occurs when in translation a stop codon is interpreted as a sense codon, that is, when a (standard) amino acid is 'encoded' by the stop codon. Mutated tRNAs can be the cause of readthrough, but also certain nucleotide motifs close to the stop codon. Translational readthrough is very common in viruses and bacteria, and has also been found as a gene regulatory principle in humans, yeasts, bacteria and drosophila.[28][29] This kind of endogenous translational readthrough constitutes a variation of the genetic code, because a stop codon codes for an amino acid. In the case of human malate dehydrogenase, the stop codon is read through with a frequency of about 4%.[30] The amino acid inserted at the stop codon depends on the identity of the stop codon itself: Gln, Tyr, and Lys have been found for the UAA and UAG codons, while Cys, Trp, and Arg for the UGA codon have been identified by mass spectrometry.[31] Extent of readthrough in mammals have widely variable extents, and can broadly diversify the proteome and affect cancer progression.[32] "
+
+
+## Stop codon re-assignment: selenocysteine
+
+The amino acid Selenocysteine is coded for by a "opal" (UGA) stop codon
+(https://en.wikipedia.org/wiki/Selenocysteine)
+
+Is present in all domains of life including humans
+
+As of 2021, 136 human proteins (in 37 families) are known to contain selenocysteine 
+
+
+Selenocysteine can be coded via a SECIS sequence
+https://en.wikipedia.org/wiki/SECIS_element and resulting products are called
+([selenoproteins](https://en.wikipedia.org/wiki/Selenoprotein))
+
+## Stop codon re-assignment: pyrrolysine
+
+Pyrrolysine also is coded for
+by the "amber" (UAG) stop codon (https://en.wikipedia.org/wiki/Pyrrolysine), not present in humans
+
+"It is encoded in mRNA by the UAG codon, which in most organisms is the 'amber' stop codon. This requires only the presence of the pylT gene, which encodes an unusual transfer RNA (tRNA) with a CUA anticodon, and the pylS gene, which encodes a class II aminoacyl-tRNA synthetase that charges the pylT-derived tRNA with pyrrolysine. "
 
 There are several other stop codon modifications described here
 https://www.nature.com/articles/nrg3963
 
-Selenocysteine can be coded via a SECIS sequence
-https://en.wikipedia.org/wiki/SECIS_element and resulting products are called
-selenoproteins
+## Stop codons can also be removed by RNA editing
 
-Pyrolysine is coded through a pyIT tRNA gene that interprets the amber stop
-codon as pyrolysine
+as in the case of mammalian apoliprotein B, B100 isoform.
 
-Stop codons can also be removed by RNA editing, as in the case of mammalian
-apoliprotein B, B100 isoform.
+"A posttranscriptional modification of the apoB mRNA by conversion of cytidine into uridine at nucleotide position 6666 changes the genomically encoded glutamine codon CAA at amino acid residue 2153 into a translational stop codon UAA."
 
-Stop codons can also be added by poladenylation (see vertebrate mitochondrial notes here https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2)
+https://pubmed.ncbi.nlm.nih.gov/8409768/
 
-Some bacterial systems are suspected to have no dedicated stop codon but instead
-all termination is context dependent https://pubmed.ncbi.nlm.nih.gov/27426948/
+## Stop codons can be added by polyadenylation
+
+There is a stop codon not in the genome, but one is added post-transcriptionally by polyadenylation
+
+Noted in vertebrate mitochondrial section here
+https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2
+
+
+## Ciliates with "No stop codons"
+
+"Flexibility in the nuclear genetic code has been demonstrated in ciliates that reassign standard stop codons to amino acids...Surprisingly, in two of these species, we find efficient translation of all 64 codons as standard amino acids and recognition of either one or all three stop codons"
+
+Termination is therefore "context dependent" rather than a specific 3 letter sequence https://pubmed.ncbi.nlm.nih.gov/27426948/
 
 ### Readthrough transcription
 
@@ -287,7 +312,7 @@ Figure showing "intronic polyadenylation" (IpA) creating a different isoform
 from https://www.nature.com/articles/s41467-018-04112-z
 
 In mammalian mitochondria, some messages are polyadenylated after a U residue
-which is the U in a UAA stop codon -- the polyadenylation completes the stop
+which is the U in a UAA stop codon -- the post-transcriptional polyadenylation completes the stop
 codon
 
 ### Circular chromosomes
