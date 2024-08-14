@@ -930,7 +930,7 @@ Just some honorable mentions for largest genome
   https://en.wikipedia.org/wiki/Paris_japonica
 - Tmesipteris_obliqua (fern) - ~147Gbp (unsequenced) -
   https://en.wikipedia.org/wiki/Tmesipteris_obliqua
-- South American lungfishes (Lepidosiren paradoxa) - 91Gbp (sequenced) https://www.nature.com/articles/s41586-024-07830-1
+- South American lungfishes (Lepidosiren paradoxa) - ~91Gbp (sequenced) https://www.nature.com/articles/s41586-024-07830-1
 - European mistletoe - ~90Gbp (sequenced)
   https://www.darwintreeoflife.org/news_item/2022-the-year-we-built-the-biggest-genome-in-britain-and-ireland/
 - Antarctic krill - ~48Gbp (sequenced)
