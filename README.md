@@ -266,6 +266,13 @@ wikipedia article on introns details this
 https://en.wikipedia.org/wiki/Intron#Discovery_and_etymology (see also
 https://www.proquest.com/docview/303935681/)
 
+### Nuclear mitochondrial (NUMT) insertions
+
+Pieces of the mitochondrial genome can be inserted into the autosomes in eukaryotes
+
+https://en.wikipedia.org/wiki/Nuclear_mitochondrial_DNA_segment
+
+
 ### Codon tables
 
 Many eukaryotes use the "standard genetic code" for changing codons to amino
