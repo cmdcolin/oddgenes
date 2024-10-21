@@ -115,6 +115,9 @@ https://en.wikipedia.org/wiki/Internal_ribosome_entry_site
 "Stop codon suppression or translational readthrough occurs when in translation a stop codon is interpreted as a sense codon, that is, when a (standard) amino acid is 'encoded' by the stop codon. Mutated tRNAs can be the cause of readthrough, but also certain nucleotide motifs close to the stop codon. Translational readthrough is very common in viruses and bacteria, and has also been found as a gene regulatory principle in humans, yeasts, bacteria and drosophila.[28][29] This kind of endogenous translational readthrough constitutes a variation of the genetic code, because a stop codon codes for an amino acid. In the case of human malate dehydrogenase, the stop codon is read through with a frequency of about 4%.[30] The amino acid inserted at the stop codon depends on the identity of the stop codon itself: Gln, Tyr, and Lys have been found for the UAA and UAG codons, while Cys, Trp, and Arg for the UGA codon have been identified by mass spectrometry.[31] Extent of readthrough in mammals have widely variable extents, and can broadly diversify the proteome and affect cancer progression.[32] "
 
 
+https://en.wikipedia.org/wiki/Stop_codon#Translational_readthrough
+
+
 ### Stop codon re-assignment: selenocysteine
 
 The amino acid Selenocysteine is coded for by a "opal" (UGA) stop codon
