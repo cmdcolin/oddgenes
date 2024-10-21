@@ -84,11 +84,6 @@ https://www.wikigenes.org/e/gene/e/35652.html
 
 ### Translational frameshift/Ribosomal frameshift/Programmed ribosomal frameshift
 
-"The main distinction between frameshifts resulting from mutation and those
-resulting from ribosomal frameshifting is that the latter are controlled by
-various mechanisms found in codons...Certain codons take longer to translate,
-because there are not equal amounts of tRNA of that particular codon in the
-cytosol..." which leads to ribosomal slippage into an alternative reading frame.
 
 Ref https://en.wikipedia.org/wiki/Translational_frameshift
 
