@@ -44,36 +44,42 @@ https://www.biorxiv.org/content/early/2018/12/11/493254
 
 An example in this paper kl-3 spans 4.3 million bp
 
-
 In human, an example is Dystrophin. "Dystrophin is coded for by the DMD gene –
 the largest known human gene, covering 2.4 megabases (0.08% of the human genome)
 at locus Xp21. The primary transcript in muscle measures about 2,100 kilobases
 and takes 16 hours to transcribe; the mature mRNA measures 14.0 kilobases"
 https://en.wikipedia.org/wiki/Dystrophin
 
-Note: these large introns require very large amounts of DNA to be
-transcribed into RNA, before just removing most of the transcribed RNA via
-intron splicing, which is sort of "wasteful" on a molecular level
+Note: these large introns require very large amounts of DNA to be transcribed
+into RNA, before just removing most of the transcribed RNA via intron splicing,
+which is sort of "wasteful" on a molecular level
 
-## Very large proteins
+### Small introns
 
-An algae encodes a protein PKZILLA-1 that has a mass of 4.7 megadaltons and contains 140 enzyme domains
+"A 2015 study suggests that the shortest known metazoan intron length is 30 base
+pairs (bp) belonging to the human MST1L gene
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4675715/). The shortest known
+introns belong to the heterotrich ciliates, such as Stentor coeruleus, in which
+most (> 95%) introns are 15 or 16 bp long
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5659724/)"
+https://en.wikipedia.org/wiki/Intron#Distribution
+
+A novel splicing factor may be involved in small introns
+https://www.news-medical.net/news/20240215/Novel-splicing-mechanism-for-short-introns-discovered.aspx
+
+### Very large proteins
+
+An algae published about in 2024 encodes a protein PKZILLA-1 that has a mass of
+4.7 megadaltons and contains 140 enzyme domains
 https://cen.acs.org/biological-chemistry/PKZILLA-proteins-smash-protein-size/102/web/2024/08
 
 In human the TITIN gene (in muscle) has almost 4 megadaltons
 
 ![](https://s7d1.scene7.com/is/image/CENODS/20240808lnp2-titinpkzilla?$responsive$&wid=700&qlt=90,0&resMode=sharp2)
 
-The DMD gene above, despite being large on the genome, only encodes a 70 kilo-dalton protein (not megadalton!) https://pmc.ncbi.nlm.nih.gov/articles/PMC49288/
-
-
-### Small introns
-
-"A 2015 study suggests that the shortest known metazoan intron length is 30 base pairs (bp) belonging to the human MST1L gene (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4675715/). The shortest known introns belong to the heterotrich ciliates, such as Stentor coeruleus, in which most (> 95%) introns are 15 or 16 bp long (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5659724/)" https://en.wikipedia.org/wiki/Intron#Distribution
-
-
-A novel splicing factor may be involved in small introns https://www.news-medical.net/news/20240215/Novel-splicing-mechanism-for-short-introns-discovered.aspx
-
+The DMD gene above, despite being large on the genome, only encodes a 70
+kilo-dalton protein (not megadalton!)
+https://pmc.ncbi.nlm.nih.gov/articles/PMC49288/
 
 ### Backsplicing and circRNAs
 
@@ -93,9 +99,7 @@ exon 17, the total possible protein products could reach 38,016 isoforms"
 Ref https://en.wikipedia.org/wiki/DSCAM
 https://www.wikigenes.org/e/gene/e/35652.html
 
-
 ### Translational frameshift/Ribosomal frameshift/Programmed ribosomal frameshift
-
 
 Ref https://en.wikipedia.org/wiki/Translational_frameshift
 
@@ -107,7 +111,6 @@ https://www.youtube.com/watch?v=gLcueW61QMU
 
 Another lecture explaining frameshift in viruses
 https://youtu.be/b5BX5A3dGUQ?t=2980
-
 
 ### Ribosome hopping
 
@@ -121,14 +124,25 @@ Reading Frame. Some viruses can reinititate translation after translation
 termination using an IRES" Ref
 https://en.wikipedia.org/wiki/Internal_ribosome_entry_site
 
-
 ### Stop codon readthrough/translational readthrough
 
-"Stop codon suppression or translational readthrough occurs when in translation a stop codon is interpreted as a sense codon, that is, when a (standard) amino acid is 'encoded' by the stop codon. Mutated tRNAs can be the cause of readthrough, but also certain nucleotide motifs close to the stop codon. Translational readthrough is very common in viruses and bacteria, and has also been found as a gene regulatory principle in humans, yeasts, bacteria and drosophila.[28][29] This kind of endogenous translational readthrough constitutes a variation of the genetic code, because a stop codon codes for an amino acid. In the case of human malate dehydrogenase, the stop codon is read through with a frequency of about 4%.[30] The amino acid inserted at the stop codon depends on the identity of the stop codon itself: Gln, Tyr, and Lys have been found for the UAA and UAG codons, while Cys, Trp, and Arg for the UGA codon have been identified by mass spectrometry.[31] Extent of readthrough in mammals have widely variable extents, and can broadly diversify the proteome and affect cancer progression.[32] "
-
+"Stop codon suppression or translational readthrough occurs when in translation
+a stop codon is interpreted as a sense codon, that is, when a (standard) amino
+acid is 'encoded' by the stop codon. Mutated tRNAs can be the cause of
+readthrough, but also certain nucleotide motifs close to the stop codon.
+Translational readthrough is very common in viruses and bacteria, and has also
+been found as a gene regulatory principle in humans, yeasts, bacteria and
+drosophila.[28][29] This kind of endogenous translational readthrough
+constitutes a variation of the genetic code, because a stop codon codes for an
+amino acid. In the case of human malate dehydrogenase, the stop codon is read
+through with a frequency of about 4%.[30] The amino acid inserted at the stop
+codon depends on the identity of the stop codon itself: Gln, Tyr, and Lys have
+been found for the UAA and UAG codons, while Cys, Trp, and Arg for the UGA codon
+have been identified by mass spectrometry.[31] Extent of readthrough in mammals
+have widely variable extents, and can broadly diversify the proteome and affect
+cancer progression.[32] "
 
 https://en.wikipedia.org/wiki/Stop_codon#Translational_readthrough
-
 
 ### Stop codon re-assignment: selenocysteine
 
@@ -137,8 +151,8 @@ The amino acid Selenocysteine is coded for by a "opal" (UGA) stop codon
 
 Is present in all domains of life including humans
 
-As of 2021, 136 human proteins (in 37 families) are known to contain selenocysteine 
-
+As of 2021, 136 human proteins (in 37 families) are known to contain
+selenocysteine
 
 Selenocysteine can be coded via a SECIS sequence
 https://en.wikipedia.org/wiki/SECIS_element and resulting products are called
@@ -146,10 +160,14 @@ https://en.wikipedia.org/wiki/SECIS_element and resulting products are called
 
 ### Stop codon re-assignment: pyrrolysine
 
-Pyrrolysine also is coded for
-by the "amber" (UAG) stop codon (https://en.wikipedia.org/wiki/Pyrrolysine), not present in humans
+Pyrrolysine also is coded for by the "amber" (UAG) stop codon
+(https://en.wikipedia.org/wiki/Pyrrolysine), not present in humans
 
-"It is encoded in mRNA by the UAG codon, which in most organisms is the 'amber' stop codon. This requires only the presence of the pylT gene, which encodes an unusual transfer RNA (tRNA) with a CUA anticodon, and the pylS gene, which encodes a class II aminoacyl-tRNA synthetase that charges the pylT-derived tRNA with pyrrolysine. "
+"It is encoded in mRNA by the UAG codon, which in most organisms is the 'amber'
+stop codon. This requires only the presence of the pylT gene, which encodes an
+unusual transfer RNA (tRNA) with a CUA anticodon, and the pylS gene, which
+encodes a class II aminoacyl-tRNA synthetase that charges the pylT-derived tRNA
+with pyrrolysine. "
 
 There are several other stop codon modifications described here
 https://www.nature.com/articles/nrg3963
@@ -158,23 +176,30 @@ https://www.nature.com/articles/nrg3963
 
 as in the case of mammalian apoliprotein B, B100 isoform.
 
-"A posttranscriptional modification of the apoB mRNA by conversion of cytidine into uridine at nucleotide position 6666 changes the genomically encoded glutamine codon CAA at amino acid residue 2153 into a translational stop codon UAA."
+"A posttranscriptional modification of the apoB mRNA by conversion of cytidine
+into uridine at nucleotide position 6666 changes the genomically encoded
+glutamine codon CAA at amino acid residue 2153 into a translational stop codon
+UAA."
 
 https://pubmed.ncbi.nlm.nih.gov/8409768/
 
 ### Stop codons can be added by polyadenylation
 
-There is a stop codon not in the genome, but one is added post-transcriptionally by polyadenylation
+There is a stop codon not in the genome, but one is added post-transcriptionally
+by polyadenylation
 
 Noted in vertebrate mitochondrial section here
 https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2
 
-
 ### Ciliates with "No stop codons"
 
-"Flexibility in the nuclear genetic code has been demonstrated in ciliates that reassign standard stop codons to amino acids...Surprisingly, in two of these species, we find efficient translation of all 64 codons as standard amino acids and recognition of either one or all three stop codons"
+"Flexibility in the nuclear genetic code has been demonstrated in ciliates that
+reassign standard stop codons to amino acids...Surprisingly, in two of these
+species, we find efficient translation of all 64 codons as standard amino acids
+and recognition of either one or all three stop codons"
 
-Termination is therefore "context dependent" rather than a specific 3 letter sequence https://pubmed.ncbi.nlm.nih.gov/27426948/
+Termination is therefore "context dependent" rather than a specific 3 letter
+sequence https://pubmed.ncbi.nlm.nih.gov/27426948/
 
 ### Readthrough transcription
 
@@ -278,10 +303,10 @@ https://www.proquest.com/docview/303935681/)
 
 ### Nuclear mitochondrial (NUMT) insertions
 
-Pieces of the mitochondrial genome can be inserted into the autosomes in eukaryotes
+Pieces of the mitochondrial genome can be inserted into the autosomes in
+eukaryotes
 
 https://en.wikipedia.org/wiki/Nuclear_mitochondrial_DNA_segment
-
 
 ### Codon tables
 
@@ -329,8 +354,8 @@ Figure showing "intronic polyadenylation" (IpA) creating a different isoform
 from https://www.nature.com/articles/s41467-018-04112-z
 
 In mammalian mitochondria, some messages are polyadenylated after a U residue
-which is the U in a UAA stop codon -- the post-transcriptional polyadenylation completes the stop
-codon
+which is the U in a UAA stop codon -- the post-transcriptional polyadenylation
+completes the stop codon
 
 ### Circular chromosomes
 
@@ -478,11 +503,14 @@ https://en.wikipedia.org/wiki/Start_codon#Eukaryotes
 
 ### 4-base/quaternary/quadruplet codons
 
-3-base codon system is assumed by many, but engineered tRNAs can decode 4-base codons with potential applications for using amino acids outside the 20 canonical ones
+3-base codon system is assumed by many, but engineered tRNAs can decode 4-base
+codons with potential applications for using amino acids outside the 20
+canonical ones
 
 review https://elifesciences.org/articles/78869
 
-evolving improved 4-base efficiency https://www.nature.com/articles/s41467-021-25948-y
+evolving improved 4-base efficiency
+https://www.nature.com/articles/s41467-021-25948-y
 
 ### Complex DNA structures
 
@@ -536,12 +564,18 @@ generation of polyploid cells is endoreplication, which refers to multiple
 genome duplications without intervening division/cytokinesis"
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4442802/
 
-
 ### Programmed DNA elimination
 
-"While we commonly assume the genome to be largely identical across different cells of a multicellular organism, a number of species undergo a developmentally regulated elimination process by which the genome in somatic cells is reduced, while the germline genome remains intact. This process, called Programmed DNA Elimination (PDE), affects a number of species including copepod crustaceans, lamprey fish, single-celled ciliates and nematode worms (though not C. elegans!)."
+"While we commonly assume the genome to be largely identical across different
+cells of a multicellular organism, a number of species undergo a developmentally
+regulated elimination process by which the genome in somatic cells is reduced,
+while the germline genome remains intact. This process, called Programmed DNA
+Elimination (PDE), affects a number of species including copepod crustaceans,
+lamprey fish, single-celled ciliates and nematode worms (though not C.
+elegans!)."
 
-From ISMB2023 video "Deciphering developmentally programmed DNA elimination in Mesorhabditis nematodes" https://www.youtube.com/watch?v=2x6ElKeISRY
+From ISMB2023 video "Deciphering developmentally programmed DNA elimination in
+Mesorhabditis nematodes" https://www.youtube.com/watch?v=2x6ElKeISRY
 
 See also the term "internal eliminated sequences" (IES)
 
@@ -744,10 +778,10 @@ Some biological factors can include
 - replication slippage
 - retrotransposition
 - unequal crossing over (UCO).
-- imperfect repair of double-strand breaks by nonhomologous end joining (NHEJ) (specifically generates 1-100bp range indels according to article)
+- imperfect repair of double-strand breaks by nonhomologous end joining (NHEJ)
+  (specifically generates 1-100bp range indels according to article)
 
 Ref https://academic.oup.com/mbe/article/24/5/1190/1038942
-
 
 ## Pseudogenes
 
@@ -791,18 +825,29 @@ promoter region allows them to be co-regulated and thus co-expressed"
 
 ## Chromosomal abnormalities
 
-
 ### Uniparental disomy (UPD)
 
-A child can inherit both copies of the genome from one parent, instead of the "usual" one copy from mom, one from dad
+A child can inherit both copies of the genome from one parent, instead of the
+"usual" one copy from mom, one from dad
 
-"UPD arises usually from the failure of the two members of a chromosome pair to separate properly into two daughter cells during meiosis in the parent’s germline (nondisjunction). The resulting abnormal gametes contain either two copies of a chromosome (disomic) or no copy of that chromosome (nullisomic), instead of the normal single copy of each chromosome (haploid).  This leads to a conception with either three copies of one chromosome (trisomy) or a single copy of a chromosome (monosomy). If a second event occurs by either the loss of one of the extra chromosomes in a trisomy or the duplication of the single chromosome in a monosomy, the karyotypically normal cell may have a growth advantage as compared to the aneuploid cells. UPD results primarily from one of these “rescue” events" 
+"UPD arises usually from the failure of the two members of a chromosome pair to
+separate properly into two daughter cells during meiosis in the parent’s
+germline (nondisjunction). The resulting abnormal gametes contain either two
+copies of a chromosome (disomic) or no copy of that chromosome (nullisomic),
+instead of the normal single copy of each chromosome (haploid). This leads to a
+conception with either three copies of one chromosome (trisomy) or a single copy
+of a chromosome (monosomy). If a second event occurs by either the loss of one
+of the extra chromosomes in a trisomy or the duplication of the single
+chromosome in a monosomy, the karyotypically normal cell may have a growth
+advantage as compared to the aneuploid cells. UPD results primarily from one of
+these “rescue” events"
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3111049/
 
 ### Mosaic loss of Y chromosome
 
-Older men can have a mosaic loss of the Y chromosome https://en.wikipedia.org/wiki/Mosaic_loss_of_chromosome_Y
+Older men can have a mosaic loss of the Y chromosome
+https://en.wikipedia.org/wiki/Mosaic_loss_of_chromosome_Y
 
 https://www.karger.com/Article/FullText/508564 (found from
 https://www.biostars.org/p/9482437/)
@@ -812,15 +857,20 @@ https://www.science.org/doi/10.1126/science.abn3100
 
 ### Mosaic loss of X chromosome
 
-Similar to the above but for X https://www.cancer.gov/news-events/press-releases/2024/genetic-factors-predict-x-chromosome-loss
+Similar to the above but for X
+https://www.cancer.gov/news-events/press-releases/2024/genetic-factors-predict-x-chromosome-loss
 
 ### Ring chromosome
 
-In organisms with normally linear chromosomes, circular or "ring" chromosomes can form from aberrant proceseses https://en.wikipedia.org/wiki/Ring_chromosome
+In organisms with normally linear chromosomes, circular or "ring" chromosomes
+can form from aberrant proceseses https://en.wikipedia.org/wiki/Ring_chromosome
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/da/NLM_ring_chromosome.jpg)
 
-There are also smaller fragments that can be circularized called "supernumerary small ring chromosomes" (sSRC) or their normal linear part, "supernumary small marker chromosomes" (sSMC) https://en.wikipedia.org/wiki/Small_supernumerary_marker_chromosome
+There are also smaller fragments that can be circularized called "supernumerary
+small ring chromosomes" (sSRC) or their normal linear part, "supernumary small
+marker chromosomes" (sSMC)
+https://en.wikipedia.org/wiki/Small_supernumerary_marker_chromosome
 
 ## File formats
 
@@ -942,12 +992,14 @@ Just some honorable mentions for largest genome
 - Dinoflagellates - up to 250Gbp (unsequenced, 1987 book referenced in this
   paper, needs confirmation, has weird chromosome "rod-like" structures)
   https://www.nature.com/articles/s41588-021-00841-y
-- Tmesipteris oblanceolata (fork fern) - ~160Gb (unsequenced) https://www.nature.com/articles/d41586-024-01567-7
+- Tmesipteris oblanceolata (fork fern) - ~160Gb (unsequenced)
+  https://www.nature.com/articles/d41586-024-01567-7
 - Paris japonica (canopy plant) - ~149Gbp (unsequenced)
   https://en.wikipedia.org/wiki/Paris_japonica
 - Tmesipteris_obliqua (fern) - ~147Gbp (unsequenced) -
   https://en.wikipedia.org/wiki/Tmesipteris_obliqua
-- South American lungfishes (Lepidosiren paradoxa) - ~91Gbp (sequenced) https://www.nature.com/articles/s41586-024-07830-1
+- South American lungfishes (Lepidosiren paradoxa) - ~91Gbp (sequenced)
+  https://www.nature.com/articles/s41586-024-07830-1
 - European mistletoe - ~90Gbp (sequenced)
   https://www.darwintreeoflife.org/news_item/2022-the-year-we-built-the-biggest-genome-in-britain-and-ireland/
 - Antarctic krill - ~48Gbp (sequenced)
@@ -974,7 +1026,9 @@ https://twitter.com/PetrovADmitri/status/1506824610360168455
 
 Also see http://www.genomesize.com/statistics.php?stats=entire#stats_top
 
-See also the plant C-value database, which is a measurement you will sometimes see instead of base pair length https://cvalues.science.kew.org/ ("C-value is the amount, in picograms, of DNA contained within a haploid nucleus")
+See also the plant C-value database, which is a measurement you will sometimes
+see instead of base pair length https://cvalues.science.kew.org/ ("C-value is
+the amount, in picograms, of DNA contained within a haploid nucleus")
 
 ## Humongous CIGAR strings
 
@@ -985,10 +1039,10 @@ only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
 
 ## Interesting gene names
 
-
 ## Update Dec 2023
 
-I extracted all the genes from a number of model organism databases here https://cmdcolin.github.io/genes/
+I extracted all the genes from a number of model organism databases here
+https://cmdcolin.github.io/genes/
 
 Here are some random highlights from earlier work
 
@@ -1058,10 +1112,20 @@ Here are some random highlights from earlier work
 - MAGOH - mago nashi (grandchildless)
   https://www.uniprot.org/uniprotkb/P61326/entry
 - IGL@ - locus https://en.wikipedia.org/wiki/IGL@
-- Spooky toxin - https://en.wikipedia.org/wiki/Ssm_spooky_toxin (https://twitter.com/depthsofwiki/status/1712555421918245242)
+- Spooky toxin - https://en.wikipedia.org/wiki/Ssm_spooky_toxin
+  (https://twitter.com/depthsofwiki/status/1712555421918245242)
 - Always early (aly) - http://flybase.org/reports/FBgn0004372.html
 - Lonely guy (LOG) - https://onlinelibrary.wiley.com/doi/full/10.1111/pbi.13783
-- PKZILLA (very large gene) - https://www-science-org.libproxy.berkeley.edu/doi/10.1126/science.ado3290
+- PKZILLA (very large gene) -
+  https://www-science-org.libproxy.berkeley.edu/doi/10.1126/science.ado3290
+- Dachshund (dac) "plays a role in leg development" (in flies)
+  https://en.wikipedia.org/wiki/Dachshund_(gene)
+- Blanks ("Loss of Blanks causes complete male sterility")
+  https://www.pnas.org/doi/10.1073/pnas.1009781108
+- LUMP (and with a p-element insertion p-lump)
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC3166160/
+- loquacious
+  https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=34751
 
 ### Allele names
 
