@@ -44,15 +44,27 @@ https://www.biorxiv.org/content/early/2018/12/11/493254
 
 An example in this paper kl-3 spans 4.3 million bp
 
+
 In human, an example is Dystrophin. "Dystrophin is coded for by the DMD gene –
 the largest known human gene, covering 2.4 megabases (0.08% of the human genome)
 at locus Xp21. The primary transcript in muscle measures about 2,100 kilobases
 and takes 16 hours to transcribe; the mature mRNA measures 14.0 kilobases"
 https://en.wikipedia.org/wiki/Dystrophin
 
-Note: these very large introns require very large amounts of DNA to be
+Note: these large introns require very large amounts of DNA to be
 transcribed into RNA, before just removing most of the transcribed RNA via
 intron splicing, which is sort of "wasteful" on a molecular level
+
+## Very large proteins
+
+An algae encodes a protein PKZILLA-1 that has a mass of 4.7 megadaltons and contains 140 enzyme domains
+https://cen.acs.org/biological-chemistry/PKZILLA-proteins-smash-protein-size/102/web/2024/08
+
+In human the TITIN gene (in muscle) has almost 4 megadaltons
+
+![](https://s7d1.scene7.com/is/image/CENODS/20240808lnp2-titinpkzilla?$responsive$&wid=700&qlt=90,0&resMode=sharp2)
+
+The DMD gene above, despite being large on the genome, only encodes a 70 kilo-dalton protein (not megadalton!) https://pmc.ncbi.nlm.nih.gov/articles/PMC49288/
 
 
 ### Small introns
