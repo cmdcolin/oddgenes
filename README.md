@@ -1046,26 +1046,54 @@ https://cmdcolin.github.io/genes/
 
 Here are some random highlights from earlier work
 
-- Tinman - https://en.wikipedia.org/wiki/Tinman_gene
-- Sonic hedgehog (SHH) - https://en.wikipedia.org/wiki/Sonic_hedgehog
-- Heart of glass (heg) - https://www.ncbi.nlm.nih.gov/pubmed/14680629
-- Dracula (drc) - https://www.ncbi.nlm.nih.gov/pubmed/10985389
-- Sleeping Beauty transposon -
+- Tinman - "In mutant or knockout organisms, the loss of tinman results in the
+  lack of heart formation" https://en.wikipedia.org/wiki/Tinman_gene
+- Sonic hedgehog (SHH) - SHH mutants have 'spiky' fruit fly embryos
+  https://en.wikipedia.org/wiki/Sonic_hedgehog
+- Robotnikin - antagonist of SHH, villain of the sonic hedgehog franchise -
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC2770933/
+- Heart of glass (heg) - a zebrafish gene with mutant phenotype "Individual heg
+  myocardial cells are also thinner than wild-type"
+  https://www.ncbi.nlm.nih.gov/pubmed/14680629
+- Dracula (drc) - "we isolated a mutation, dracula (drc), which manifested as a
+  light-dependent lysis of red blood cells"
+  https://www.ncbi.nlm.nih.gov/pubmed/10985389 (now renamed
+  https://zfin.org/ZDB-GENE-000928-1)
+- Sleeping Beauty transposon system -
   https://en.wikipedia.org/wiki/Sleeping_Beauty_transposon_system
-- Skywalker protein -
-  http://www.ebi.ac.uk/pdbe/entry/search/index?pubmed_id:27669036
-- Time for coffee - http://www.plantcell.org/content/15/11/2719.abstract
-- WTF - https://www.ebi.ac.uk/interpro/entry/IPR004982
+- Skywalker (sky) -
+  https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=35359
+- TIME FOR COFFEE (TIC) - "We characterize the time for coffee (tic) mutant that
+  disrupts circadian gating, photoperiodism, and multiple circadian rhythms,
+  with differential effects among rhythms"
+  https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=821807
+- WTF - "Some alleles of the wtf gene family can increase their chances of
+  spreading by using poisons to kill other alleles, and antidotes to save
+  themselves." - https://www.ebi.ac.uk/interpro/entry/IPR004982
   https://www.sciencedaily.com/releases/2017/06/170620093209.htm
-- Mothers against decapentaplegic -
+- Mothers against decapentaplegic - "it was found that a mutation in the gene in
+  the mother repressed the gene decapentaplegic in the embryo. The phrase
+  "Mothers against" was added as a humorous take-off"
   https://en.wikipedia.org/wiki/Mothers_against_decapentaplegic
 - Saxophone (sax) - http://www.sdbonline.org/sites/fly/gene/saxophon.htm
 - Beethovan (btv) - http://www.uniprot.org/uniprot/Q0E8P6
 - Superman+kryptonite - https://en.wikipedia.org/wiki/Superman_(gene)
 - Supervillin (SVIL) - https://www.uniprot.org/uniprot/O95425
 - Wishful thinking (wit) - https://www.wikigenes.org/e/gene/e/44096.html
-- Doublesex (dsx) - https://en.wikipedia.org/wiki/Doublesex
-- Fruitless (fru) - https://en.wikipedia.org/wiki/Fruitless_(gene)
+- Doublesex (dsx) - "The gene is expressed in both male and female flies and is
+  subject to alternative splicing, producing the protein isoforms dsx_f in
+  females and the longer dsx_m in males."
+  https://en.wikipedia.org/wiki/Doublesex
+- Fruitless (fru) - "Early work refers to the gene as fruity, an apparent pun on
+  both the common name of D. melanogaster, the fruit fly, as well as a slang
+  word for homosexual. As social attitudes towards homosexuality changed, fruity
+  came to be regarded as offensive, or at best, not politically correct. Thus,
+  the gene was re-dubbed fruitless, alluding to the lack of offspring produced
+  by flies with the mutation.[10] However, despite the original name and a
+  continuing history of misleading inferences by the popular media, fruitless
+  mutants primarily show defects in male-female courtship, though certain
+  mutants cause male-male or female-female courtship.[11]"
+  https://en.wikipedia.org/wiki/Fruitless_(gene)
 - Transformer (tra) - https://en.wikipedia.org/wiki/Transformer_(gene)
 - Gypsy+Flamenco - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1206375/ also
   described in wiki
@@ -1075,10 +1103,13 @@ Here are some random highlights from earlier work
 - Nanog - celtic legend
   https://www.sciencedaily.com/releases/2003/06/030602024530.htm (source
   https://twitter.com/EpgntxEinstein/status/1057359656220348417)
-- Jerky (jrk) - https://www.genecards.org/cgi-bin/carddisp.pl?gene=JRK
+- Jerky (jrk) - "A deficit in the Jerky protein in mice causes recurrent
+  seizures" https://www.genecards.org/cgi-bin/carddisp.pl?gene=JRK
 - Hippo (Hpo) - https://www.wikigenes.org/e/gene/e/37247.html
 - Dishevelled (Dsh) - https://en.wikipedia.org/wiki/Dishevelled
-- Glass bottom boat (gbb) -
+- Glass bottom boat (gbb) - "fruit fly larvae with a faulty glass bottom boat
+  gene are transparent"
+  https://www.thenakedscientists.com/articles/interviews/gene-month-glass-bottom-boat
   http://www.sdbonline.org/sites/fly/dbzhnsky/60a-1.htm
 - Makes caterpillars floppy (mcf) - https://www.pnas.org/content/99/16/10742
   (source https://twitter.com/JUNIUS_64/status/1081007886560608256)
@@ -1104,14 +1135,20 @@ Here are some random highlights from earlier work
   https://www.ebi.ac.uk/interpro/entry/IPR029069
 - Flower/fwe - https://flybase.org/reports/FBgn0261722.html
 - Brahma https://www.sdbonline.org/sites/fly/polycomb/brahma.htm
-- Pokemon/pikachu/zubat -
-  https://twitter.com/c0nc0rdance/status/1617191187365888002
+- Pokemon gene - "The Pokémon Company threatened MSKCC with legal action in
+  December 2005 for creating an association between cancer and the media
+  franchise, and as a consequence MSKCC is now referring to it by its gene name
+  Zbtb7" - Pokemon/pikachu/zubat (story
+  https://bsky.app/profile/c0nc0rdance.bsky.social/post/3k6w3gwtell2j)
 - Bring lots of money (blom7α)
   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781463/
   https://www.uniprot.org/uniprotkb/Q7Z7F0/entry
-- MAGOH - mago nashi (grandchildless)
-  https://www.uniprot.org/uniprotkb/P61326/entry
-- IGL@ - locus https://en.wikipedia.org/wiki/IGL@
+- MAGOH - Drosophila flies produce unfit progeny when they have mutations in
+  their mago nashi (Japanese: 孫なし, Hepburn: mago nashi,
+  lit. 'grandchildless') gene. The progeny have defects in germplasm assembly
+  and germline development https://www.uniprot.org/uniprotkb/P61326/entry
+- IGL@ - a locus containing many immunoglobulin genes, but why the @ sign?
+  https://en.wikipedia.org/wiki/IGL@
 - Spooky toxin - https://en.wikipedia.org/wiki/Ssm_spooky_toxin
   (https://twitter.com/depthsofwiki/status/1712555421918245242)
 - Always early (aly) - http://flybase.org/reports/FBgn0004372.html
