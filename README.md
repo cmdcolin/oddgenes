@@ -8,7 +8,7 @@ See also https://github.com/cmdcolin/oddbiology/ for more weird bio
 
 ### 1bp length exon
 
-Evidence given for a 1bp length exon in Arabadopsis and different splicing
+Evidence given for a 1bp length exon in Arabidopsis and different splicing
 models are discussed
 
 http://www.nature.com/articles/srep18087
@@ -863,7 +863,7 @@ https://www.cancer.gov/news-events/press-releases/2024/genetic-factors-predict-x
 ### Ring chromosome
 
 In organisms with normally linear chromosomes, circular or "ring" chromosomes
-can form from aberrant proceseses https://en.wikipedia.org/wiki/Ring_chromosome
+can form from aberrant processes https://en.wikipedia.org/wiki/Ring_chromosome
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/da/NLM_ring_chromosome.jpg)
 
