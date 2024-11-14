@@ -515,15 +515,14 @@ https://www.nature.com/articles/s41467-021-25948-y
 ### Complex DNA structures
 
 The standard DNA double stranded helix is called B-DNA
-(https://genome.cshlp.org/content/early/2018/11/06/gr.241257.118.abstract)
 
-Other geometries are possible
-https://en.wikipedia.org/wiki/Nucleic_acid_double_helix#Helix_geometries
+"There are also triple-stranded DNA forms and quadruplex forms such as the
+G-quadruplex and the i-motif. "
+https://en.wikipedia.org/wiki/Nucleic_acid_double_helix
 
-Complex structures such as four stranded quadruplex have been found that could
-have biological functions
+### Triplex DNA
 
-See https://news.cnrs.fr/articles/unlocking-the-secrets-of-four-strand-dna
+https://en.wikipedia.org/wiki/Triple-stranded_DNA
 
 ### Polytene chromosome
 
