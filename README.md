@@ -55,9 +55,9 @@ into RNA, before just removing most of the transcribed RNA via intron splicing,
 which is sort of "wasteful" on a molecular level
 
 
-## Large number of exons
+### Large number of exons
 
-The TTN (titan) gene has ~364 exons, which is almost double the next most NEB (nebulin) at ~184 exons
+In human, the TTN (titan) gene has ~364 exons, which is almost double the next most NEB (nebulin) at ~184 exons
 
 https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=7273
 
