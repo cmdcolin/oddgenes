@@ -443,6 +443,12 @@ trans-splicing"
 
 http://www.wormbook.org/chapters/www_overviewgenestructure.2/genestructure.html
 
+Another paper says "Once considered rare in eukaryotes, polycistronic mRNA expression has been identified in kinetoplastids and, more
+recently, green algae, red algae, and certain fungi. This study provides comprehensive evidence supporting the
+existence of polycistronic mRNA expression in the apicomplexan parasite Cryptosporidium parvum"
+
+https://www.biorxiv.org/content/10.1101/2025.01.17.633476v1.full.pdf
+
 ### Trans-splicing of exons on different strands
 
 A pre-mRNA from both strands of DNA eri6 and eri7 are combined to create eri-6/7
