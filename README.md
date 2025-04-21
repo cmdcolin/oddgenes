@@ -54,10 +54,10 @@ Note: these large introns require very large amounts of DNA to be transcribed
 into RNA, before just removing most of the transcribed RNA via intron splicing,
 which is sort of "wasteful" on a molecular level
 
-
 ### Large number of exons
 
-In human, the TTN (titan) gene has ~364 exons, which is almost double the next most NEB (nebulin) at ~184 exons
+In human, the TTN (titan) gene has ~364 exons, which is almost double the next
+most NEB (nebulin) at ~184 exons
 
 https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=7273
 
@@ -443,9 +443,11 @@ trans-splicing"
 
 http://www.wormbook.org/chapters/www_overviewgenestructure.2/genestructure.html
 
-Another paper says "Once considered rare in eukaryotes, polycistronic mRNA expression has been identified in kinetoplastids and, more
-recently, green algae, red algae, and certain fungi. This study provides comprehensive evidence supporting the
-existence of polycistronic mRNA expression in the apicomplexan parasite Cryptosporidium parvum"
+Another paper says "Once considered rare in eukaryotes, polycistronic mRNA
+expression has been identified in kinetoplastids and, more recently, green
+algae, red algae, and certain fungi. This study provides comprehensive evidence
+supporting the existence of polycistronic mRNA expression in the apicomplexan
+parasite Cryptosporidium parvum"
 
 https://www.biorxiv.org/content/10.1101/2025.01.17.633476v1.full.pdf
 
@@ -1176,6 +1178,8 @@ Here are some random highlights from earlier work
 - loquacious
   https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=34751
 - TOPLESS https://pmc.ncbi.nlm.nih.gov/articles/PMC2643930/
+- hemingway https://www.ncbi.nlm.nih.gov/gene/42207
+- RAVER2 https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+RAVER2
 
 ### Allele names
 
