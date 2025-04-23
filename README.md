@@ -780,6 +780,15 @@ diversity
 
 - https://en.wikipedia.org/wiki/Human_leukocyte_antigen
 
+## Repeats
+
+### 235,000 letters worth of just simply TAG
+
+In the Maize genome, Mo17, sequenced "T2T"
+
+https://www.nature.com/articles/s41588-023-01419-6
+
+
 ## Structural variations
 
 ### Tandem duplication
