@@ -782,9 +782,9 @@ diversity
 
 ## Repeats
 
-### 235,000 letters worth of just simply TAG
+### 235kb of just just TAG
 
-In the Maize genome, Mo17, sequenced "T2T"
+In the Maize genome, Mo17, sequenced "T2T", they mention this very large simple repeat in the abstract...cause it's that silly
 
 https://www.nature.com/articles/s41588-023-01419-6
 
