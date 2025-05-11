@@ -1150,6 +1150,7 @@ Here are some random highlights from earlier work
 - King-tubby https://www.uniprot.org/uniprot/B0XFQ9 see also tubby
   https://www.uniprot.org/uniprot/P50586
 - fucK https://www.uniprot.org/uniprot/?query=fuck&sort=score
+- scarecrow https://academic.oup.com/g3journal/article/15/5/jkaf055/8071394?login=false&utm_source=etoc&utm_campaign=g3journal&utm_medium=email
 - Halloween genes https://en.wikipedia.org/wiki/Halloween_genes
 - VANDAL21
   https://www.arabidopsis.org/servlets/TairObject?type=transposon_family&id=139
