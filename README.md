@@ -1190,7 +1190,8 @@ Here are some random highlights from earlier work
 - TOPLESS https://pmc.ncbi.nlm.nih.gov/articles/PMC2643930/
 - hemingway https://www.ncbi.nlm.nih.gov/gene/42207
 - RAVER2 https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+RAVER2
-
+- ARSE https://www.ncbi.nlm.nih.gov/gene/100627778
+- 
 ### Allele names
 
 Sometimes it is not the gene, but the allele that is named
