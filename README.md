@@ -581,7 +581,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4442802/
 ### Programmed DNA elimination
 
 "While we commonly assume the genome to be largely identical across different
-cells of a multicellular organism, a number of species undergo a developmentally
+cells of a multicellular organism, a number of species undergo a developmental
 regulated elimination process by which the genome in somatic cells is reduced,
 while the germline genome remains intact. This process, called Programmed DNA
 Elimination (PDE), affects a number of species including copepod crustaceans,
@@ -592,6 +592,13 @@ From ISMB2023 video "Deciphering developmentally programmed DNA elimination in
 Mesorhabditis nematodes" https://www.youtube.com/watch?v=2x6ElKeISRY
 
 See also the term "internal eliminated sequences" (IES)
+
+### Self-editing genomes
+
+"How and when organisms edit their own genomes"
+https://www.nature.com/articles/s41588-025-02230-1
+
+Programmed DNA elimination, VDJ recombination, CRISPR, and more are examples of self-editing
 
 ### Range of ploidy
 
