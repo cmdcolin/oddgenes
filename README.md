@@ -614,6 +614,9 @@ Lots of interesting examples from here
 
 example: "In most scale insects, males are parahaploid: although they have two sets of chromosomes, only chromosomes of maternal origin are active, and only they are passed on to offspring"
 
+See also intragenomic conflict/meiotic drive https://en.wikipedia.org/wiki/Intragenomic_conflict#Segregation_distortion
+
+
 ### Range of ploidy
 
 Wikipedia lists this table with examples of organisms with different ploidy
