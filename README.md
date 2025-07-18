@@ -606,6 +606,14 @@ Programmed DNA elimination, VDJ recombination, CRISPR, germline restricted chrom
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9508068/
 
+## Non-random segregation of chromosomes
+
+https://en.wikipedia.org/wiki/Non-random_segregation_of_chromosomes
+
+Lots of interesting examples from here
+
+example: "In most scale insects, males are parahaploid: although they have two sets of chromosomes, only chromosomes of maternal origin are active, and only they are passed on to offspring"
+
 ### Range of ploidy
 
 Wikipedia lists this table with examples of organisms with different ploidy
