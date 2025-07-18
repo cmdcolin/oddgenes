@@ -1198,7 +1198,8 @@ Here are some random highlights from earlier work
 - hemingway https://www.ncbi.nlm.nih.gov/gene/42207
 - RAVER2 https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+RAVER2
 - ARSE https://www.ncbi.nlm.nih.gov/gene/100627778
-- 
+- XXX https://www.ncbi.nlm.nih.gov/gene/1260943
+
 ### Allele names
 
 Sometimes it is not the gene, but the allele that is named
