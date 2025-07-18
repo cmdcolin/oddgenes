@@ -598,7 +598,13 @@ See also the term "internal eliminated sequences" (IES)
 "How and when organisms edit their own genomes"
 https://www.nature.com/articles/s41588-025-02230-1
 
-Programmed DNA elimination, VDJ recombination, CRISPR, and more are examples of self-editing
+Programmed DNA elimination, VDJ recombination, CRISPR, germline restricted chromosomes, and more are examples of self-editing
+
+## Germline-restricted chromosomes
+
+"Germline-restricted chromosomes (GRCs) are accessory chromosomes that occur only in germ cells. They are eliminated from somatic cells through programmed DNA elimination during embryo development. GRCs have been observed in several unrelated animal taxa and show peculiar modes of non-Mendelian inheritance and within-individual elimination. "
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9508068/
 
 ### Range of ploidy
 
