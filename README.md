@@ -37,6 +37,8 @@ sequence at the 3' splice site junction was AG/GT"
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
+It was found that aberrant recursive splicing could potentially contribute to disease https://www.biorxiv.org/content/10.1101/2025.08.14.666599v1?med=mas
+
 ### Very large introns
 
 Satellite DNA study uncovers megabase scale introns
