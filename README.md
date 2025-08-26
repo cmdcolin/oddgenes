@@ -1218,6 +1218,7 @@ Here are some random highlights from earlier work
 - RAVER2 https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+RAVER2
 - ARSE https://www.ncbi.nlm.nih.gov/gene/100627778
 - XXX https://www.ncbi.nlm.nih.gov/gene/1260943
+- LAZY https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2020.606241/full
 
 ### Allele names
 
