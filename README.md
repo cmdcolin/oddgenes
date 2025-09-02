@@ -1220,7 +1220,7 @@ Here are some random highlights from earlier work
 - XXX https://www.ncbi.nlm.nih.gov/gene/1260943
 - LAZY https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2020.606241/full
 - BABY BOOM https://pubmed.ncbi.nlm.nih.gov/30298388/
-- fiz/fezzik - character from the Princess Bride movie https://flybase.org/reports/FBgn0030594.htm
+- fiz/fezzik - "embryos and adult flies completely lacking CG9509 are unusually large - hence renaming it after the gentle giant Fezzik" (from the movie The Princess Bride) https://flybase.org/reports/FBgn0030594.htm https://www.thenakedscientists.com/articles/science-features/gene-month-fezzik
 - Shavenbaby https://en.wikipedia.org/wiki/Shavenbaby see also polished rice (pri)
 
 ### Allele names
