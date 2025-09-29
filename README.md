@@ -672,7 +672,7 @@ RNA editing can be conditional; mammalian apolipoprotein B is synthesized as a
 48 kilodalton form or a 100 kilodalton form; the latter is created by editing
 out a stop codon to enable read through
 
-Other editing occurs also https://en.wikipedia.org/wiki/RNA_editing
+Other editing also occurs https://en.wikipedia.org/wiki/RNA_editing
 
 Editing in some ciliate mitochondria adds information to messages and can
 increase the length of the final message by over 2-fold.
@@ -690,15 +690,16 @@ _CDK13_: https://genome.cshlp.org/content/21/11/1788.short
 ### Maternal RNAs being passed down
 
 Maternal RNAs can show activity in the zygote (e.g.
-https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition) which can lead to
+https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition), which can lead to
 complex transgenerational effects
 
 ### Lowly expressed RNA has large effects
 
 A lncRNA VELUCT almost flies under the radar in a lung cancer screen due to
-being very lowly expressed such that it is "below the detection limit in total
+being very lowly expressed, such that it is "below the detection limit in total
 RNA from NCI-H460 cells by RT-qPCR as well as RNA-Seq", however this study
-confirms it as a factor in experiments
+confirms it as a factor in experiments (2025 note: this article has basically 
+no citations, unclear whether it actually is impactful)
 
 https://www.ncbi.nlm.nih.gov/pubmed/28160600?dopt=Abstract
 
