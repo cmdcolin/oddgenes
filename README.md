@@ -1223,6 +1223,7 @@ Here are some random highlights from earlier work
 - BABY BOOM https://pubmed.ncbi.nlm.nih.gov/30298388/
 - fiz/fezzik - "embryos and adult flies completely lacking CG9509 are unusually large - hence renaming it after the gentle giant Fezzik" (from the movie The Princess Bride) https://flybase.org/reports/FBgn0030594.htm https://www.thenakedscientists.com/articles/science-features/gene-month-fezzik
 - Shavenbaby https://en.wikipedia.org/wiki/Shavenbaby see also polished rice (pri)
+- DAD - defender against death https://www.ncbi.nlm.nih.gov/gene/1603
 
 ### Allele names
 
