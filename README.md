@@ -439,7 +439,7 @@ Although prevalent in bacteria, operons are not common in eukaryotes. However,
 they are common in C. elegans specifically. "A characteristic feature of the
 worm genome is the existence of genes organized into operons. These
 polycistronic gene clusters contain two or more closely spaced genes, which are
-oriented in a head to tail direction. They are transcribed as a single
+oriented in a head-to-tail direction. They are transcribed as a single
 polycistronic mRNA and separated into individual mRNAs by the process of
 trans-splicing"
 
@@ -536,6 +536,14 @@ The standard DNA double stranded helix is called B-DNA
 "There are also triple-stranded DNA forms and quadruplex forms such as the
 G-quadruplex and the i-motif. "
 https://en.wikipedia.org/wiki/Nucleic_acid_double_helix
+
+### Maxicircle architecture
+
+Seen in trypanosomes
+
+<img width="327" height="283" alt="image" src="https://github.com/user-attachments/assets/a812b3ef-738d-4743-a3a0-905b482da55d" />
+
+Figure from https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/kinetoplast-dna
 
 ### Triplex DNA
 
