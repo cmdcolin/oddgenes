@@ -37,7 +37,8 @@ sequence at the 3' splice site junction was AG/GT"
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
-It was found that aberrant recursive splicing could potentially contribute to disease https://www.biorxiv.org/content/10.1101/2025.08.14.666599v1?med=mas
+It was found that aberrant recursive splicing could potentially contribute to
+disease https://www.biorxiv.org/content/10.1101/2025.08.14.666599v1?med=mas
 
 ### Very large introns
 
@@ -543,7 +544,8 @@ Seen in trypanosomes
 
 <img width="327" height="283" alt="image" src="https://github.com/user-attachments/assets/a812b3ef-738d-4743-a3a0-905b482da55d" />
 
-Figure from https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/kinetoplast-dna
+Figure from
+https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/kinetoplast-dna
 
 ### Triplex DNA
 
@@ -608,11 +610,19 @@ See also the term "internal eliminated sequences" (IES)
 "How and when organisms edit their own genomes"
 https://www.nature.com/articles/s41588-025-02230-1
 
-Programmed DNA elimination, VDJ recombination, CRISPR, germline restricted chromosomes, and more are examples of self-editing
+Programmed DNA elimination, VDJ recombination, CRISPR, germline restricted
+chromosomes, and more are examples of self-editing (quote from article: "Notable
+examples include the somatic diversification of immunoglobulin genes, which is
+the foundation of the vertebrate immune system, and natural CRISPR spacer arrays
+in bacteria, which recognize and cleave foreign DNA")
 
 ## Germline-restricted chromosomes
 
-"Germline-restricted chromosomes (GRCs) are accessory chromosomes that occur only in germ cells. They are eliminated from somatic cells through programmed DNA elimination during embryo development. GRCs have been observed in several unrelated animal taxa and show peculiar modes of non-Mendelian inheritance and within-individual elimination. "
+"Germline-restricted chromosomes (GRCs) are accessory chromosomes that occur
+only in germ cells. They are eliminated from somatic cells through programmed
+DNA elimination during embryo development. GRCs have been observed in several
+unrelated animal taxa and show peculiar modes of non-Mendelian inheritance and
+within-individual elimination. "
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9508068/
 
@@ -622,10 +632,12 @@ https://en.wikipedia.org/wiki/Non-random_segregation_of_chromosomes
 
 Lots of interesting examples from here
 
-example: "In most scale insects, males are parahaploid: although they have two sets of chromosomes, only chromosomes of maternal origin are active, and only they are passed on to offspring"
+example: "In most scale insects, males are parahaploid: although they have two
+sets of chromosomes, only chromosomes of maternal origin are active, and only
+they are passed on to offspring"
 
-See also intragenomic conflict/meiotic drive https://en.wikipedia.org/wiki/Intragenomic_conflict#Segregation_distortion
-
+See also intragenomic conflict/meiotic drive
+https://en.wikipedia.org/wiki/Intragenomic_conflict#Segregation_distortion
 
 ### Range of ploidy
 
@@ -706,8 +718,8 @@ complex transgenerational effects
 A lncRNA VELUCT almost flies under the radar in a lung cancer screen due to
 being very lowly expressed, such that it is "below the detection limit in total
 RNA from NCI-H460 cells by RT-qPCR as well as RNA-Seq", however this study
-confirms it as a factor in experiments (2025 note: this article has basically 
-no citations, unclear whether it actually is impactful)
+confirms it as a factor in experiments (2025 note: this article has basically no
+citations, unclear whether it actually is impactful)
 
 https://www.ncbi.nlm.nih.gov/pubmed/28160600?dopt=Abstract
 
@@ -819,10 +831,10 @@ diversity
 
 ### 235kb of just just TAG
 
-In the Maize genome, Mo17, sequenced "T2T", they mention this very large simple repeat in the abstract...cause it's that silly
+In the Maize genome, Mo17, sequenced "T2T", they mention this very large simple
+repeat in the abstract...cause it's that silly
 
 https://www.nature.com/articles/s41588-023-01419-6
-
 
 ## Structural variations
 
@@ -1185,8 +1197,10 @@ Here are some random highlights from earlier work
 - King-tubby https://www.uniprot.org/uniprot/B0XFQ9 see also tubby
   https://www.uniprot.org/uniprot/P50586
 - fucK https://www.uniprot.org/uniprot/?query=fuck&sort=score
-- scarecrow https://academic.oup.com/g3journal/article/15/5/jkaf055/8071394?login=false&utm_source=etoc&utm_campaign=g3journal&utm_medium=email
-- Halloween genes (spook, disembodied, phantom, shadow, shade) https://en.wikipedia.org/wiki/Halloween_genes 
+- scarecrow
+  https://academic.oup.com/g3journal/article/15/5/jkaf055/8071394?login=false&utm_source=etoc&utm_campaign=g3journal&utm_medium=email
+- Halloween genes (spook, disembodied, phantom, shadow, shade)
+  https://en.wikipedia.org/wiki/Halloween_genes
 - VANDAL21
   https://www.arabidopsis.org/servlets/TairObject?type=transposon_family&id=139
 - HotDog domain - superfamily of genes/proteins
@@ -1227,10 +1241,15 @@ Here are some random highlights from earlier work
 - RAVER2 https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+RAVER2
 - ARSE https://www.ncbi.nlm.nih.gov/gene/100627778
 - XXX https://www.ncbi.nlm.nih.gov/gene/1260943
-- LAZY https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2020.606241/full
+- LAZY
+  https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2020.606241/full
 - BABY BOOM https://pubmed.ncbi.nlm.nih.gov/30298388/
-- fiz/fezzik - "embryos and adult flies completely lacking CG9509 are unusually large - hence renaming it after the gentle giant Fezzik" (from the movie The Princess Bride) https://flybase.org/reports/FBgn0030594.htm https://www.thenakedscientists.com/articles/science-features/gene-month-fezzik
-- Shavenbaby https://en.wikipedia.org/wiki/Shavenbaby see also polished rice (pri)
+- fiz/fezzik - "embryos and adult flies completely lacking CG9509 are unusually
+  large - hence renaming it after the gentle giant Fezzik" (from the movie The
+  Princess Bride) https://flybase.org/reports/FBgn0030594.htm
+  https://www.thenakedscientists.com/articles/science-features/gene-month-fezzik
+- Shavenbaby https://en.wikipedia.org/wiki/Shavenbaby see also polished rice
+  (pri)
 - DAD - defender against death https://www.ncbi.nlm.nih.gov/gene/1603
 
 ### Allele names
