@@ -1251,6 +1251,7 @@ Here are some random highlights from earlier work
 - Shavenbaby https://en.wikipedia.org/wiki/Shavenbaby see also polished rice
   (pri)
 - DAD - defender against death https://www.ncbi.nlm.nih.gov/gene/1603
+- Hang (hangover) - https://www.alliancegenome.org/gene/FB:FBgn0026575
 
 ### Allele names
 
