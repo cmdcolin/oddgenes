@@ -893,6 +893,8 @@ human genes are bidirectionally paired."
 "The two genes are often functionally related, and modification of their shared
 promoter region allows them to be co-regulated and thus co-expressed"
 
+See also 'divergently paired genes' https://academic.oup.com/gpb/article/23/4/qzaf058/8174973?login=false&utm_source=etoc&utm_campaign=gpb&utm_medium=email&nbd_source=campaigner&nbd=45398946253
+
 ## Chromosomal abnormalities
 
 ### Uniparental disomy (UPD)
