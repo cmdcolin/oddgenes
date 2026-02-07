@@ -1254,6 +1254,7 @@ Here are some random highlights from earlier work
   (pri)
 - DAD - defender against death https://www.ncbi.nlm.nih.gov/gene/1603
 - Hang (hangover) - https://www.alliancegenome.org/gene/FB:FBgn0026575
+- Pickpocket315 - https://academic.oup.com/g3journal/article/16/2/jkaf297/8375787
 
 ### Allele names
 
