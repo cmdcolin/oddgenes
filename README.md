@@ -82,11 +82,12 @@ https://www.news-medical.net/news/20240215/Novel-splicing-mechanism-for-short-in
 
 ### Very large proteins
 
-An alga described in 2024 encodes a protein PKZILLA-1 that has a mass of
-4.7 megadaltons and contains 140 enzyme domains
+An alga described in 2024 encodes a protein PKZILLA-1 that has a mass of 4.7
+megadaltons and contains 140 enzyme domains
 https://cen.acs.org/biological-chemistry/PKZILLA-proteins-smash-protein-size/102/web/2024/08
 
-In human the TTN gene encodes the titin protein (in muscle) at almost 4 megadaltons
+In human the TTN gene encodes the titin protein (in muscle) at almost 4
+megadaltons
 
 ![](https://s7d1.scene7.com/is/image/CENODS/20240808lnp2-titinpkzilla?$responsive$&wid=700&qlt=90,0&resMode=sharp2)
 
@@ -94,6 +95,15 @@ The DMD gene above, despite being the largest known human gene (2.4 Mb), encodes
 a ~427 kDa protein — large, but nowhere near megadalton scale. A shorter isoform
 Dp71 (~71 kDa) is expressed in non-muscle tissues.
 https://pmc.ncbi.nlm.nih.gov/articles/PMC49288/
+
+### Loop-out exon skipping via inverted Alu repeats
+
+Inverted Alu pairs flanking an exon can fold into an RNA stem-loop hairpin that
+physically loops the exon out, causing skipping through RNA secondary structure
+alone rather than splicing factors. ~707 human exons are affected, including
+TBXT (linked to tail loss in hominoids).
+
+https://academic.oup.com/nar/article/54/6/gkag196/8539533
 
 ### Backsplicing and circRNAs
 
@@ -138,8 +148,7 @@ critical — altering it is lethal to the virus. The Gag-Pol polyprotein is then
 cleaved by the viral protease (which is itself part of the polyprotein) to
 produce reverse transcriptase, integrase, and protease.
 
-https://en.wikipedia.org/wiki/Gag-pol
-https://en.wikipedia.org/wiki/Pol_(HIV)
+https://en.wikipedia.org/wiki/Gag-pol https://en.wikipedia.org/wiki/Pol_(HIV)
 
 ![Ribosomal frameshift](img/ribosomal_frameshift.jpg)
 
@@ -219,11 +228,11 @@ https://www.nature.com/articles/nrg3963
 ### Stop codons can be created by RNA editing
 
 In mammalian apolipoprotein B, RNA editing introduces a premature stop codon
-rather than removing one. The default unedited mRNA encodes the full-length
-B100 isoform (550 kDa). In the intestine, C-to-U editing at nucleotide 6666
-converts a glutamine codon (CAA) into a stop codon (UAA), producing the
-truncated B48 isoform (265 kDa). This is one of the best-characterized
-examples of RNA editing altering protein output.
+rather than removing one. The default unedited mRNA encodes the full-length B100
+isoform (550 kDa). In the intestine, C-to-U editing at nucleotide 6666 converts
+a glutamine codon (CAA) into a stop codon (UAA), producing the truncated B48
+isoform (265 kDa). This is one of the best-characterized examples of RNA editing
+altering protein output.
 
 https://pubmed.ncbi.nlm.nih.gov/8409768/
 
@@ -238,9 +247,8 @@ Translation termination is therefore "context dependent" — determined by
 surrounding sequence rather than just the 3-letter codon
 https://pubmed.ncbi.nlm.nih.gov/27426948/
 
-Ciliates keep showing up in this document — they also perform programmed DNA
-elimination (see that section) and have some of the smallest known introns (see
-small introns section)
+See also how Ciliates perform programmed DNA elimination (see that section) and
+have some of the smallest known introns (see small introns section)
 
 ### Readthrough transcription
 
@@ -270,8 +278,8 @@ https://en.wikipedia.org/wiki/Minor_spliceosome
 ### Cryptic splice sites
 
 Cryptic splice sites are sequences that resemble splice sites but are normally
-not used. They can be activated by mutations that disrupt normal splice sites, or
-by changes in splicing factor expression. Deep intronic variants are a major
+not used. They can be activated by mutations that disrupt normal splice sites,
+or by changes in splicing factor expression. Deep intronic variants are a major
 source, accounting for a large fraction of splice-disrupting events in genetic
 disease.
 
@@ -305,16 +313,16 @@ Review: https://link.springer.com/article/10.1186/s13024-023-00608-5
 
 ### Poison exons
 
-Poison exons are conserved alternative exons that contain a premature termination
-codon (PTC). When included via alternative splicing, the PTC triggers NMD,
-degrading the transcript. Unlike cryptic exons which are aberrantly activated,
-poison exons are a deliberate gene regulation mechanism: cells fine-tune protein
-levels by adjusting the ratio of productive (poison-exon-skipped) vs.
-NMD-targeted (poison-exon-included) transcripts.
+Poison exons are conserved alternative exons that contain a premature
+termination codon (PTC). When included via alternative splicing, the PTC
+triggers NMD, degrading the transcript. Unlike cryptic exons which are
+aberrantly activated, poison exons are a deliberate gene regulation mechanism:
+cells fine-tune protein levels by adjusting the ratio of productive
+(poison-exon-skipped) vs. NMD-targeted (poison-exon-included) transcripts.
 
 Splicing factors like SR proteins and hnRNPs autoregulate their own levels via
-poison exon inclusion. Therapeutically, ASOs that block poison exon inclusion can
-upregulate expression of disease-relevant genes.
+poison exon inclusion. Therapeutically, ASOs that block poison exon inclusion
+can upregulate expression of disease-relevant genes.
 
 Review https://www.sciencedirect.com/science/article/pii/S0165614725000021
 
@@ -333,13 +341,11 @@ human coding genes are affected in tumors vs. 17% in normal tissue, and they can
 generate tumor-specific neoepitopes
 https://www.cell.com/molecular-cell/fulltext/S1097-2765(21)00223-9
 
-Original paper defining exitrons
-https://genome.cshlp.org/content/25/7/995.full
+Original paper defining exitrons https://genome.cshlp.org/content/25/7/995.full
 
 ### Wobble splicing
 
-NAGNAG, GYNGYN, repeats of the splicing signal cause modified splicing
-behavior
+NAGNAG, GYNGYN, repeats of the splicing signal cause modified splicing behavior
 
 "Another mechanism introducing small variations to protein isoforms is wobble
 splicing. Here, a GYN repeat at the donor splice site (5’ splice site; Y stands
@@ -367,8 +373,8 @@ the catalysis is actually performed by its RNA components (snRNAs). There is
 also self-splicing RNA where the RNA catalyzes its own splicing without the
 spliceosome
 
-Group I introns use a free guanosine as a cofactor to catalyze their own excision
-https://en.wikipedia.org/wiki/Group_I_catalytic_intron
+Group I introns use a free guanosine as a cofactor to catalyze their own
+excision https://en.wikipedia.org/wiki/Group_I_catalytic_intron
 
 Group II introns use a different mechanism (lariat formation, similar to
 spliceosomal introns) and are thought to be evolutionary ancestors of the
@@ -431,14 +437,12 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6207430/
 
 In vertebrate mitochondria, UGA codes for tryptophan instead of stop, and
 AGA/AGG code for stop instead of arginine — a direct reversal of the standard
-code
-https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2
+code https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2
 
 The number of known alternative codes keeps growing — NCBI is currently up to
 table 33, and computational screening of 250,000+ genomes (including
 metagenome-assembled genomes) has found additional codes not yet officially
-adopted
-https://elifesciences.org/articles/71402
+adopted https://elifesciences.org/articles/71402
 
 ### Untranslated regions
 
@@ -447,7 +451,8 @@ not translated into protein — the 5' UTR is before the start codon, the 3' UTR
 is after the stop codon. Unlike introns, UTRs are retained in the final mRNA.
 They are often targets of miRNA binding which can lead to degradation.
 
-This blog post by Ensembl shows how they annotate UTR and a 19kb 3' UTR in Grin2b
+This blog post by Ensembl shows how they annotate UTR and a 19kb 3' UTR in
+Grin2b
 http://www.ensembl.info/2018/08/17/ensembl-insights-how-are-utrs-annotated/
 
 ### Polyadenylation
@@ -542,8 +547,7 @@ Some articles
 
 Hepatitis B is an extreme example of overlapping genes — its ~3.2 kb genome
 packs 4 overlapping reading frames, with every nucleotide belonging to at least
-one gene
-https://pmc.ncbi.nlm.nih.gov/articles/PMC3126273/
+one gene https://pmc.ncbi.nlm.nih.gov/articles/PMC3126273/
 
 ![HBV genome showing overlapping ORFs](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HBV_Genome.svg/800px-HBV_Genome.svg.png)
 
@@ -551,25 +555,26 @@ Figure from https://commons.wikimedia.org/wiki/File:HBV_Genome.svg
 
 ### Antisense transcription
 
-Many genes produce transcripts from both strands of DNA at the same locus. Up
-to 70% of mammalian genes show evidence of antisense transcription. These
-natural antisense transcripts (NATs) can regulate the sense gene through various
-mechanisms
-https://www.nature.com/articles/nrm2738
+Many genes produce transcripts from both strands of DNA at the same locus. Up to
+70% of mammalian genes show evidence of antisense transcription. These natural
+antisense transcripts (NATs) can regulate the sense gene through various
+mechanisms https://www.nature.com/articles/nrm2738
 
 The Xist/Tsix pair (see X chromosome inactivation section) is a well-known
 example — Tsix is an antisense transcript that represses Xist on the active X
 
 ### Nested genes (genes within introns)
 
-Entirely distinct genes can reside within the introns of larger genes, transcribed
-independently and often from the opposite strand. The NF1 gene (~350 kb, 60 exons)
-has three genes inside its largest intron (intron 27b, ~60 kb), all on the
-opposite strand:
+Entirely distinct genes can reside within the introns of larger genes,
+transcribed independently and often from the opposite strand. The NF1 gene (~350
+kb, 60 exons) has three genes inside its largest intron (intron 27b, ~60 kb),
+all on the opposite strand:
 
 - **OMGP** — oligodendrocyte-myelin glycoprotein, inhibits neurite outgrowth
-- **EVI2B** — transmembrane glycoprotein required for granulocytic differentiation
-- **EVI2A** — putative transmembrane protein involved in hematopoietic specification
+- **EVI2B** — transmembrane glycoprotein required for granulocytic
+  differentiation
+- **EVI2A** — putative transmembrane protein involved in hematopoietic
+  specification
 
 None carry mutations causative for neurofibromatosis — they are regulated
 independently of NF1.
@@ -582,8 +587,8 @@ Many mRNAs contain small open reading frames in their 5' UTR, upstream of the
 main protein-coding ORF. These uORFs are translated by ribosomes before they
 reach the main start codon, and can regulate translation of the downstream
 protein — often by reducing its translation efficiency, but sometimes by
-producing small functional peptides. About 50% of human mRNAs contain uORFs,
-yet they are routinely ignored by gene annotation pipelines.
+producing small functional peptides. About 50% of human mRNAs contain uORFs, yet
+they are routinely ignored by gene annotation pipelines.
 
 https://en.wikipedia.org/wiki/Upstream_open_reading_frame
 
@@ -610,10 +615,10 @@ https://www.pnas.org/doi/10.1073/pnas.0503528102
 Two Cytochrome P450 genes that don't confer any insecticide resistance on their
 own but a chimeric P450 does https://pubmed.ncbi.nlm.nih.gov/22949643/
 
-SDIC in Drosophila melanogaster is a chimera of annexin X and cytoplasmic
-dynein intermediate chain that converted a cytoplasmic motor protein into a
-sperm-tail motor protein by replacing the original functional domain. Present
-in ~10 tandem copies on the X chromosome, it boosts sperm competition
+SDIC in Drosophila melanogaster is a chimera of annexin X and cytoplasmic dynein
+intermediate chain that converted a cytoplasmic motor protein into a sperm-tail
+motor protein by replacing the original functional domain. Present in ~10 tandem
+copies on the X chromosome, it boosts sperm competition
 https://www.nature.com/articles/25126
 
 Sphinx is a chimeric gene formed by retroposition of an ATP synthase gene that
@@ -632,15 +637,13 @@ https://www.pnas.org/doi/10.1073/pnas.0404640101
 PIPSL was created when two adjacent genes (PIP5K1A and PSMD4) were transcribed
 as a readthrough mRNA, reverse-transcribed by L1 retrotransposon, and inserted
 elsewhere in the genome. Different hominoid species are at different stages of
-keeping or losing this gene
-https://genome.cshlp.org/content/17/8/1129.full
+keeping or losing this gene https://genome.cshlp.org/content/17/8/1129.full
 
 The antifreeze glycoprotein (AFGP) gene in Antarctic notothenioid fish evolved
 from a trypsinogen gene. The entire protein core was replaced by de novo
 amplification of a 9-nucleotide repeat from a tiny element at the boundary of
 trypsinogen's first intron. The resulting protein has zero sequence homology to
-its parent gene
-https://www.pnas.org/doi/10.1073/pnas.94.8.3811
+its parent gene https://www.pnas.org/doi/10.1073/pnas.94.8.3811
 
 ### Transposon-mediated chimeric genes
 
@@ -649,9 +652,9 @@ and carry them to new genomic locations, creating chimeric genes. This
 "transduplication" occurs across multiple transposon superfamilies and is a
 major source of new genes, especially in plants.
 
-Pack-MULEs in rice carry fragments from >1,000 genes, with ~23% fusing
-fragments from multiple loci into chimeric ORFs. Also found in maize and the
-dicot Lotus japonicus, suggesting this predates the monocot-dicot split
+Pack-MULEs in rice carry fragments from >1,000 genes, with ~23% fusing fragments
+from multiple loci into chimeric ORFs. Also found in maize and the dicot Lotus
+japonicus, suggesting this predates the monocot-dicot split
 https://www.nature.com/articles/nature02953
 
 Helitrons (rolling-circle transposons) are the main gene-capturing transposons
@@ -687,8 +690,8 @@ The leader sequence only affects the untranslated region of the mRNA, so it does
 not change the resulting protein.
 
 This mechanism has evolved independently 10+ times across very different
-organisms. In trypanosomes, 100% of mRNAs get a spliced leader added — it is
-the only way to produce individual mRNAs from their polycistronic transcripts
+organisms. In trypanosomes, 100% of mRNAs get a spliced leader added — it is the
+only way to produce individual mRNAs from their polycistronic transcripts
 https://royalsocietypublishing.org/doi/10.1098/rsob.190072
 
 In dinoflagellates, all mRNAs also get a spliced leader
@@ -698,8 +701,7 @@ The tunicate Oikopleura dioica is the only chordate known to use it
 https://pmc.ncbi.nlm.nih.gov/articles/PMC507004/
 
 Copepod crustaceans use it too (discovered 2015), even though insects and most
-other arthropods do not
-https://www.nature.com/articles/srep17411
+other arthropods do not https://www.nature.com/articles/srep17411
 
 Also found in flatworms, rotifers, ctenophores, glass sponges, chaetognaths,
 euglenids, and cryptomonads
@@ -980,9 +982,9 @@ introduces a premature stop codon to produce the shorter B48 form (265 kDa)
 
 Other editing also occurs https://en.wikipedia.org/wiki/RNA_editing
 
-In trypanosome mitochondria, extensive U-insertion/deletion editing can more than
-double the length of some transcripts — the genomic sequence is essentially a
-compressed template that is "decoded" by editing. The instructions for editing
+In trypanosome mitochondria, extensive U-insertion/deletion editing can more
+than double the length of some transcripts — the genomic sequence is essentially
+a compressed template that is "decoded" by editing. The instructions for editing
 come from guide RNAs encoded on minicircles in the kinetoplast DNA (see
 maxicircle architecture section).
 https://en.wikipedia.org/wiki/RNA_editing#Kinetoplastids
@@ -1093,8 +1095,7 @@ https://github.com/molstar/molstar/blob/master/docs/docs/misc/interesting-pdb-en
 
 Transposable elements make up ~45% of the human genome
 (https://www.nature.com/articles/nature01262) and up to 85% of some plant
-genomes like maize
-(https://www.science.org/doi/10.1126/science.1178534).
+genomes like maize (https://www.science.org/doi/10.1126/science.1178534).
 
 ### Cross-species BovB transposon transfers
 
@@ -1112,9 +1113,9 @@ https://www.ucsf.edu/news/2018/06/410781/not-junk-jumping-gene-critical-early-em
 
 ### Transposons as the origin of the adaptive immune system
 
-The RAG1/RAG2 recombinase that performs V(D)J recombination (see Immunity) derives
-from an ancient Transib transposon. The vertebrate adaptive immune system is
-essentially a domesticated transposon.
+The RAG1/RAG2 recombinase that performs V(D)J recombination (see Immunity)
+derives from an ancient Transib transposon. The vertebrate adaptive immune
+system is essentially a domesticated transposon.
 
 https://www.nature.com/articles/nature03564
 
@@ -1123,8 +1124,9 @@ https://www.nature.com/articles/nature03564
 CENPB, which binds centromeric DNA, derives from a pogo-like transposase
 https://www.nature.com/articles/384567a0
 
-See also https://github.com/cmdcolin/oddbiology/ for syncytins and Arc (retroviral
-elements co-opted for placental development and neuronal communication)
+See also https://github.com/cmdcolin/oddbiology/ for syncytins and Arc
+(retroviral elements co-opted for placental development and neuronal
+communication)
 
 ### Helitrons (rolling-circle transposons)
 
@@ -1152,12 +1154,12 @@ together in the mRNA. The DNA itself is never changed — every cell in your bod
 has the same genome.
 
 VDJ recombination breaks this rule. The genome contains arrays of V (variable),
-D (diversity), and J (joining) gene segments — many copies of each type, arranged
-in tandem. Instead of just transcribing and splicing RNA, immune cells physically
-cut the chromosomal DNA, join one V to one D to one J segment, and delete the
-intervening DNA. Which segments end up joined is essentially random. This is a
-permanent, irreversible change to the genome of that cell. The result is a
-brand-new exon that didn't exist in the germline genome. Only then does
+D (diversity), and J (joining) gene segments — many copies of each type,
+arranged in tandem. Instead of just transcribing and splicing RNA, immune cells
+physically cut the chromosomal DNA, join one V to one D to one J segment, and
+delete the intervening DNA. Which segments end up joined is essentially random.
+This is a permanent, irreversible change to the genome of that cell. The result
+is a brand-new exon that didn't exist in the germline genome. Only then does
 normal RNA splicing happen to join this newly assembled VDJ exon to the constant
 region exons downstream — as Janeway's Immunobiology puts it: "To make a
 complete immunoglobulin light-chain messenger RNA, the V-region exon is joined
@@ -1180,15 +1182,15 @@ different antibodies.
 This is called "somatic" recombination because it happens in somatic cells
 (developing B and T cells), not in the germline — the rearrangements are not
 passed to offspring. In most biology, recombination only occurs during meiosis
-in germ cells, where homologous chromosomes exchange segments. VDJ
-recombination is fundamentally different: it uses a dedicated enzyme complex
-(RAG1/RAG2) that evolved from an ancient transposon (see Transib above). RAG
-cuts at specific recombination signal sequences, and the broken ends are
-repaired by the cell's general-purpose NHEJ (non-homologous end joining) DNA
-repair pathway. So VDJ recombination is possible in somatic tissue because the
-cell already has the DNA repair machinery — RAG just co-opts it by making
-targeted double-strand breaks at the right places. Most somatic cells do not
-express RAG, which is why only lymphocytes undergo this rearrangement.
+in germ cells, where homologous chromosomes exchange segments. VDJ recombination
+is fundamentally different: it uses a dedicated enzyme complex (RAG1/RAG2) that
+evolved from an ancient transposon (see Transib above). RAG cuts at specific
+recombination signal sequences, and the broken ends are repaired by the cell's
+general-purpose NHEJ (non-homologous end joining) DNA repair pathway. So VDJ
+recombination is possible in somatic tissue because the cell already has the DNA
+repair machinery — RAG just co-opts it by making targeted double-strand breaks
+at the right places. Most somatic cells do not express RAG, which is why only
+lymphocytes undergo this rearrangement.
 
 https://en.wikipedia.org/wiki/V(D)J_recombination
 https://www.ncbi.nlm.nih.gov/books/NBK27140/
@@ -1274,8 +1276,7 @@ duplications:
   chromosomes, prevalent in prostate cancer (>60%)
   https://pmc.ncbi.nlm.nih.gov/articles/PMC3673705/
 - **Chromoanasynthesis** — replication-based template switching producing
-  localized duplications/triplications
-  https://www.nature.com/articles/nm.2988
+  localized duplications/triplications https://www.nature.com/articles/nm.2988
 - **Extrachromosomal DNA (ecDNA)** — circular DNA (~1-5 Mb) replicating
   autonomously, driving oncogene amplification (EGFR, MYC) in ~17% of cancers.
   Lacks centromeres so segregates unequally
@@ -1284,9 +1285,8 @@ duplications:
   chromatid fusion, anaphase bridge, and breakage, repeating to produce
   staircase amplification. Can trigger chromothripsis and ecDNA
   https://www.nature.com/articles/s41467-023-41259-w
-- **Kataegis** — localized hypermutation clusters caused by APOBEC deaminases
-  on single-stranded DNA at break sites
-  https://elifesciences.org/articles/00534
+- **Kataegis** — localized hypermutation clusters caused by APOBEC deaminases on
+  single-stranded DNA at break sites https://elifesciences.org/articles/00534
 - **Tyfonas, Pyrgo, Rigma** — novel complex SV classes: tyfonas (fold-back
   inversions, acral melanoma), pyrgo (tandem duplications, breast/ovarian),
   rigma (deletions at fragile sites, GI cancers)
@@ -1342,7 +1342,8 @@ human genes are bidirectionally paired."
 "The two genes are often functionally related, and modification of their shared
 promoter region allows them to be co-regulated and thus co-expressed"
 
-See also 'divergently paired genes' https://academic.oup.com/gpb/article/23/4/qzaf058/8174973?login=false&utm_source=etoc&utm_campaign=gpb&utm_medium=email&nbd_source=campaigner&nbd=45398946253
+See also 'divergently paired genes'
+https://academic.oup.com/gpb/article/23/4/qzaf058/8174973?login=false&utm_source=etoc&utm_campaign=gpb&utm_medium=email&nbd_source=campaigner&nbd=45398946253
 
 ## Chromosomal abnormalities
 
@@ -1565,8 +1566,7 @@ reduced genomes:
 
 Meanwhile, some giant viruses have genomes larger than these bacteria —
 Pandoraviruses reach ~2.5 Mb, blurring the line between viruses and cellular
-life
-https://www.science.org/doi/10.1126/science.1239181
+life https://www.science.org/doi/10.1126/science.1239181
 
 ## Humongous CIGAR strings
 
@@ -1586,8 +1586,8 @@ Here are some random highlights from earlier work
 
 - Tinman - "In mutant or knockout organisms, the loss of tinman results in the
   lack of heart formation" https://en.wikipedia.org/wiki/Tinman_gene
-- Sonic hedgehog (SHH) - named after the video game character; hedgehog mutants have 'spiky' fruit fly embryos
-  https://en.wikipedia.org/wiki/Sonic_hedgehog
+- Sonic hedgehog (SHH) - named after the video game character; hedgehog mutants
+  have 'spiky' fruit fly embryos https://en.wikipedia.org/wiki/Sonic_hedgehog
 - Robotnikin - antagonist of SHH, villain of the sonic hedgehog franchise -
   https://pmc.ncbi.nlm.nih.gov/articles/PMC2770933/
 - Heart of glass (heg) - a zebrafish gene with mutant phenotype "Individual heg
