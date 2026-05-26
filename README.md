@@ -755,6 +755,16 @@ genes ("Some OR genes share 5'UTR exons")
 
 https://www.biorxiv.org/content/biorxiv/early/2019/09/19/774612.full.pdf
 
+**ANG** (angiogenin/RNASE5) and **RNASE4** share a non-coding first exon on
+chr14q11.2, then diverge via alternative splicing into separate coding
+sequences. Both are RNase A superfamily members; ANG is an angiogenic
+ribonuclease with ALS-associated mutations. The shared-exon arrangement is
+conserved in mouse.
+
+![](img/ang.png)
+
+https://academic.oup.com/nar/article/33/13/4078/1007748 (Dyer & Rosenberg 2005)
+
 ## Evolution
 
 ### Possible adaptive bacteria->eukaryote HGT
