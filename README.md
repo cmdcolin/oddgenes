@@ -763,7 +763,7 @@ conserved in mouse.
 
 ![](img/ang.png)
 
-https://academic.oup.com/nar/article/33/13/4078/1007748 (Dyer & Rosenberg 2005)
+https://academic.oup.com/nar/article/33/3/1077/1064173 (Dyer & Rosenberg 2005)
 
 ## Evolution
 
