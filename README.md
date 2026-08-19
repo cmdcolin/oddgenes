@@ -1268,14 +1268,30 @@ https://academic.oup.com/gpb/article/23/4/qzaf058/8174973?login=false&utm_source
 
 ### XX samples still have hundreds of thousands of reads on chrY
 
+**TL;DR** — every XX sample carries reads on chrY. NA12878, a karyotypically XX
+female, has 884,578 of them against an XY sample's 6,118,277: 14% of a real Y
+rather than zero, and 190,158 of hers survive a `MAPQ >= 30` filter. They come
+from sequence chrY shares with the rest of the genome — pseudoautosomal regions
+byte-identical to chrX, the X-transposed region at ~99% identity to Xq21, and
+beta satellite arrays. The measurement that does separate the two is depth
+across the male-specific region: 0.48x the autosomal mean for XY against 0.015x
+for XX.
+
 Reads mapped to chrY are not evidence of a Y chromosome. NA12878 is a
-karyotypically XX female sequenced to ~35x in the 1000 Genomes 30x collection.
-Her GRCh38 alignment carries 884,578 primary chrY reads, and 190,158 of those
-still survive a `MAPQ >= 30` filter.
+karyotypically XX female sequenced to ~35x in the 1000 Genomes 30x collection,
+aligned against an analysis-set GRCh38 that already hard-masks PAR on chrY.
 
-![chrY read depth in an XX and an XY sample](img/chry_female.png)
+Pick the wrong window and she is still indistinguishable from an XY sample. Give
+both samples a reference that keeps chrY PAR and their PAR1 depth lands on top
+of itself at one copy; inside a beta satellite array both pile up past 100x the
+autosomal mean. Only sequence unique to a real Y pulls them apart.
 
-Three separate things put reads there.
+![Per-base chrY depth in three windows, XX vs XY](img/chry_windows.png)
+
+Three separate things put reads on chrY in an XX sample, and the ideogram shows
+where each of them sits.
+
+![chrY ideogram with read depth in an XX and an XY sample](img/chry_female.png)
 
 **The pseudoautosomal regions are the same sequence twice.** PAR1 and PAR2 sit
 on both chrX and chrY, and in hg38 they are not merely similar, they are
