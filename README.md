@@ -1414,13 +1414,12 @@ Her chrY reads are no closer to her son's Y than to a stranger's, and they are
 ![Where an XX sample's chrY reads come from, and why her 99.8% match to her son's Y means nothing](img/chry_composite.png)
 
 Panel B of that figure puts her track directly under her son's, which is the
-comparison the claim is about. Panel C is the part people find least intuitive:
-a Y descends father to son, so her sons sit inside both the set that carries
-this Y and the set of her blood relatives, while she sits outside the first one
-entirely. Her son is her closest relative in the comparison and shares none of
-his Y with her, and his grandfather is two generations further away and shares
-all of it. Panels D to G say what a percent match measures once you know that,
-and the box at the foot names the four mistakes.
+comparison the claim is about. The inheritance is the part people find least
+intuitive: a Y descends father to son, so her son is her closest relative in the
+comparison and shares none of his Y with her, while his grandfather is two
+generations further away and shares all of it. Panels C to E say what a percent
+match measures once you know that, and the box at the foot names the four
+mistakes.
 
 Conditioning is what inflates the number. NA12878 has at least one read at
 546,490 of the 7,000,000 positions in that window — 7.8% — and a percent
@@ -1449,6 +1448,12 @@ sample — a few hundred to one against, which is why the assay for microchimeri
 is ddPCR against Y-specific loci rather than WGS. NA12878 bore four sons before
 her cell line was drawn and her chrY profile is indistinguishable from her
 daughter's.
+
+Everything in this entry is reproducible from `scripts/chry_composite`:
+`make_inputs.sh` pulls the chrY slices out of the public BAMs and builds the
+window tables, `analysis.py` prints the counts the panels quote, and
+`chry_composite.R` draws the figure from the small tables committed alongside
+it.
 
 The failure mode generalises past chromosomes. "Humans and chimpanzees are 98.8%
 identical" is the same construction: the figure counts substitutions in the
