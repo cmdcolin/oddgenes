@@ -923,6 +923,34 @@ https://en.wikipedia.org/wiki/Non-random_segregation_of_chromosomes
 
 See https://github.com/cmdcolin/oddbiology/ for more examples and details
 
+## Microchromosomes
+
+Birds and most reptiles have a bimodal karyotype: a handful of large
+macrochromosomes plus 20-30 tiny microchromosomes. Chicken is 2n=78, roughly 10
+macro and 28 micro pairs. Microchromosomes are gene dense and GC rich, and they
+recombine and evolve faster than the macrochromosomes. They look like the
+ancestral vertebrate state, with mammalian lineages having fused most of them
+into larger chromosomes.
+
+https://www.pnas.org/doi/10.1073/pnas.2112494118
+
+Short-read bird assemblies long left many microchromosomes fragmented or missing
+entirely, so a "complete" genome could quietly omit a chunk of the gene catalog.
+
+## B chromosomes
+
+Supernumerary chromosomes that some individuals of a species carry and others do
+not, known from thousands of plants, animals, and fungi. Most are
+heterochromatic and gene poor, and many encode drive mechanisms that push their
+own transmission above the Mendelian 50%.
+
+Variable B counts inside a species are a practical trap for assembly: sequence
+present in one individual and absent in another inflates apparent heterozygosity
+and leaves regions collapsed or duplicated.
+
+https://en.wikipedia.org/wiki/B_chromosome
+https://doi.org/10.1007/s00018-013-1437-7
+
 ## Range of ploidy
 
 Wikipedia lists this table with examples of organisms with different ploidy
@@ -1031,6 +1059,49 @@ chromosome inactivation)
 See https://github.com/cmdcolin/oddbiology/ for calico cats, mosaicism, and how
 different organisms solve dosage compensation in completely different ways
 
+### Riboswitches
+
+A riboswitch is a structured stretch of 5' UTR that binds a small metabolite
+directly, with no protein sensor in between. Ligand binding flips the fold so
+that transcription terminates early or the ribosome binding site is occluded.
+The TPP (thiamine pyrophosphate) riboswitch is the most widespread and turns up
+in bacteria, archaea, fungi, and plants.
+
+https://en.wikipedia.org/wiki/Riboswitch
+
+### RNA thermometers
+
+Some bacterial mRNAs carry a 5' UTR hairpin that hides the Shine-Dalgarno
+sequence in the cold and melts open as the temperature climbs, so translation is
+gated by temperature alone. Pathogens such as Listeria and Yersinia read the
+jump to host body temperature as the cue to switch on virulence genes, while
+ROSE elements respond in the heat-shock range near 42°C.
+
+https://en.wikipedia.org/wiki/RNA_thermometer
+
+### tmRNA (transfer-messenger RNA)
+
+tmRNA rescues bacterial ribosomes stalled on a truncated mRNA. One molecule
+carries both a tRNA-like and an mRNA-like domain: it enters the ribosome as a
+tRNA charged with alanine, and then the ribosome switches templates onto tmRNA's
+own short ORF, which tags the stuck protein for degradation and supplies the
+stop codon the broken message was missing. A single feature that is a tRNA and
+an mRNA at once is not what most annotation formats expect.
+
+https://en.wikipedia.org/wiki/Transfer-messenger_RNA
+
+### R-loops
+
+An R-loop is a three-stranded structure where nascent RNA hybridizes back to its
+DNA template and displaces the other strand as single-stranded DNA. They are
+required at immunoglobulin switch regions for class-switch recombination, and
+they form at G-quadruplex-forming sequences and replication origins. Unscheduled
+R-loops are a major source of transcription-replication conflict and genome
+instability.
+
+https://doi.org/10.1016/j.molcel.2019.01.024
+https://doi.org/10.1016/j.cell.2019.08.055
+
 ### Types of RNA
 
 Wikipedia keeps a long list of RNA types
@@ -1047,6 +1118,17 @@ long non-coding RNAs commonly fold into structures that carry their function
 Nearly every gene starts with a codon for methionine, but methionyl
 aminopeptidase often removes that methionine after translation
 https://en.m.wikipedia.org/wiki/Methionyl_aminopeptidase
+
+### Micropeptides and small ORF-encoded peptides
+
+Plenty of transcripts annotated as lncRNAs encode functional peptides under 100
+amino acids, missed because annotation pipelines discard ORFs below an arbitrary
+length cutoff. MOTS-c is stranger still: it is encoded inside the mitochondrial
+12S rRNA gene, translated in the mitochondrion, and acts in the nucleus to
+regulate the metabolic stress response.
+
+https://doi.org/10.1016/j.cmet.2015.02.009 (MOTS-c)
+https://doi.org/10.1038/nrm.2017.58 (review)
 
 ### Inteins
 
@@ -1284,6 +1366,18 @@ https://www.cell.com/cell-reports/fulltext/S2211-1247(18)31145-8
 
 https://www.sciencealert.com/lif6-pseudogene-elephant-tumour-suppression-solution-petos-paradox
 
+### Retrogenes (processed pseudogenes that came back)
+
+When a retrotransposon reverse-transcribes an mRNA and pastes the copy back into
+the genome, that copy has no introns and usually lands nowhere useful — a
+processed pseudogene. Some pick up a promoter and become functional retrogenes
+with an expression pattern of their own. GLUD2 is an intronless retrocopy of
+GLUD1 that landed on the X chromosome in the hominoid lineage and is now
+expressed in brain and testis. Paralogs, in other words, need not share an
+intron-exon structure.
+
+https://doi.org/10.1038/nrg2487 https://doi.org/10.1038/ng1431 (GLUD2)
+
 ## Regulation
 
 ### Intron mediated enhancement (IME)
@@ -1374,6 +1468,35 @@ small marker chromosomes" (sSMC)
 https://en.wikipedia.org/wiki/Small_supernumerary_marker_chromosome
 
 ## File formats
+
+### 0-based vs 1-based coordinates
+
+Half the formats in bioinformatics count positions from 0 and half count from 1,
+and they also disagree about whether the end coordinate belongs to the feature.
+
+- 0-based, half-open: BED, BAM, BCF, 2bit, and the htslib/pysam APIs
+- 1-based, closed: GFF3, GTF, SAM, VCF, wig, and the locstrings people type into
+  genome browsers
+
+The same feature is `chr1 100 200` in BED and `chr1 101 200` in GFF. Half-open
+arithmetic is the nicer one to compute with — length is just end - start, and
+abutting features share a number — but write it out as though it were 1-based
+and every start shifts by one, an error small enough to survive review and large
+enough to change a codon. samtools hands you both conventions at once: the
+region strings on its command line are 1-based and closed, while the C API
+underneath is 0-based and half-open.
+
+https://genome-blog.gi.ucsc.edu/blog/2016/12/12/the-ucsc-genome-browser-coordinate-counting-systems/
+
+R makes it funnier. R indexes vectors from 1, so Bioconductor's GRanges is
+1-based closed throughout and lines up with GFF rather than BED. rtracklayer's
+import() quietly adds 1 to every BED start and export() takes it back off again,
+so the conversion is invisible right until you combine an imported GRanges with
+coordinates you parsed yourself. Python, indexing from 0 and slicing half-open,
+agrees with BED instead — so the same logic ported between the two languages
+ends up off by one in whichever direction nobody checked.
+
+https://bioconductor.org/packages/release/bioc/html/rtracklayer.html
 
 ### Non-ACGT letters in fasta files
 
