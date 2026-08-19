@@ -1288,10 +1288,8 @@ autosomal mean. Only sequence unique to a real Y pulls them apart.
 
 ![Per-base chrY depth in three windows, XX vs XY](img/chry_windows.png)
 
-Three separate things put reads on chrY in an XX sample, and the ideogram shows
-where each of them sits.
-
-![chrY ideogram with read depth in an XX and an XY sample](img/chry_female.png)
+Three separate things put reads on chrY in an XX sample, and panels A to C of
+the composite figure further down show where each of them sits.
 
 **The pseudoautosomal regions are the same sequence twice.** PAR1 and PAR2 sit
 on both chrX and chrY, and in hg38 they are not merely similar, they are
@@ -1396,7 +1394,10 @@ NA12878, karyotypically XX with no Y chromosome, matches her son NA12882 at
 each other at 99.999%. The XX sample scores marginally _worse_ against her own
 son than against a stranger.
 
-![Why a 99.8% chrY match between an XX sample and a male sample means nothing](img/chry_match.png)
+![Where an XX sample's chrY reads come from, and why a 99.8% match to a male sample means nothing](img/chry_composite.png)
+
+Panels A to C of that figure say where an XX sample's chrY reads come from;
+panels D to G say what a percent match computed from them measures.
 
 Conditioning is what inflates the number. NA12878 has at least one read at
 546,490 of the 7,000,000 positions in that window — 7.8% — and a percent
