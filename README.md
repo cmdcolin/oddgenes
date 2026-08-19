@@ -1264,6 +1264,66 @@ promoter region allows them to be co-regulated and thus co-expressed"
 See also 'divergently paired genes'
 https://academic.oup.com/gpb/article/23/4/qzaf058/8174973?login=false&utm_source=etoc&utm_campaign=gpb&utm_medium=email&nbd_source=campaigner&nbd=45398946253
 
+## Sex chromosomes
+
+### XX samples still have hundreds of thousands of reads on chrY
+
+Reads mapped to chrY are not evidence of a Y chromosome. NA12878 is a
+karyotypically XX female sequenced to ~35x in the 1000 Genomes 30x collection.
+Her GRCh38 alignment carries 884,578 primary chrY reads, and 190,158 of those
+still survive a `MAPQ >= 30` filter.
+
+![chrY read depth in an XX and an XY sample](img/chry_female.png)
+
+Three separate things put reads there.
+
+**The pseudoautosomal regions are the same sequence twice.** PAR1 and PAR2 sit
+on both chrX and chrY, and in hg38 they are not merely similar, they are
+byte-identical — 2,771,479 bp of PAR1 and 329,513 bp of PAR2 compared, zero
+mismatching bases.
+
+```bash
+samtools faidx hg38.fa chrX:10001-2781479 | tail -n+2 | tr -d '\n' > parX
+samtools faidx hg38.fa chrY:10001-2781479 | tail -n+2 | tr -d '\n' > parY
+cmp parX parY   # identical
+```
+
+No aligner can split that. Pulling NA12878's PAR1 reads back out and remapping
+them to an hg38 that keeps both copies, bwa-mem puts 286,511 on chrX and 284,437
+on chrY and gives 99.93% of them MAPQ 0. Half of an XX sample's PAR reads land
+on chrY at full single-copy depth, which by depth alone looks exactly like a
+real Y.
+
+Analysis-set references dodge this by hard-masking PAR on chrY. Uppercase the
+UCSC hg38 chrY, N out chrY:10,001-2,781,479 and chrY:56,887,903-57,217,415, and
+you reproduce the 1000 Genomes chrY byte for byte (md5
+`ce3e31103314a704255f3cd90369ecce`). A pipeline pointed at a plain `hg38.fa`
+gets no such protection.
+
+**The X-transposed region is ~99% identical to Xq21.** Mapping hg38 chrY back
+onto chrX in 1 kb windows finds it as a single block, chrY:3,050,000-6,234,000
+against chrX around 89.4 Mb, left by a human-specific transposition of Xq21 to
+Yp11.2. Masking PAR does nothing here.
+
+**Satellite arrays collect strays from the whole genome.** 90% of NA12878's chrY
+reads (797,492 of 884,578) sit in two blocks — chrY:10.0-12.5 Mb around the
+centromere and chrY:56.67-56.89 Mb just proximal to PAR2 — both beta satellite
+and `(ATTCC)n` arrays. The mates of those reads point at acrocentric satellite
+contigs such as `chr14_GL000225v1_random` and `chrUn_GL000216v2`. A MAPQ filter
+does not clean this up, because the array the reads came from is not in the
+reference at all and bwa scores the surviving copy confidently: 96% of her
+`MAPQ >= 30` chrY reads are in these same two blocks.
+
+What separates XX from XY is depth across the male-specific region, not the
+presence of chrY reads. Outside the satellite blocks NA12889 (XY) holds 0.48x
+the autosomal mean flat across the whole MSY, while NA12878 sits at 0.015x, and
+0.0014x once low-quality alignments are dropped. Artifact coverage is spiky and
+local; a real Y is a continuous single-copy plateau.
+
+https://academic.oup.com/gigascience/article/8/7/giz074/5530326
+
+https://lh3.github.io/2017/11/13/which-human-reference-genome-to-use
+
 ## Chromosomal abnormalities
 
 ### Uniparental disomy (UPD)
