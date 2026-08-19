@@ -1350,7 +1350,7 @@ and theirs are a real chromosome. Comparing the two read sets measures how
 convincingly an artifact impersonates a Y — and kinship contributes nothing to
 the answer.
 
-![chrY read depth for a mother, her daughter, her son and an unrelated man](img/chry_family.png)
+![chrY read depth for an XX mother, her XX daughter, her XY son and an unrelated XY man](img/chry_family.png)
 
 Three blocks hold 88% of NA12878's 156,293 chrY reads: the X-transposed region
 (28,298 reads), the centromeric satellite at 10.0-12.5 Mb (61,572), and the 220
@@ -1369,7 +1369,7 @@ NA12878, Pearson r runs 0.25 for her son NA12882, 0.25 for her son NA12886, 0.24
 for her husband NA12877 and 0.25 for the unrelated NA12889 — and 0.99 for her
 daughter NA12879. Sex fixes the profile; relatedness does not move it.
 
-![Window-by-window comparison and X-allele sharing](img/chry_similarity.png)
+![Window-by-window comparison of the XX mother against XX and XY relatives, and X-allele sharing](img/chry_similarity.png)
 
 The alleles say where her reads came from. Inside the X-transposed region her
 chrY reads disagree with the chrY reference at 1,003 positions covered at least
@@ -1396,7 +1396,7 @@ GRCh38DH graph gives 156,293; the same DRAGEN pipeline against T2T-CHM13v2 gives
 5,906,736 on CHM13, because a complete Y is 5 Mb longer than one with a gap in
 it. The female-to-male ratio falls from 14% to 3.2% to 1.2%.
 
-![NA12878 chrY depth on GRCh38 and on T2T-CHM13v2](img/chry_reference.png)
+![chrY depth for NA12878, an XX sample, on GRCh38 and on T2T-CHM13v2](img/chry_reference.png)
 
 T2T removes the artifact by supplying the sequence the reads actually came from.
 GRCh38 spells 30 Mb of Yq12 as N and has no beta satellite array long enough to
