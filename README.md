@@ -1288,7 +1288,7 @@ autosomal mean. Only sequence unique to a real Y pulls them apart.
 
 ![Per-base chrY depth in three windows, XX vs XY](img/chry_windows.png)
 
-Three separate things put reads on chrY in an XX sample, and panels A to C of
+Three separate things put reads on chrY in an XX sample, and panels A and B of
 the composite figure further down show where each of them sits.
 
 **The pseudoautosomal regions are the same sequence twice.** PAR1 and PAR2 sit
@@ -1396,8 +1396,9 @@ son than against a stranger.
 
 ![Where an XX sample's chrY reads come from, and why a 99.8% match to a male sample means nothing](img/chry_composite.png)
 
-Panels A to C of that figure say where an XX sample's chrY reads come from;
-panels D to G say what a percent match computed from them measures.
+Panels A and B of that figure say where an XX sample's chrY reads come from;
+panels C to F say what a percent match computed from them measures, and the box
+at the foot names the three mistakes.
 
 Conditioning is what inflates the number. NA12878 has at least one read at
 546,490 of the 7,000,000 positions in that window — 7.8% — and a percent
