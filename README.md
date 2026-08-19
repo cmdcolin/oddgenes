@@ -21,7 +21,7 @@ https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531(
 yet are commonly misannotated (e.g. in plants
 https://www.nature.com/articles/s41467-022-28449-8)
 
-See also cryptic splice sites, cryptic exons, poison exons
+See also cryptic splice sites and exons, poison exons
 
 ### 0bp length exon
 
@@ -192,32 +192,22 @@ broadly diversify the proteome and affect cancer progression."
 
 https://en.wikipedia.org/wiki/Stop_codon#Translational_readthrough
 
-### Stop codon re-assignment: selenocysteine
+### Stop codon re-assignment
 
-An "opal" (UGA) stop codon encodes the amino acid selenocysteine
-(https://en.wikipedia.org/wiki/Selenocysteine), which occurs in all domains of
-life including humans.
+Two amino acids are encoded by codons that normally stop translation. The "opal"
+(UGA) codon encodes selenocysteine https://en.wikipedia.org/wiki/Selenocysteine
+in all domains of life, humans included: a stem-loop in the mRNA called a SECIS
+element https://en.wikipedia.org/wiki/SECIS_element tells the ribosome to read
+that UGA through, and the products are
+[selenoproteins](https://en.wikipedia.org/wiki/Selenoprotein), of which the
+human selenoproteome has 25 https://www.science.org/doi/10.1126/science.1083516
 
-A stem-loop in the mRNA called a SECIS element
-(https://en.wikipedia.org/wiki/SECIS_element) tells the ribosome to read that
-UGA as selenocysteine instead of stop. The products are
-[selenoproteins](https://en.wikipedia.org/wiki/Selenoprotein), and the human
-selenoproteome has 25 members
-https://www.science.org/doi/10.1126/science.1083516
+The "amber" (UAG) codon encodes pyrrolysine
+https://en.wikipedia.org/wiki/Pyrrolysine in some archaea and bacteria but not
+in humans, and needs only two genes to do it: pylT, an unusual tRNA with a CUA
+anticodon, and pylS, the synthetase that charges it.
 
-### Stop codon re-assignment: pyrrolysine
-
-The "amber" (UAG) stop codon encodes pyrrolysine
-(https://en.wikipedia.org/wiki/Pyrrolysine) in some archaea and bacteria, though
-not in humans
-
-"It is encoded in mRNA by the UAG codon, which in most organisms is the 'amber'
-stop codon. This requires only the presence of the pylT gene, which encodes an
-unusual transfer RNA (tRNA) with a CUA anticodon, and the pylS gene, which
-encodes a class II aminoacyl-tRNA synthetase that charges the pylT-derived tRNA
-with pyrrolysine. "
-
-There are several other stop codon modifications described here
+Several other stop codon modifications are described here
 https://www.nature.com/articles/nrg3963
 
 ### Stop codons can be created by RNA editing
@@ -270,41 +260,32 @@ include GT-AG introns with different internal sequences.
 
 https://en.wikipedia.org/wiki/Minor_spliceosome
 
-### Cryptic splice sites
+### Cryptic splice sites and cryptic exons
 
-Cryptic splice sites are sequences that resemble splice sites but are normally
-not used. They can be activated by mutations that disrupt normal splice sites,
-or by changes in splicing factor expression. Deep intronic variants are a major
-source, accounting for a large fraction of splice-disrupting events in genetic
-disease.
+Cryptic splice sites resemble splice sites but go unused, until a mutation
+disrupting the normal site or a shift in splicing factor levels activates them.
+Deep intronic variants are a major source and account for a large fraction of
+splice-disrupting events in genetic disease.
 
-Review article https://academic.oup.com/nar/article/39/14/5837/1382796
-
-Snaptron, from Ben Langmead's group, indexes huge amounts of public RNA-seq and
-surfaces many kinds of cryptic splicing http://snaptron.cs.jhu.edu/
-
-SpliceVault and similar tools re-analyze large public RNA-seq datasets to
-empirically predict cryptic splice site activation
-https://www.nature.com/articles/s41588-022-01293-8
-
-See also cryptic exons, poison exons
-
-### Cryptic exons (pseudoexons)
-
-Cryptic exons are intronic sequences that get erroneously included as exons when
-cryptic splice sites flanking them become activated. They usually introduce a
-premature termination codon (PTC) that triggers nonsense-mediated decay (NMD),
-effectively reducing gene expression. This makes them hard to detect since the
-aberrant transcripts are often degraded.
-
-A prominent example involves TDP-43 in ALS/FTD: TDP-43 normally represses
-inclusion of nonconserved cryptic exons, and when TDP-43 is depleted from the
-nucleus (a hallmark of ALS/FTD pathology), cryptic exons are included in key
-neuronal mRNAs like STMN2 and UNC13A
+When two cryptic sites flanking a stretch of intron fire together, that stretch
+is included as a cryptic exon, usually carrying a premature termination codon
+that sends the transcript to nonsense-mediated decay. The degradation is what
+makes them hard to see. In ALS/FTD, TDP-43 normally represses inclusion of
+nonconserved cryptic exons, so when it is depleted from the nucleus they appear
+in neuronal mRNAs like STMN2 and UNC13A
 https://www.science.org/doi/10.1126/science.aab0983
 https://www.nature.com/articles/s41586-022-04424-7
 
-Review: https://link.springer.com/article/10.1186/s13024-023-00608-5
+Review article https://academic.oup.com/nar/article/39/14/5837/1382796 and one
+on the cryptic exon side
+https://link.springer.com/article/10.1186/s13024-023-00608-5
+
+Snaptron, from Ben Langmead's group, indexes huge amounts of public RNA-seq and
+surfaces many kinds of cryptic splicing http://snaptron.cs.jhu.edu/, and
+SpliceVault re-analyzes public RNA-seq to predict cryptic activation empirically
+https://www.nature.com/articles/s41588-022-01293-8
+
+See also poison exons
 
 ### Poison exons
 
@@ -431,11 +412,8 @@ http://www.ensembl.info/2018/08/17/ensembl-insights-how-are-utrs-annotated/
 
 ### Polyadenylation
 
-Polyadenylation is the addition of ~200 adenines to the 3' end of an mRNA. A
-polyadenylation signal (typically AAUAAA) in the pre-mRNA is recognized by the
-cleavage and polyadenylation complex, which cleaves the RNA and adds the poly-A
-tail. The tail is not encoded in the genome. It protects the mRNA from
-degradation and aids nuclear export and translation.
+A poly-A signal (typically AAUAAA) directs cleavage of the pre-mRNA and addition
+of ~200 adenines that are not encoded in the genome
 https://en.wikipedia.org/wiki/Polyadenylation
 
 A survey of poly-A using Oxford Nanopore found a transcript isoform with a 450bp
@@ -491,13 +469,6 @@ J02448  GenBank CDS     6006   7238    .       +       0       ID=geneII;Name=II
 
 GFF3 specification:
 https://github.com/the-sequence-ontology/specifications/blob/master/gff3.md
-
-### Dynamic DNA structures in vivo
-
-The replication of the 2 micron plasmid found in Saccharomyces cerevisiae relies
-on a programmed DNA rearrangement; in any population of cells two different
-states of the 2 micron plasmid can be expected and these will interconvert in
-later generations. Reference: https://pubmed.ncbi.nlm.nih.gov/23541845/
 
 ### Overlapping genes
 
@@ -604,11 +575,6 @@ HIV-1 infection. The same chimeric gene arose independently in both owl monkeys
 and pigtailed macaques via separate retrotransposition events -- convergent
 evolution at the gene-structure level
 https://www.pnas.org/doi/10.1073/pnas.0404640101
-
-PIPSL was created when two adjacent genes (PIP5K1A and PSMD4) were transcribed
-as a readthrough mRNA, reverse-transcribed by L1 retrotransposon, and inserted
-elsewhere in the genome. Different hominoid species are at different stages of
-keeping or losing this gene https://genome.cshlp.org/content/17/8/1129.full
 
 The antifreeze glycoprotein (AFGP) gene in Antarctic notothenioid fish evolved
 from a trypsinogen gene. The entire protein core was replaced by de novo
@@ -893,16 +859,6 @@ cases of organisms editing their own genomes, reviewed in "How and when
 organisms edit their own genomes"
 https://www.nature.com/articles/s41588-025-02230-1
 
-## Non-random segregation of chromosomes
-
-Some chromosomes "cheat" — they are preferentially passed to certain daughter
-cells instead of the expected 50/50 split, letting them spread faster than
-Mendelian genetics predicts. Related to meiotic drive and gene drives.
-
-https://en.wikipedia.org/wiki/Non-random_segregation_of_chromosomes
-
-See https://github.com/cmdcolin/oddbiology/ for more examples and details
-
 ## Microchromosomes
 
 Birds and most reptiles have a bimodal karyotype: a handful of large
@@ -1086,15 +1042,11 @@ matter for embryonic development.
 
 https://www.ucsf.edu/news/2018/06/410781/not-junk-jumping-gene-critical-early-embryo
 
-### Transposons as the origin of the adaptive immune system
-
-The RAG1/RAG2 recombinase that performs V(D)J recombination (see Immunity)
-derives from an ancient Transib transposon. The vertebrate adaptive immune
-system is essentially a domesticated transposon.
-
-https://www.nature.com/articles/nature03564
-
 ### Transposon-derived genes
+
+The RAG1/RAG2 recombinase behind V(D)J recombination (see Immunity) derives from
+an ancient Transib transposon, which makes the vertebrate adaptive immune system
+a domesticated transposon https://www.nature.com/articles/nature03564
 
 CENPB, which binds centromeric DNA, derives from a pogo-like transposase
 https://www.nature.com/articles/384567a0
@@ -1102,20 +1054,6 @@ https://www.nature.com/articles/384567a0
 See also https://github.com/cmdcolin/oddbiology/ for syncytins and Arc
 (retroviral elements co-opted for placental development and neuronal
 communication)
-
-### Helitrons (rolling-circle transposons)
-
-Replicate via rolling-circle mechanism, can capture and shuffle host gene
-fragments to create chimeric genes. ~2% of the maize genome.
-
-https://en.wikipedia.org/wiki/Helitron_(biology)
-
-### Maverick/Polinton transposons
-
-Giant DNA transposons (~15-20 kb) encoding their own DNA polymerase. May be
-evolutionary ancestors of some DNA viruses.
-
-https://en.wikipedia.org/wiki/Polinton
 
 ## Immunity
 
@@ -1457,18 +1395,6 @@ ENA
 @   3713
 |   949
 
-Broad(?)
-     12 #
-    527 *
-    357 ,
-1451132 -
-1492749 .
-  86114 /
- 233731 :
-   2034 =
-     17 @
-1735713 |
-
 Reference sequences
  # 203
  % 203
@@ -1486,25 +1412,20 @@ Reference sequences
 There is a proposal to make commas illegal in FASTA names, since the SAM/BAM
 supplementary alignment tag (SA) is itself comma separated
 
-## Humongous chromosomes: BAI/TBI index limits
+## Humongous chromosomes
 
-Genomes such as wheat have large chromosomes averaging 806Mbp but the BAI/TBI
-file formats are limited to 2^29-1 ~ 536Mbp in size (this is due to the binning
-strategy, the max bin size is listed as 2^29). The CSI index format was created
-to help index BAM and tabix files with large chromosomes.
+Chromosomes keep outgrowing the formats built to hold them. Wheat chromosomes
+average 806Mbp, past the 2^29-1 (~536Mbp) ceiling that the BAI/TBI binning
+strategy imposes, which is why the CSI index format exists.
 
-Bonus: I made a web tool to help visualize BAI files to show how the binning
-index works https://cmdcolin.github.io/bam_index_visualizer/
-
-## Humongous chromosomes: BAM/CRAM coordinate limits
-
-The axolotl genome has individual chromosomes that are of size 3.14 Gbp
-https://genome.cshlp.org/content/29/2/317.long (2019) which is almost as big as
-the entire human genome
-
-The BAM and CRAM formats can only store 2^31-1 (~2.14Gbp) length chromosomes
-however so bgzip/tabix SAM is used (discussion
+The axolotl goes further: individual chromosomes of 3.14 Gbp
+https://genome.cshlp.org/content/29/2/317.long (2019), almost the size of the
+whole human genome, and past the 2^31-1 (~2.14Gbp) limit on chromosome length in
+BAM and CRAM, so bgzip/tabix SAM gets used instead (discussion
 https://github.com/samtools/hts-specs/issues/655)
+
+Bonus: I made a web tool to visualize BAI files and show how the binning index
+works https://cmdcolin.github.io/bam_index_visualizer/
 
 ## Largest genomes
 
@@ -1536,15 +1457,6 @@ Just some honorable mentions for largest genome
   https://en.wikipedia.org/wiki/Axolotl
   https://www.ncbi.nlm.nih.gov/genome/?term=axolotl
 - Allium ursinum (wild garlic) - ~30Gbp https://en.wikipedia.org/wiki/Onion_Test
-- Coastal redwood - ~26Gbp (sequenced)
-  https://www.ucdavis.edu/climate/news/coast-redwood-and-sequoia-genome-sequences-completed
-  https://www.ncbi.nlm.nih.gov/genome/?term=redwood
-- Loblolly pine - ~22Gbp (sequenced)
-  https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2014/03/genomelog030.jpg
-  https://www.ncbi.nlm.nih.gov/genome/?term=loblolly+pine
-- Wheat genome - ~17Gbp
-  https://academic.oup.com/gigascience/article/6/11/gix097/4561661
-  https://www.ncbi.nlm.nih.gov/genome/?term=wheat
 
 Inspired by twitter thread
 https://twitter.com/PetrovADmitri/status/1506824610360168455
