@@ -1306,9 +1306,9 @@ cmp parX parY   # identical
 
 No aligner can split that. Pulling NA12878's PAR1 reads back out and remapping
 them to an hg38 that keeps both copies, bwa-mem puts 286,511 on chrX and 284,437
-on chrY and gives 99.93% of them MAPQ 0. Half of an XX sample's PAR reads land
-on chrY at full single-copy depth, which by depth alone looks exactly like a
-real Y.
+on chrY and gives 99.93% of them MAPQ 0. The XY sample splits the same way,
+362,977 and 361,699 with 99.92% at MAPQ 0. Half of either sample's PAR reads
+land on chrY at full single-copy depth, so in PAR the two are the same picture.
 
 Analysis-set references dodge this by hard-masking PAR on chrY. Uppercase the
 UCSC hg38 chrY, N out chrY:10,001-2,781,479 and chrY:56,887,903-57,217,415, and
