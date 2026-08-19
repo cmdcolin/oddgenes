@@ -1411,11 +1411,12 @@ her son at 887 — and from an unrelated man's Y at 893, which is the same numbe
 Her chrY reads are no closer to her son's Y than to a stranger's, and they are
 148 times further from it than a genuinely shared Y would be.
 
-![Where an XX sample's chrY reads come from, and why a 99.8% match to a male sample means nothing](img/chry_composite.png)
+![Where an XX sample's chrY reads come from, and why her 99.8% match to her son's Y means nothing](img/chry_composite.png)
 
-Panels A and B of that figure say where an XX sample's chrY reads come from;
-panels C to F say what a percent match computed from them measures, and the box
-at the foot names the four mistakes.
+Panel B of that figure puts her track directly under her son's, which is the
+comparison the claim is about; panels C to F say what a percent match computed
+from those two read sets measures, and the box at the foot names the four
+mistakes.
 
 Conditioning is what inflates the number. NA12878 has at least one read at
 546,490 of the 7,000,000 positions in that window — 7.8% — and a percent
