@@ -418,26 +418,6 @@ NUMTs, and new insertions continue to occur — some are pathogenic.
 https://en.wikipedia.org/wiki/Nuclear_mitochondrial_DNA_segment
 https://pmc.ncbi.nlm.nih.gov/articles/PMC3228813/
 
-### Codon tables
-
-Most organisms use the "standard genetic code", but alternative codes are common
-across the tree of life — especially in mitochondria, ciliates, and mycoplasma.
-The NCBI genetic code table lists these variants
-
-https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG31
-
-One article explains how alternative genetic codes work
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6207430/
-
-In vertebrate mitochondria, UGA codes for tryptophan instead of stop, and
-AGA/AGG code for stop instead of arginine — a direct reversal of the standard
-code https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2
-
-The number of known alternative codes keeps growing — NCBI is currently up to
-table 33, and computational screening of 250,000+ genomes (including
-metagenome-assembled genomes) has found additional codes not yet officially
-adopted https://elifesciences.org/articles/71402
-
 ### Untranslated regions
 
 The 5' and 3' UTR (untranslated region) are parts of the mature mRNA that are
@@ -759,17 +739,36 @@ https://academic.oup.com/nar/article/33/3/1077/1064173 (Dyer & Rosenberg 2005)
 
 ## Evolution
 
-### Possible adaptive bacteria->eukaryote HGT
-
-The coffee berry borer beetle appears to have picked up a bacterial gene by
-horizontal transfer. Domesticating it meant gaining a poly-A tail and losing the
-Shine-Dalgarno sequence
+A possible adaptive horizontal gene transfer from bacteria to a eukaryote: the
+coffee berry borer beetle appears to have picked up a bacterial gene, and
+domesticating it meant gaining a poly-A tail and losing the Shine-Dalgarno
+sequence
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306691/
 
 also https://www.cell.com/cell/fulltext/S0092-8674(19)30097-2
 
-## Codon usage
+## Codons
+
+### Codon tables
+
+Most organisms use the "standard genetic code", but alternative codes are common
+across the tree of life — especially in mitochondria, ciliates, and mycoplasma.
+The NCBI genetic code table lists these variants
+
+https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG31
+
+One article explains how alternative genetic codes work
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6207430/
+
+In vertebrate mitochondria, UGA codes for tryptophan instead of stop, and
+AGA/AGG code for stop instead of arginine — a direct reversal of the standard
+code https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2
+
+The number of known alternative codes keeps growing — NCBI is currently up to
+table 33, and computational screening of 250,000+ genomes (including
+metagenome-assembled genomes) has found additional codes not yet officially
+adopted https://elifesciences.org/articles/71402
 
 ### Alternative start codons
 
@@ -785,8 +784,6 @@ https://www.sciencedaily.com/releases/2017/02/170221080506.htm
 Testing in eukaryotes has also revealed alternative starts being viable
 https://en.wikipedia.org/wiki/Start_codon#Eukaryotes
 
-## Molecular
-
 ### 4-base/quaternary/quadruplet codons
 
 3-base codon system is assumed by many, but engineered tRNAs can decode 4-base
@@ -797,6 +794,8 @@ review https://elifesciences.org/articles/78869
 
 evolving improved 4-base efficiency
 https://www.nature.com/articles/s41467-021-25948-y
+
+## Molecular
 
 ### Complex DNA structures
 
@@ -829,7 +828,7 @@ each). Only 3 protein-coding genes remain (cox1, cox3, cob), and even those are
 split into fragments that must be separately transcribed and pieced together
 https://academic.oup.com/mbe/article/24/7/1528/987488
 
-### Polytene chromosome
+### Polytene chromosomes and endoreplication
 
 Some cells — famously insect salivary glands — copy their chromosomes through
 repeated rounds of replication without cell division, giving giant banded
@@ -848,23 +847,14 @@ production of mRNA for Glue Protein that the larvae use to anchor themselves to
 the walls of (for example) culture vials." from
 https://www.mun.ca/biology/scarr/Polytene_Chromosomes.html
 
-### Endoreplication
+Endoreplication is not confined to salivary glands. Human liver and placenta
+carry polyploid cells in an otherwise diploid organism, which is called
+endopolyploidy https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4442802/
 
-Endoreplication (see polytene chromosomes) also turns up as a genome assembly
-problem in plants. A PAG talk on the vanilla bean genome reported heavy
-endoreplication driving very uneven sequencing coverage; the team picked tissue
-samples with the least of it.
+It also shows up as a genome assembly problem: a PAG talk on the vanilla bean
+genome reported heavy endoreplication driving very uneven sequencing coverage,
+so the team picked the tissue samples with the least of it
 https://plan.core-apps.com/pag_2023/abstract/e26dbeb1-df8f-4c57-a062-dcaf881b79f4
-
-### Endo-(poly)ploidy
-
-Different cells may have different numbers of copies of chromosomes and it also
-occurs in some human cell types: "polyploid cells can exist in otherwise diploid
-organisms (endopolyploidy). In humans, polyploid cells are found in critical
-tissues, such as liver and placenta. A general term often used to describe the
-generation of polyploid cells is endoreplication, which refers to multiple
-genome duplications without intervening division/cytokinesis"
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4442802/
 
 ### Programmed DNA elimination
 
@@ -892,26 +882,16 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC5666084/
 
 See also the term "internal eliminated sequences" (IES)
 
-### Self-editing genomes
-
-"How and when organisms edit their own genomes"
-https://www.nature.com/articles/s41588-025-02230-1
-
-Programmed DNA elimination, VDJ recombination, CRISPR, germline restricted
-chromosomes, and more are examples of self-editing (quote from article: "Notable
-examples include the somatic diversification of immunoglobulin genes, which is
-the foundation of the vertebrate immune system, and natural CRISPR spacer arrays
-in bacteria, which recognize and cleave foreign DNA")
-
-## Germline-restricted chromosomes
-
-"Germline-restricted chromosomes (GRCs) are accessory chromosomes that occur
-only in germ cells. They are eliminated from somatic cells through programmed
-DNA elimination during embryo development. GRCs have been observed in several
-unrelated animal taxa and show peculiar modes of non-Mendelian inheritance and
-within-individual elimination. "
-
+Germline-restricted chromosomes (GRCs) are the same trick applied to a whole
+chromosome: accessory chromosomes that occur only in germ cells and are
+eliminated from somatic cells during embryo development, seen in several
+unrelated animal taxa and inherited in strikingly non-Mendelian ways
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9508068/
+
+PDE, GRCs, VDJ recombination and bacterial CRISPR spacer acquisition are all
+cases of organisms editing their own genomes, reviewed in "How and when
+organisms edit their own genomes"
+https://www.nature.com/articles/s41588-025-02230-1
 
 ## Non-random segregation of chromosomes
 
@@ -953,24 +933,10 @@ https://doi.org/10.1007/s00018-013-1437-7
 
 ## Range of ploidy
 
-Wikipedia lists this table with examples of organisms with different ploidy
+Wikipedia's table of ploidy levels runs from haploid (male European fire ants)
+through the familiar triploid seedless watermelons and hexaploid wheat, out to
+tetratetracontaploid — forty-four sets — in black mulberry
 https://en.wikipedia.org/wiki/Polyploidy#Types
-
-- haploid (one set; 1x), for example male European fire ants
-- diploid (two sets; 2x), for example humans
-- triploid (three sets; 3x), for example sterile saffron crocus, or seedless
-  watermelons, also common in the phylum Tardigrada
-- tetraploid (four sets; 4x), for example, Plains viscacha rat, Salmonidae fish,
-  the cotton Gossypium hirsutum
-- pentaploid (five sets; 5x), for example Kenai Birch (Betula kenaica)
-- hexaploid (six sets; 6x), for example some species of wheat, kiwifruit
-- heptaploid or septaploid (seven sets; 7x)
-- octaploid or octoploid, (eight sets; 8x), for example Acipenser (genus of
-  sturgeon fish), dahlias
-- decaploid (ten sets; 10x), for example certain strawberries
-- dodecaploid or duodecaploid (twelve sets; 12x), for example the plants Celosia
-  argentea and Spartina anglica, or the amphibian Xenopus ruwenzoriensis.
-- tetratetracontaploid (forty-four sets; 44x), for example black mulberry
 
 ## DNA modifications
 
@@ -983,13 +949,6 @@ a G). Others include 6mA and oxidized derivatives of 5mC such as 5hmC
 Many other modifications exist, see https://dnamod.hoffmanlab.org/
 
 ## RNA world
-
-### RNA modifications
-
-https://www.hindawi.com/journals/jna/2011/408053/tab1/
-
-updated link on hindawi should point here http://mods.rna.albany.edu/mods/ (this
-link now dead too, see maybe http://genesilico.pl/modomics/modifications)
 
 ### RNA editing
 
@@ -1018,12 +977,6 @@ non-linear order.
 Al-Balool et al. (2011) validated several cases of PTES in human genes that are
 evolutionarily conserved, including _MAN1A2_, _PHC3_, _TLE4_, and _CDK13_:
 https://genome.cshlp.org/content/21/11/1788.short
-
-### Maternal RNAs being passed down
-
-Maternal RNAs can show activity in the zygote (e.g.
-https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition), which can lead to
-complex transgenerational effects
 
 ### Lowly expressed RNA has large effects
 
@@ -1059,26 +1012,6 @@ chromosome inactivation)
 See https://github.com/cmdcolin/oddbiology/ for calico cats, mosaicism, and how
 different organisms solve dosage compensation in completely different ways
 
-### Riboswitches
-
-A riboswitch is a structured stretch of 5' UTR that binds a small metabolite
-directly, with no protein sensor in between. Ligand binding flips the fold so
-that transcription terminates early or the ribosome binding site is occluded.
-The TPP (thiamine pyrophosphate) riboswitch is the most widespread and turns up
-in bacteria, archaea, fungi, and plants.
-
-https://en.wikipedia.org/wiki/Riboswitch
-
-### RNA thermometers
-
-Some bacterial mRNAs carry a 5' UTR hairpin that hides the Shine-Dalgarno
-sequence in the cold and melts open as the temperature climbs, so translation is
-gated by temperature alone. Pathogens such as Listeria and Yersinia read the
-jump to host body temperature as the cue to switch on virulence genes, while
-ROSE elements respond in the heat-shock range near 42°C.
-
-https://en.wikipedia.org/wiki/RNA_thermometer
-
 ### tmRNA (transfer-messenger RNA)
 
 tmRNA rescues bacterial ribosomes stalled on a truncated mRNA. One molecule
@@ -1089,27 +1022,6 @@ stop codon the broken message was missing. A single feature that is a tRNA and
 an mRNA at once is not what most annotation formats expect.
 
 https://en.wikipedia.org/wiki/Transfer-messenger_RNA
-
-### R-loops
-
-An R-loop is a three-stranded structure where nascent RNA hybridizes back to its
-DNA template and displaces the other strand as single-stranded DNA. They are
-required at immunoglobulin switch regions for class-switch recombination, and
-they form at G-quadruplex-forming sequences and replication origins. Unscheduled
-R-loops are a major source of transcription-replication conflict and genome
-instability.
-
-https://doi.org/10.1016/j.molcel.2019.01.024
-https://doi.org/10.1016/j.cell.2019.08.055
-
-### Types of RNA
-
-Wikipedia keeps a long list of RNA types
-https://en.wikipedia.org/wiki/List_of_RNAs
-
-Some are named for where they are expressed, others for their shape — circular
-RNAs https://en.wikipedia.org/wiki/Circular_RNA are one example, and small and
-long non-coding RNAs commonly fold into structures that carry their function
 
 ## Proteins
 
@@ -1153,11 +1065,6 @@ skip forming a peptide bond during translation, effectively splitting the
 polyprotein without a protease. These are now widely used as a biotechnology
 tool for expressing multiple proteins from one mRNA
 https://pmc.ncbi.nlm.nih.gov/articles/PMC5438344/
-
-### Interesting PDB entries
-
-From another repo
-https://github.com/molstar/molstar/blob/master/docs/docs/misc/interesting-pdb-entries.md
 
 ## Transposons
 
@@ -1270,10 +1177,8 @@ enough that hg38 ships extra alternative loci/contigs just to represent it
 
 ## Repeats
 
-### 235kb of nothing but TAG
-
-The "T2T" assembly of the maize Mo17 genome calls out this one simple repeat in
-its abstract, which is how silly it is
+The "T2T" assembly of the maize Mo17 genome contains 235kb of nothing but TAG,
+called out in the abstract because it is that silly
 
 https://www.nature.com/articles/s41588-023-01419-6
 
@@ -1439,7 +1344,7 @@ these “rescue” events"
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3111049/
 
-### Mosaic loss of Y chromosome
+### Mosaic loss of sex chromosomes
 
 Older men can have a mosaic loss of the Y chromosome
 https://en.wikipedia.org/wiki/Mosaic_loss_of_chromosome_Y
@@ -1450,9 +1355,7 @@ https://www.biostars.org/p/9482437/)
 may be associated with cardiac issues
 https://www.science.org/doi/10.1126/science.abn3100
 
-### Mosaic loss of X chromosome
-
-Similar to the above but for X
+The same happens with the X in older women
 https://www.cancer.gov/news-events/press-releases/2024/genetic-factors-predict-x-chromosome-loss
 
 ### Ring chromosome
@@ -1831,6 +1734,21 @@ Sometimes it is not the gene, but the allele that is named
 Ref https://twitter.com/hmdc_mgi/status/1242893531779391496
 
 ## More reading
+
+A long list of RNA types https://en.wikipedia.org/wiki/List_of_RNAs, and
+circular RNA in particular https://en.wikipedia.org/wiki/Circular_RNA
+
+Tables of RNA modifications, whose links keep rotting:
+https://www.hindawi.com/journals/jna/2011/408053/tab1/ used to point at
+http://mods.rna.albany.edu/mods/, which is also dead, so try
+http://genesilico.pl/modomics/modifications
+
+Maternal RNAs deposited in the egg stay active in the zygote and can have
+transgenerational effects
+https://en.wikipedia.org/wiki/Maternal_to_zygotic_transition
+
+Interesting PDB entries, from the molstar repo
+https://github.com/molstar/molstar/blob/master/docs/docs/misc/interesting-pdb-entries.md
 
 Great illustrations of interesting biology, including information about gene
 names https://twitter.com/vividbiology
