@@ -8,8 +8,7 @@ See also https://github.com/cmdcolin/oddbiology/ for more weird bio
 
 ### 1bp length exon
 
-Evidence given for a 1bp length exon in Arabidopsis and different splicing
-models are discussed
+Evidence for a 1bp exon in Arabidopsis, with competing splicing models discussed
 
 http://www.nature.com/articles/srep18087
 
@@ -37,8 +36,8 @@ sequence at the 3' splice site junction was AG/GT"
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4529404/
 
-It was found that aberrant recursive splicing could potentially contribute to
-disease https://www.biorxiv.org/content/10.1101/2025.08.14.666599v1?med=mas
+Aberrant recursive splicing may contribute to disease
+https://www.biorxiv.org/content/10.1101/2025.08.14.666599v1?med=mas
 
 ### Very large introns
 
@@ -53,17 +52,16 @@ at locus Xp21. The primary transcript in muscle measures about 2,100 kilobases
 and takes 16 hours to transcribe; the mature mRNA measures 14.0 kilobases"
 https://en.wikipedia.org/wiki/Dystrophin
 
-Note: these large introns require very large amounts of DNA to be transcribed
-into RNA, before just removing most of the transcribed RNA via intron splicing,
-which is sort of "wasteful" on a molecular level. The 16-hour transcription time
-for dystrophin means that rapidly dividing cells cannot finish transcribing it
-before the next cell division interrupts the process
+Transcribing introns this large is wasteful: the cell synthesizes megabases of
+RNA and then splices nearly all of it back out. Dystrophin's 16-hour
+transcription time also means a rapidly dividing cell cannot finish one
+transcript before the next division interrupts it
 https://pmc.ncbi.nlm.nih.gov/articles/PMC2754300/
 
 ### Large number of exons
 
-In human, the TTN (titin) gene has ~364 exons, which is almost double the next
-most NEB (nebulin) at ~184 exons
+Human TTN (titin) has ~364 exons, nearly double the runner-up NEB (nebulin) at
+~184
 
 https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=7273
 
@@ -82,12 +80,11 @@ https://www.news-medical.net/news/20240215/Novel-splicing-mechanism-for-short-in
 
 ### Very large proteins
 
-An alga described in 2024 encodes a protein PKZILLA-1 that has a mass of 4.7
-megadaltons and contains 140 enzyme domains
+An alga described in 2024 encodes PKZILLA-1, a 4.7 megadalton protein with 140
+enzyme domains
 https://cen.acs.org/biological-chemistry/PKZILLA-proteins-smash-protein-size/102/web/2024/08
 
-In human the TTN gene encodes the titin protein (in muscle) at almost 4
-megadaltons
+Human titin, the TTN product in muscle, is almost 4 megadaltons
 
 ![](https://s7d1.scene7.com/is/image/CENODS/20240808lnp2-titinpkzilla?$responsive$&wid=700&qlt=90,0&resMode=sharp2)
 
@@ -107,8 +104,8 @@ https://academic.oup.com/nar/article/54/6/gkag196/8539533
 
 ### Backsplicing and circRNAs
 
-The process of "backsplicing" circularizes RNAs. There can be alternative
-backsplicing too
+Backsplicing circularizes RNAs, and alternative backsplicing yields different
+circles from the same gene
 
 ![Circular RNA biogenesis](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Circular_RNA_Biogenesis.jpg/960px-Circular_RNA_Biogenesis.jpg)
 
@@ -184,37 +181,35 @@ acid is 'encoded' by the stop codon. Mutated tRNAs can be the cause of
 readthrough, but also certain nucleotide motifs close to the stop codon.
 Translational readthrough is very common in viruses and bacteria, and has also
 been found as a gene regulatory principle in humans, yeasts, bacteria and
-drosophila.[28][29] This kind of endogenous translational readthrough
-constitutes a variation of the genetic code, because a stop codon codes for an
-amino acid. In the case of human malate dehydrogenase, the stop codon is read
-through with a frequency of about 4%.[30] The amino acid inserted at the stop
-codon depends on the identity of the stop codon itself: Gln, Tyr, and Lys have
-been found for the UAA and UAG codons, while Cys, Trp, and Arg for the UGA codon
-have been identified by mass spectrometry.[31] Extent of readthrough in mammals
-have widely variable extents, and can broadly diversify the proteome and affect
-cancer progression.[32] "
+drosophila. This kind of endogenous translational readthrough constitutes a
+variation of the genetic code, because a stop codon codes for an amino acid. In
+the case of human malate dehydrogenase, the stop codon is read through with a
+frequency of about 4%. The amino acid inserted at the stop codon depends on the
+identity of the stop codon itself: Gln, Tyr, and Lys have been found for the UAA
+and UAG codons, while Cys, Trp, and Arg for the UGA codon have been identified
+by mass spectrometry. Readthrough extent in mammals varies widely, and can
+broadly diversify the proteome and affect cancer progression."
 
 https://en.wikipedia.org/wiki/Stop_codon#Translational_readthrough
 
 ### Stop codon re-assignment: selenocysteine
 
-The amino acid Selenocysteine is coded for by an "opal" (UGA) stop codon
-(https://en.wikipedia.org/wiki/Selenocysteine)
+An "opal" (UGA) stop codon encodes the amino acid selenocysteine
+(https://en.wikipedia.org/wiki/Selenocysteine), which occurs in all domains of
+life including humans.
 
-Is present in all domains of life including humans
-
-As of 2021, 136 human proteins (in 37 families) are known to contain
-selenocysteine
-
-A stem-loop structure in the mRNA called a SECIS element
-(https://en.wikipedia.org/wiki/SECIS_element) signals the ribosome to read UGA
-as selenocysteine instead of stop. The resulting products are called
-[selenoproteins](https://en.wikipedia.org/wiki/Selenoprotein).
+A stem-loop in the mRNA called a SECIS element
+(https://en.wikipedia.org/wiki/SECIS_element) tells the ribosome to read that
+UGA as selenocysteine instead of stop. The products are
+[selenoproteins](https://en.wikipedia.org/wiki/Selenoprotein), and the human
+selenoproteome has 25 members
+https://www.science.org/doi/10.1126/science.1083516
 
 ### Stop codon re-assignment: pyrrolysine
 
-Pyrrolysine also is coded for by the "amber" (UAG) stop codon
-(https://en.wikipedia.org/wiki/Pyrrolysine), not present in humans
+The "amber" (UAG) stop codon encodes pyrrolysine
+(https://en.wikipedia.org/wiki/Pyrrolysine) in some archaea and bacteria, though
+not in humans
 
 "It is encoded in mRNA by the UAG codon, which in most organisms is the 'amber'
 stop codon. This requires only the presence of the pylT gene, which encodes an
@@ -256,13 +251,13 @@ See also this Ensembl blog on annotating readthrough transcription which joins
 multiple genes
 http://www.ensembl.info/2019/02/11/annotating-readthrough-transcription-in-ensembl/
 
-RNA-seq often makes extremely compelling cases for two-or-more different genes
-to be conjoined by splicing
+RNA-seq often makes a compelling case that two or more genes are joined by
+splicing
 
-Some algorithms e.g. mikado
-https://academic.oup.com/gigascience/article/7/8/giy093/5057872 try to avoid
-this calling it artifactual fusion/chimera that can be due to some tandem
-duplication but it does seem to be very prevalent in real data sets
+Tools like mikado
+https://academic.oup.com/gigascience/article/7/8/giy093/5057872 treat these as
+artifactual fusions or chimeras, sometimes traceable to tandem duplication, but
+they are very common in real data
 
 ### Non-canonical splice sites
 
@@ -285,8 +280,8 @@ disease.
 
 Review article https://academic.oup.com/nar/article/39/14/5837/1382796
 
-The snaptron project from Ben Langmead analyzed huge amounts of RNA-seq public
-data and found many types of these cryptic splicing http://snaptron.cs.jhu.edu/
+Snaptron, from Ben Langmead's group, indexes huge amounts of public RNA-seq and
+surfaces many kinds of cryptic splicing http://snaptron.cs.jhu.edu/
 
 SpliceVault and similar tools re-analyze large public RNA-seq datasets to
 empirically predict cryptic splice site activation
@@ -345,7 +340,8 @@ Original paper defining exitrons https://genome.cshlp.org/content/25/7/995.full
 
 ### Wobble splicing
 
-NAGNAG, GYNGYN, repeats of the splicing signal cause modified splicing behavior
+Repeats of the splice signal itself — NAGNAG at acceptors, GYNGYN at donors —
+shift the chosen splice site by a few nucleotides
 
 "Another mechanism introducing small variations to protein isoforms is wobble
 splicing. Here, a GYN repeat at the donor splice site (5’ splice site; Y stands
@@ -356,11 +352,9 @@ ref https://onlinelibrary.wiley.com/doi/full/10.1002/bies.201900066?af=R
 
 ### Intron retention
 
-Intron retention (IR) is a phenomenon where intron sequence is preserved, or
-doesn't get spliced out, in mature RNA
-
-It can occur in both abnormal and normal biological conditions. Transcript with
-IR often undergo nonsense-mediated decay.
+Intron retention (IR) leaves intron sequence unspliced in the mature RNA. It
+happens in both normal and disease conditions, and retained-intron transcripts
+often undergo nonsense-mediated decay.
 
 https://en.wikipedia.org/wiki/Alternative_splicing
 
@@ -380,10 +374,11 @@ Group II introns use a different mechanism (lariat formation, similar to
 spliceosomal introns) and are thought to be evolutionary ancestors of the
 spliceosome https://en.wikipedia.org/wiki/Group_II_intron
 
-### Bulge helix bulge introns (archael tRNA)
+### Bulge helix bulge introns (archaeal tRNA)
 
-There are some small intron types called "bulge-helix-bulge" in archaea (and
-other organisms)
+Archaea (and some other organisms) splice tRNA introns whose ends fold into a
+"bulge-helix-bulge" motif, cut by a tRNA splicing endonuclease rather than the
+spliceosome
 
 ![](img/bhb.jpg)
 
@@ -425,10 +420,9 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC3228813/
 
 ### Codon tables
 
-Many eukaryotes use the "standard genetic code" for translating codons to amino
-acids, but alternative codes are common across the tree of life — especially in
-mitochondria, ciliates, and mycoplasma. The NCBI genetic code table lists these
-variants
+Most organisms use the "standard genetic code", but alternative codes are common
+across the tree of life — especially in mitochondria, ciliates, and mycoplasma.
+The NCBI genetic code table lists these variants
 
 https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG31
 
@@ -469,18 +463,15 @@ poly-A tail (ENST00000581230), with intron retention being a possible correlate
 of longer poly-A tails
 https://www.biorxiv.org/content/early/2018/11/09/459529.article-info
 
-Polyadenylation normally happens at the end of a transcript, after the last
-exon. "Intronic polyadenylation" (IpA) is the confusingly-named phenomenon where
-a poly-A signal hiding inside an intron gets used instead. When this happens,
-the cell treats that intronic position as "the end" of the transcript —
-everything downstream (including remaining exons) is lost. The result is a
-shorter mRNA that may encode a truncated protein or no functional protein at
-all. The name is confusing because "intronic" suggests something happening
-inside an intron that gets spliced away, but here the intron is where
-transcription effectively stops. The classic example is immunoglobulin M (IgM):
-naive B cells use a downstream poly-A site to produce membrane-bound IgM, but
-upon activation, an intronic poly-A site is used instead, producing the shorter
-secreted form of IgM. This switch is a key part of the immune response
+Polyadenylation normally happens after the last exon, but a poly-A signal
+sitting inside an intron can be used instead — "intronic polyadenylation" (IpA).
+That intronic position becomes the end of the transcript and everything
+downstream, including the remaining exons, is lost, giving a shorter mRNA that
+often encodes a truncated or nonfunctional protein. The name misleads: nothing
+gets spliced away here, the intron is simply where transcription stops. The
+classic example is immunoglobulin M — naive B cells use a downstream poly-A site
+and make membrane-bound IgM, while activated B cells switch to an intronic site
+and make the secreted form, a key step in the immune response
 (https://pmc.ncbi.nlm.nih.gov/articles/PMC9715272/,
 https://pubmed.ncbi.nlm.nih.gov/9885564/).
 
@@ -497,18 +488,18 @@ https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG2).
 
 ### Circular chromosomes
 
-Circularized chromosomes should be unsurprising to anyone working with plasmids
-and many prokaryotic genomes but for gene annotation formats which use linear
-coordinates, representing anything wrapping around the origin is challenging.
+Circular chromosomes are routine for plasmids and prokaryotic genomes, but
+annotation formats use linear coordinates, so anything wrapping past the origin
+is awkward to represent.
 
 While mitochondrial genomes are often assumed to be circular, some eukaryotes
 have linear mitochondrial DNA — including certain yeasts (Candida) and some
 plants and protists
 https://www.sciencedirect.com/science/article/abs/pii/S0168952503003044
 
-Many genomic viewers do not do this well. For GFF format this is done by making
-the end go past the end of the genome. Below, the genome is 6407 bp in length,
-but the CDS feature extends past this and sets Is_circular=true
+Most genome viewers handle this poorly. GFF represents it by letting a feature
+end past the end of the sequence. Below the genome is 6407 bp long, but the CDS
+runs past that and sets Is_circular=true
 
 ```
 ##gff-version 3.2.1
@@ -530,8 +521,8 @@ later generations. Reference: https://pubmed.ncbi.nlm.nih.gov/23541845/
 
 ### Overlapping genes
 
-It is possible for gene sequences to overlap, on different strands
-(sense-antisense) or same strand, possibly in alternate coding frames
+Genes can overlap, either on opposite strands (sense-antisense) or on the same
+strand in a different reading frame
 
 https://en.wikipedia.org/wiki/Overlapping_gene
 
@@ -576,7 +567,7 @@ all on the opposite strand:
 - **EVI2A** — putative transmembrane protein involved in hematopoietic
   specification
 
-None carry mutations causative for neurofibromatosis — they are regulated
+None of them carry neurofibromatosis-causing mutations, and all are regulated
 independently of NF1.
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC359746/
@@ -592,7 +583,7 @@ they are routinely ignored by gene annotation pipelines.
 
 https://en.wikipedia.org/wiki/Upstream_open_reading_frame
 
-## Flybase
+## New genes
 
 ### Chimeric genes
 
@@ -668,7 +659,7 @@ A broad survey found gene-capturing "Pack-TYPE" elements across all major DNA
 transposon superfamilies (MULEs, CACTAs, Harbingers, hATs)
 https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010078
 
-## Wormbase
+## Trans-splicing, operons, and shared exons
 
 ### Adding leader sequence to mRNA
 
@@ -737,7 +728,8 @@ https://www.biorxiv.org/content/10.1101/2025.01.17.633476v1.full.pdf
 
 ### Trans-splicing of exons on different strands
 
-A pre-mRNA from both strands of DNA eri6 and eri7 are combined to create eri-6/7
+In C. elegans, transcripts from opposite strands, eri-6 and eri-7, are joined in
+trans to make the eri-6/7 mRNA
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC2756026/
 
@@ -769,9 +761,9 @@ https://academic.oup.com/nar/article/33/3/1077/1064173 (Dyer & Rosenberg 2005)
 
 ### Possible adaptive bacteria->eukaryote HGT
 
-A possible horizontal gene transfer from bacteria to eukaryotes is found in an
-insect that feeds on coffee beans. Changes that the gene had to undergo are
-covered (added poly-A tail, Shine-Dalgarno sequence deleted)
+The coffee berry borer beetle appears to have picked up a bacterial gene by
+horizontal transfer. Domesticating it meant gaining a poly-A tail and losing the
+Shine-Dalgarno sequence
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306691/
 
@@ -808,11 +800,11 @@ https://www.nature.com/articles/s41467-021-25948-y
 
 ### Complex DNA structures
 
-The standard DNA double stranded helix is called B-DNA
-
-"There are also triple-stranded DNA forms and quadruplex forms such as the
-G-quadruplex and the i-motif. "
+The standard right-handed double helix is B-DNA, but A-DNA and left-handed Z-DNA
+also form. "There are also triple-stranded DNA forms and quadruplex forms such
+as the G-quadruplex and the i-motif."
 https://en.wikipedia.org/wiki/Nucleic_acid_double_helix
+https://en.wikipedia.org/wiki/Triple-stranded_DNA
 
 ### Maxicircle architecture
 
@@ -837,15 +829,11 @@ each). Only 3 protein-coding genes remain (cox1, cox3, cob), and even those are
 split into fragments that must be separately transcribed and pieced together
 https://academic.oup.com/mbe/article/24/7/1528/987488
 
-### Triplex DNA
-
-https://en.wikipedia.org/wiki/Triple-stranded_DNA
-
 ### Polytene chromosome
 
-Some organisms, famously insects in their salivary glands, create many copies of
-genes through multiple phases of incomplete DNA replication
-https://en.wikipedia.org/wiki/Polytene_chromosome
+Some cells — famously insect salivary glands — copy their chromosomes through
+repeated rounds of replication without cell division, giving giant banded
+chromosomes https://en.wikipedia.org/wiki/Polytene_chromosome
 
 ![](img/polytene.png)
 
@@ -862,12 +850,10 @@ https://www.mun.ca/biology/scarr/Polytene_Chromosomes.html
 
 ### Endoreplication
 
-The above section about polytene chromosomes mentions endoreplication but this
-can also affect many other contexts and was mentioned as an issue in genome
-assembly of some plants. A talk given about vanilla bean found a lot of
-endoreplication during their genome assembly which leads to very uneven
-coverage. They tried to select tissue samples that had the least amount of
-endoreplication.
+Endoreplication (see polytene chromosomes) also turns up as a genome assembly
+problem in plants. A PAG talk on the vanilla bean genome reported heavy
+endoreplication driving very uneven sequencing coverage; the team picked tissue
+samples with the least of it.
 https://plan.core-apps.com/pag_2023/abstract/e26dbeb1-df8f-4c57-a062-dcaf881b79f4
 
 ### Endo-(poly)ploidy
@@ -937,7 +923,7 @@ https://en.wikipedia.org/wiki/Non-random_segregation_of_chromosomes
 
 See https://github.com/cmdcolin/oddbiology/ for more examples and details
 
-### Range of ploidy
+## Range of ploidy
 
 Wikipedia lists this table with examples of organisms with different ploidy
 https://en.wikipedia.org/wiki/Polyploidy#Types
@@ -945,27 +931,26 @@ https://en.wikipedia.org/wiki/Polyploidy#Types
 - haploid (one set; 1x), for example male European fire ants
 - diploid (two sets; 2x), for example humans
 - triploid (three sets; 3x), for example sterile saffron crocus, or seedless
-  watermelons, also common in the phylum Tardigrada[7]
-- tetraploid (four sets; 4x), for example, Plains viscacha rat, Salmonidae
-  fish,[8] the cotton Gossypium hirsutum[9]
+  watermelons, also common in the phylum Tardigrada
+- tetraploid (four sets; 4x), for example, Plains viscacha rat, Salmonidae fish,
+  the cotton Gossypium hirsutum
 - pentaploid (five sets; 5x), for example Kenai Birch (Betula kenaica)
-- hexaploid (six sets; 6x), for example some species of wheat,[10] kiwifruit[11]
+- hexaploid (six sets; 6x), for example some species of wheat, kiwifruit
 - heptaploid or septaploid (seven sets; 7x)
 - octaploid or octoploid, (eight sets; 8x), for example Acipenser (genus of
   sturgeon fish), dahlias
 - decaploid (ten sets; 10x), for example certain strawberries
 - dodecaploid or duodecaploid (twelve sets; 12x), for example the plants Celosia
-  argentea and Spartina anglica [12] or the amphibian Xenopus ruwenzoriensis.
-- tetratetracontaploid (forty-four sets; 44x), for example black mulberry[13]
+  argentea and Spartina anglica, or the amphibian Xenopus ruwenzoriensis.
+- tetratetracontaploid (forty-four sets; 44x), for example black mulberry
 
-### DNA modifications
+## DNA modifications
 
 There are many chemical modifications that can happen to DNA, leading to an
 "extended alphabet" with functional changes.
 
-A common DNA modification is called methylation. The most common is a 5mC
-modification, a methylation of the letter C, and is mostly found in a CpG (a C
-followed by a G in the genome)
+The most common is 5mC, a methylated cytosine, usually in a CpG (a C followed by
+a G). Others include 6mA and oxidized derivatives of 5mC such as 5hmC
 
 Many other modifications exist, see https://dnamod.hoffmanlab.org/
 
@@ -980,15 +965,12 @@ link now dead too, see maybe http://genesilico.pl/modomics/modifications)
 
 ### RNA editing
 
-RNA editing is a post-transcriptional modification to the mRNA, which can change
-what we would see when the RNA is sequenced. A-to-I editing is common in some
-species, which would make the RNA, when sequenced, appear to have a G instead of
-an A. If the genome was sequenced, it would not show a SNP but the RNA-seq would
-appear to have A->G.
+RNA editing changes the mRNA after transcription, so the sequenced RNA can
+disagree with the genome. A-to-I editing is common in some species and reads out
+as an A->G difference in RNA-seq with no corresponding genomic SNP.
 
-RNA editing can be conditional; mammalian apolipoprotein B is synthesized as a
-full-length B100 form (550 kDa) by default, but C-to-U editing in the intestine
-introduces a premature stop codon to produce the shorter B48 form (265 kDa)
+Editing can also be conditional and tissue specific — see apolipoprotein B in
+the stop codons created by RNA editing section
 
 Other editing also occurs https://en.wikipedia.org/wiki/RNA_editing
 
@@ -1005,9 +987,9 @@ While the exon structure of most mRNAs follows the linear sequence of the
 transcribed DNA, there are a few cases where mature mRNAs contain exons in a
 non-linear order.
 
-Al-Balool and Weber _et al_ (2011) validated several cases of PTES in human
-genes that are evolutionarily conserved, including _MAN1A2_, _PHC3_, _TLE4_, and
-_CDK13_: https://genome.cshlp.org/content/21/11/1788.short
+Al-Balool et al. (2011) validated several cases of PTES in human genes that are
+evolutionarily conserved, including _MAN1A2_, _PHC3_, _TLE4_, and _CDK13_:
+https://genome.cshlp.org/content/21/11/1788.short
 
 ### Maternal RNAs being passed down
 
@@ -1017,11 +999,11 @@ complex transgenerational effects
 
 ### Lowly expressed RNA has large effects
 
-A lncRNA VELUCT almost flies under the radar in a lung cancer screen due to
-being very lowly expressed, such that it is "below the detection limit in total
-RNA from NCI-H460 cells by RT-qPCR as well as RNA-Seq", however this study
-confirms it as a factor in experiments (2025 note: this article has basically no
-citations, unclear whether it actually is impactful)
+The lncRNA VELUCT nearly escaped a lung cancer screen because its expression is
+so low that it is "below the detection limit in total RNA from NCI-H460 cells by
+RT-qPCR as well as RNA-Seq", however this study confirms it as a factor in
+experiments (2025 note: this article has basically no citations, unclear whether
+it actually is impactful)
 
 https://www.ncbi.nlm.nih.gov/pubmed/28160600?dopt=Abstract
 
@@ -1051,23 +1033,19 @@ different organisms solve dosage compensation in completely different ways
 
 ### Types of RNA
 
-There are many types of RNA some more weird and exotic than others, a large list
+Wikipedia keeps a long list of RNA types
 https://en.wikipedia.org/wiki/List_of_RNAs
 
-Some are named based on where they are expressed or active
-
-Others are uniquely shaped. There are also circular RNA for example
-https://en.wikipedia.org/wiki/Circular_RNA
-
-Small and long non coding RNAs often fold into important structural shapes
+Some are named for where they are expressed, others for their shape — circular
+RNAs https://en.wikipedia.org/wiki/Circular_RNA are one example, and small and
+long non-coding RNAs commonly fold into structures that carry their function
 
 ## Proteins
 
 ### Removal of start amino acid in proteins
 
-This is probably obvious to many people who work on proteins but while the
-genome has almost all genes starting with a start codon which produces
-methionine, this is often post translationally removed
+Nearly every gene starts with a codon for methionine, but methionyl
+aminopeptidase often removes that methionine after translation
 https://en.m.wikipedia.org/wiki/Methionyl_aminopeptidase
 
 ### Inteins
@@ -1081,11 +1059,9 @@ https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md#path
 
 ### Polyprotein
 
-Viral sequences can create a polyprotein which is fully transcribed and
-translated before being cleaved by a protease. In some viruses (such as
-coronaviruses) their translation involves ribosomal frameshifting.
-
-Dengue, HIV, etc. use this
+Many viruses translate one long polyprotein and then cut it into pieces with a
+protease. Coronaviruses reach the second half of theirs by ribosomal
+frameshifting. Dengue and HIV use the same strategy
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6040172/
 https://www.sciencedirect.com/science/article/abs/pii/S0959440X15000597
@@ -1116,8 +1092,8 @@ Source http://www.pnas.org/content/110/3/1012.full
 
 ### LINE1 important for embryonic development
 
-LINE1 elements are normally kept silenced by the host, but evidence shows that
-LINE1 transcription is important for embryonic development.
+The host normally silences LINE1 elements, but LINE1 transcription turns out to
+matter for embryonic development.
 
 https://www.ucsf.edu/news/2018/06/410781/not-junk-jumping-gene-critical-early-embryo
 
@@ -1183,34 +1159,28 @@ This is why V, D, and J are called "gene segments" rather than "exons" — they
 are raw parts that must be assembled at the DNA level first, before the normal
 exon-intron splicing machinery can do its job.
 
-The recombination is guided by flanking "recombination signal sequences" and is
+Flanking "recombination signal sequences" guide the joining, which is
 deliberately imprecise — terminal transferase adds random nucleotides at the
-junctions, further diversifying the sequences. This is how a limited number of
-gene segments (~100 V + ~30 D + ~6 J in humans) can generate billions of
-different antibodies.
+junctions. A few dozen V, roughly two dozen D, and a handful of J segments per
+locus therefore generate billions of different antibodies.
 
-This is called "somatic" recombination because it happens in somatic cells
-(developing B and T cells), not in the germline — the rearrangements are not
-passed to offspring. In most biology, recombination only occurs during meiosis
-in germ cells, where homologous chromosomes exchange segments. VDJ recombination
-is fundamentally different: it uses a dedicated enzyme complex (RAG1/RAG2) that
-evolved from an ancient transposon (see Transib above). RAG cuts at specific
-recombination signal sequences, and the broken ends are repaired by the cell's
-general-purpose NHEJ (non-homologous end joining) DNA repair pathway. So VDJ
-recombination is possible in somatic tissue because the cell already has the DNA
-repair machinery — RAG just co-opts it by making targeted double-strand breaks
-at the right places. Most somatic cells do not express RAG, which is why only
-lymphocytes undergo this rearrangement.
+The rearrangement is called "somatic" because it happens in developing B and T
+cells rather than the germline, so it is never passed to offspring. Elsewhere in
+biology, recombination is a meiotic affair between homologous chromosomes. Here
+a dedicated RAG1/RAG2 complex, itself derived from an ancient transposon (see
+Transib above), cuts at the recombination signal sequences and leaves the broken
+ends to the cell's general-purpose NHEJ (non-homologous end joining) repair
+pathway — RAG supplies the targeted double-strand breaks and existing repair
+machinery does the rest. Only lymphocytes express RAG, which is why only they
+rearrange.
 
 https://en.wikipedia.org/wiki/V(D)J_recombination
 https://www.ncbi.nlm.nih.gov/books/NBK27140/
 
 ### MHC region
 
-The MHC region is a very polymorphic region of the genome on chr6. I'm not
-personally familiar with all the intricacies of MHC beyond that it is a unique
-contributor of some additional hg38 alternative loci/contigs due to its high
-diversity
+The MHC on chr6 is the most polymorphic region of the human genome — diverse
+enough that hg38 ships extra alternative loci/contigs just to represent it
 
 - https://en.wikipedia.org/wiki/Major_histocompatibility_complex
 
@@ -1218,10 +1188,10 @@ diversity
 
 ## Repeats
 
-### 235kb of just just TAG
+### 235kb of nothing but TAG
 
-In the Maize genome, Mo17, sequenced "T2T", they mention this very large simple
-repeat in the abstract...cause it's that silly
+The "T2T" assembly of the maize Mo17 genome calls out this one simple repeat in
+its abstract, which is how silly it is
 
 https://www.nature.com/articles/s41588-023-01419-6
 
@@ -1229,14 +1199,14 @@ https://www.nature.com/articles/s41588-023-01419-6
 
 ### Tandem duplication
 
-A tandem duplication can be seen as a piece of DNA that copied side by side in
-the genome. But why would this occur?
+A tandem duplication is a stretch of DNA copied immediately next to itself.
+Where does it come from?
 
-Some biological factors can include
+Mechanisms include
 
 - replication slippage
 - retrotransposition
-- unequal crossing over (UCO).
+- unequal crossing over (UCO)
 - imperfect repair of double-strand breaks by nonhomologous end joining (NHEJ)
   (specifically generates 1-100bp range indels according to article)
 
@@ -1306,9 +1276,9 @@ duplications:
 
 ### A pseudogene that can protect against cancer in Elephants
 
-The LIF gene has many copies in Elephant but many are non-functional. One copy
-can be "turned back on" and play a role in cancer protection. They call this a
-"zombie gene"
+Elephants carry many LIF copies, most of them pseudogenes. One of them, LIF6, is
+switched back on by p53 and kills damaged cells — a "zombie gene" that may help
+explain why such a large animal gets so little cancer
 
 https://www.cell.com/cell-reports/fulltext/S2211-1247(18)31145-8
 
@@ -1318,8 +1288,7 @@ https://www.sciencealert.com/lif6-pseudogene-elephant-tumour-suppression-solutio
 
 ### Intron mediated enhancement (IME)
 
-It has been shown that some intron sequences can enhance expression similar to
-how promoter sequences work
+Some intron sequences boost expression much the way promoters do
 https://en.wikipedia.org/wiki/Intron-mediated_enhancement
 
 The first intron of the UBQ10 gene in Arabidopsis exhibits IME, and "the
@@ -1327,9 +1296,9 @@ sequences responsible for increasing mRNA accumulation are redundant and
 dispersed throughout the UBQ10 intron"
 http://www.plantcell.org/content/early/2017/04/03/tpc.17.00020.full.pdf+html
 
-The classic peppered moth phenotype is an intron TE insertion
-https://www.nature.com/articles/nature17951 (may not be strictly IME, I'm
-personally not sure)
+The peppered moth's industrial melanism allele is a transposon insertion in an
+intron of the cortex gene https://www.nature.com/articles/nature17951 (may not
+be strictly IME, I'm personally not sure)
 
 ### Genomic imprinting
 
@@ -1400,17 +1369,16 @@ can form from aberrant processes https://en.wikipedia.org/wiki/Ring_chromosome
 ![](https://upload.wikimedia.org/wikipedia/commons/d/da/NLM_ring_chromosome.jpg)
 
 There are also smaller fragments that can be circularized called "supernumerary
-small ring chromosomes" (sSRC) or their normal linear part, "supernumary small
-marker chromosomes" (sSMC)
+small ring chromosomes" (sSRC) or their linear counterparts, "supernumerary
+small marker chromosomes" (sSMC)
 https://en.wikipedia.org/wiki/Small_supernumerary_marker_chromosome
 
 ## File formats
 
 ### Non-ACGT letters in fasta files
 
-The latest human genome, for example, downloaded from NCBI, contains a number of
-Non-ACGT letters in the form of IUPAC codes
-https://www.bioinformatics.org/sms/iupac.html These represent ambiguous bases.
+The human genome as distributed by NCBI contains IUPAC ambiguity codes beyond
+ACGTN https://www.bioinformatics.org/sms/iupac.html
 
 Here is the incidence of non-ACGTN IUPAC letters in the entire human genome
 GRCh38.p14 from
@@ -1489,11 +1457,10 @@ Reference sequences
  | 1098333
 ```
 
-Note that commas in FASTA names is being suggested as an illegal character
-because of the supplementary alignment tag in SAM/BAM using comma separated
-values
+There is a proposal to make commas illegal in FASTA names, since the SAM/BAM
+supplementary alignment tag (SA) is itself comma separated
 
-## Humongous chromosomes V1
+## Humongous chromosomes: BAI/TBI index limits
 
 Genomes such as wheat have large chromosomes averaging 806Mbp but the BAI/TBI
 file formats are limited to 2^29-1 ~ 536Mbp in size (this is due to the binning
@@ -1503,7 +1470,7 @@ to help index BAM and tabix files with large chromosomes.
 Bonus: I made a web tool to help visualize BAI files to show how the binning
 index works https://cmdcolin.github.io/bam_index_visualizer/
 
-## Humongous chromosomes V2
+## Humongous chromosomes: BAM/CRAM coordinate limits
 
 The axolotl genome has individual chromosomes that are of size 3.14 Gbp
 https://genome.cshlp.org/content/29/2/317.long (2019) which is almost as big as
@@ -1517,7 +1484,7 @@ https://github.com/samtools/hts-specs/issues/655)
 
 Just some honorable mentions for largest genome
 
-- Polychaos dubium/Amoeba dubium/Chaos chaos - ~600-1300Gbp (unsequenced, 1968
+- Polychaos dubium (formerly Amoeba dubia) - ~600-1300Gbp (unsequenced, 1968
   back of envelope measurement, needs confirmation)
   https://en.wikipedia.org/wiki/Polychaos_dubium (another ref
   https://bionumbers.hms.harvard.edu/bionumber.aspx?&id=117342)
@@ -1526,9 +1493,9 @@ Just some honorable mentions for largest genome
   https://www.nature.com/articles/s41588-021-00841-y
 - Tmesipteris oblanceolata (fork fern) - ~160Gb (unsequenced)
   https://www.nature.com/articles/d41586-024-01567-7
-- Paris japonica (canopy plant) - ~149Gbp (unsequenced)
+- Paris japonica (Japanese woodland herb) - ~149Gbp (unsequenced)
   https://en.wikipedia.org/wiki/Paris_japonica
-- Tmesipteris_obliqua (fern) - ~147Gbp (unsequenced) -
+- Tmesipteris obliqua (fern) - ~147Gbp (unsequenced) -
   https://en.wikipedia.org/wiki/Tmesipteris_obliqua
 - South American lungfishes (Lepidosiren paradoxa) - ~91Gbp (sequenced)
   https://www.nature.com/articles/s41586-024-07830-1
@@ -1542,7 +1509,7 @@ Just some honorable mentions for largest genome
 - Ambystoma mexicanum (axolotl) - ~32Gbp (sequenced)
   https://en.wikipedia.org/wiki/Axolotl
   https://www.ncbi.nlm.nih.gov/genome/?term=axolotl
-- Allium ursinum (wild garlic) - ~30gb https://en.wikipedia.org/wiki/Onion_Test
+- Allium ursinum (wild garlic) - ~30Gbp https://en.wikipedia.org/wiki/Onion_Test
 - Coastal redwood - ~26Gbp (sequenced)
   https://www.ucdavis.edu/climate/news/coast-redwood-and-sequoia-genome-sequences-completed
   https://www.ncbi.nlm.nih.gov/genome/?term=redwood
@@ -1580,25 +1547,23 @@ life https://www.science.org/doi/10.1126/science.1239181
 
 ## Humongous CIGAR strings
 
-The CG tag was invented in order to store CIGAR strings longer than 64k
-operations, since n_cigar_opt is a uint16 in BAM. The CIGAR string is relevant
-only for BAM files, CRAM uses a different storage mechanism for CIGAR type data
-(e.g. the reference based compression).
+The CG tag stores CIGAR strings longer than 64k operations, since BAM holds
+n_cigar_op in 16 bits. This concerns BAM only — CRAM stores the same information
+differently, via reference based compression.
 
 ## Interesting gene names
 
-## Update Dec 2023
+As of Dec 2023 I extracted all the genes from a number of model organism
+databases here https://cmdcolin.github.io/genes/
 
-I extracted all the genes from a number of model organism databases here
-https://cmdcolin.github.io/genes/
-
-Here are some random highlights from earlier work
+Some highlights from earlier work
 
 - Tinman - "In mutant or knockout organisms, the loss of tinman results in the
   lack of heart formation" https://en.wikipedia.org/wiki/Tinman_gene
 - Sonic hedgehog (SHH) - named after the video game character; hedgehog mutants
   have 'spiky' fruit fly embryos https://en.wikipedia.org/wiki/Sonic_hedgehog
-- Robotnikin - antagonist of SHH, villain of the sonic hedgehog franchise -
+- Robotnikin - a small molecule that blocks Shh signaling, so not a gene at all,
+  named for Dr. Robotnik, the villain of the Sonic the Hedgehog franchise
   https://pmc.ncbi.nlm.nih.gov/articles/PMC2770933/
 - Heart of glass (heg) - a zebrafish gene with mutant phenotype "Individual heg
   myocardial cells are also thinner than wild-type"
@@ -1624,7 +1589,7 @@ Here are some random highlights from earlier work
   "Mothers against" was added as a humorous take-off"
   https://en.wikipedia.org/wiki/Mothers_against_decapentaplegic
 - Saxophone (sax) - http://www.sdbonline.org/sites/fly/gene/saxophon.htm
-- Beethovan (btv) - http://www.uniprot.org/uniprot/Q0E8P6
+- Beethoven (btv) - http://www.uniprot.org/uniprot/Q0E8P6
 - Superman+kryptonite - https://en.wikipedia.org/wiki/Superman_(gene)
 - Supervillin (SVIL) - https://www.uniprot.org/uniprot/O95425
 - Wishful thinking (wit) - https://www.wikigenes.org/e/gene/e/44096.html
@@ -1648,7 +1613,7 @@ Here are some random highlights from earlier work
   https://en.wikipedia.org/wiki/Piwi-interacting_RNA#History_and_loci
 - Jockey - http://flybase.org/reports/FBgn0015952.html
 - Tigger - https://www.omim.org/entry/612972
-- Nanog - celtic legend
+- Nanog - named for Tír na nÓg, the land of the ever-young in Irish legend
   https://www.sciencedaily.com/releases/2003/06/030602024530.htm (source
   https://twitter.com/EpgntxEinstein/status/1057359656220348417)
 - Jerky (jrk) - "A deficit in the Jerky protein in mice causes recurrent
@@ -1662,7 +1627,7 @@ Here are some random highlights from earlier work
 - Makes caterpillars floppy (mcf) - https://www.pnas.org/content/99/16/10742
   (source https://twitter.com/JUNIUS_64/status/1081007886560608256)
 - Eyeless http://flybase.org/reports/FBgn0005558.html
-- Straightjaket (stj) - http://flybase.org/reports/FBgn0261041.html
+- Straightjacket (stj) - http://flybase.org/reports/FBgn0261041.html
 - Huluwa http://science.sciencemag.org/content/362/6417/eaat1045 ref
   https://twitter.com/zhouwanding/status/1065960714978897921
 - frameshifts or pseudogene? - check sequence -
@@ -1724,7 +1689,7 @@ Here are some random highlights from earlier work
 - BABY BOOM https://pubmed.ncbi.nlm.nih.gov/30298388/
 - fiz/fezzik - "embryos and adult flies completely lacking CG9509 are unusually
   large - hence renaming it after the gentle giant Fezzik" (from the movie The
-  Princess Bride) https://flybase.org/reports/FBgn0030594.htm
+  Princess Bride) https://flybase.org/reports/FBgn0030594.html
   https://www.thenakedscientists.com/articles/science-features/gene-month-fezzik
 - Shavenbaby https://en.wikipedia.org/wiki/Shavenbaby see also polished rice
   (pri)
@@ -1747,7 +1712,7 @@ Ref https://twitter.com/hmdc_mgi/status/1242893531779391496
 Great illustrations of interesting biology, including information about gene
 names https://twitter.com/vividbiology
 
-Many of the stories behind fly gene nomenclature is available at
+Many of the stories behind fly gene nomenclature are collected at
 https://web.archive.org/web/20110716201703/http://www.flynome.com/cgi-bin/search?source=browse
 including the famous ForRentApartments dot com gene (just kidding but lol
 https://web.archive.org/web/20110716202150/http://www.flynome.com/cgi-bin/search?storyID=180)
