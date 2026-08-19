@@ -1340,6 +1340,87 @@ https://academic.oup.com/gigascience/article/8/7/giz074/5530326
 
 https://lh3.github.io/2017/11/13/which-human-reference-genome-to-use
 
+### A mother's chrY reads look like her daughter's, not her son's
+
+NA12878 has sons, and the Platinum Pedigree Consortium released DRAGEN
+alignments of all of CEPH pedigree 1463 against GRCh38 and T2T-CHM13v2, so one
+pipeline covers the whole family. A boy inherits his Y from his father, so
+NA12878 and her sons share no Y sequence at all: her chrY reads are artifacts
+and theirs are a real chromosome. Comparing the two read sets measures how
+convincingly an artifact impersonates a Y — and kinship contributes nothing to
+the answer.
+
+![chrY read depth for a mother, her daughter, her son and an unrelated man](img/chry_family.png)
+
+Three blocks hold 88% of NA12878's 156,293 chrY reads: the X-transposed region
+(28,298 reads), the centromeric satellite at 10.0-12.5 Mb (61,572), and the 220
+kb satellite block just proximal to PAR2 (48,351). Her sons pile into the same
+three blocks, on top of a Y. Depth divided by the autosomal mean:
+
+| region                     | NA12878 mother | NA12879 daughter | NA12882 son | NA12886 son | NA12889 unrelated man |
+| -------------------------- | -------------- | ---------------- | ----------- | ----------- | --------------------- |
+| X-transposed region        | 0.037          | 0.032            | 0.462       | 0.471       | 0.459                 |
+| MSY, unique sequence       | 0.0039         | 0.0031           | 0.487       | 0.497       | 0.491                 |
+| centromeric satellite      | 0.081          | 0.073            | 0.721       | 0.739       | 0.716                 |
+| satellite proximal to PAR2 | 1.14           | 0.96             | 37.5        | 38.6        | 37.4                  |
+
+Correlating 10 kb window profiles across chrY erases the family tree. Against
+NA12878, Pearson r runs 0.25 for her son NA12882, 0.25 for her son NA12886, 0.24
+for her husband NA12877 and 0.25 for the unrelated NA12889 — and 0.99 for her
+daughter NA12879. Sex fixes the profile; relatedness does not move it.
+
+![Window-by-window comparison and X-allele sharing](img/chry_similarity.png)
+
+The alleles say where her reads came from. Inside the X-transposed region her
+chrY reads disagree with the chrY reference at 1,003 positions covered at least
+3x, and another XX individual — her daughter — carries 97.7% of those same
+alleles. Her sons carry 21.6% and 18.3%, and an unrelated man 15.2%. Those
+positions are fixed X-versus-Y differences, so a son's real Y lacks them while
+any second X reproduces them.
+
+Read for read the sequences are still nearly the same. Her chrY reads mismatch
+the chrY reference at 0.95% of aligned bases in the X-transposed region and
+0.91% across the MSY; her son's mismatch at 0.41% in both. One base in a hundred
+separates an X-derived read from a Y-derived one, which is why no per-read
+quality filter removes hers.
+
+https://github.com/Platinum-Pedigree-Consortium/Platinum-Pedigree-Datasets
+
+### A complete Y moves more chrY reads than a different person does
+
+Swapping the reference changes NA12878's chrY read count by more than swapping
+her for a man changes anything else. bwa-mem against the 1000 Genomes GRCh38
+analysis set gives her 884,578 chrY reads; DRAGEN against the alt-masked
+GRCh38DH graph gives 156,293; the same DRAGEN pipeline against T2T-CHM13v2 gives
+71,519. Her son NA12882 goes the other way, 4,941,948 on GRCh38 against
+5,906,736 on CHM13, because a complete Y is 5 Mb longer than one with a gap in
+it. The female-to-male ratio falls from 14% to 3.2% to 1.2%.
+
+![NA12878 chrY depth on GRCh38 and on T2T-CHM13v2](img/chry_reference.png)
+
+T2T removes the artifact by supplying the sequence the reads actually came from.
+GRCh38 spells 30 Mb of Yq12 as N and has no beta satellite array long enough to
+hold the reads that belong there, so they stack onto whatever short stub of
+array the reference does contain — the 1.14x spike proximal to PAR2. CHM13v2
+assembles those arrays in full, and her depth across the 38 Mb of Yq12 satellite
+settles at 0.0027x the autosomal mean against her son's 0.368x. In euchromatic
+MSY she sits at 0.0079x against his 0.5125x. No window on the T2T chrY makes her
+look male.
+
+The pseudoautosomal regions get worse, not better, under a real reference. Both
+GRCh38 and the DRAGEN CHM13 reference hard-mask PAR on chrY, so the question
+only arises once a reference keeps both copies. Take NA12878's 564,633 chrX PAR1
+reads and map them to hg38 chrX+chrY: 282,259 land on chrX and 279,165 on chrY,
+and fewer than 0.02% clear MAPQ 30, because the two copies are byte-identical
+and the aligner reports the coin flip honestly. Map the same reads to
+chrX_MATERNAL + chrY_PATERNAL from the HG002 v1.2 diploid assembly, where both
+PARs are real, unmasked and genuinely different haplotypes: 267,848 go to chrX
+and 293,756 to chrY, but now 17.5% and 18.9% clear MAPQ 30. A finished reference
+does not resolve where a female's PAR reads belong; it just makes the aligner
+confident about half of them.
+
+https://github.com/marbl/HG002
+
 ## Chromosomal abnormalities
 
 ### Uniparental disomy (UPD)
