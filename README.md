@@ -4,6 +4,9 @@ A list of weird gene annotations or things that break bioinformatics assumptions
 
 See also https://github.com/cmdcolin/oddbiology/ for more weird bio
 
+Figures are reproduced from their original sources with attribution and keep
+their original licenses; the text of this repo is CC0
+
 ## Gene structures
 
 ### 1bp length exon
@@ -107,7 +110,7 @@ https://academic.oup.com/nar/article/54/6/gkag196/8539533
 Backsplicing circularizes RNAs, and alternative backsplicing yields different
 circles from the same gene
 
-![Circular RNA biogenesis](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Circular_RNA_Biogenesis.jpg/960px-Circular_RNA_Biogenesis.jpg)
+![Circular RNA biogenesis](img/circrna_biogenesis.jpg)
 
 Figure from Dawoud et al. https://doi.org/10.1016/j.ncrna.2022.09.011
 
@@ -361,7 +364,7 @@ Archaea (and some other organisms) splice tRNA introns whose ends fold into a
 "bulge-helix-bulge" motif, cut by a tRNA splicing endonuclease rather than the
 spliceosome
 
-![](img/bhb.jpg)
+![Bulge-helix-bulge tRNA intron](img/bhb.jpg)
 
 From https://www.embopress.org/doi/full/10.1038/embor.2008.101
 
@@ -375,7 +378,7 @@ does not need to be spliced first, it is simply called a nested intron).
 
 See https://en.wikipedia.org/wiki/Twintron
 
-![](img/twintron.png)
+![Twintron conformations](img/twintron.png)
 
 Figure from https://doi.org/10.1080/15476286.2015.1103427 showing twintron
 conformations with a) spliceosomal introns b) group I/II self-splicing introns
@@ -433,7 +436,7 @@ and make the secreted form, a key step in the immune response
 (https://pmc.ncbi.nlm.nih.gov/articles/PMC9715272/,
 https://pubmed.ncbi.nlm.nih.gov/9885564/).
 
-![](img/ipa.png)
+![Intronic polyadenylation producing a shorter isoform](img/ipa.png)
 
 Figure showing "intronic polyadenylation" (IpA) creating a different isoform
 from https://www.nature.com/articles/s41467-018-04112-z
@@ -491,7 +494,7 @@ Hepatitis B is an extreme example of overlapping genes — its ~3.2 kb genome
 packs 4 overlapping reading frames, with every nucleotide belonging to at least
 one gene https://pmc.ncbi.nlm.nih.gov/articles/PMC3126273/
 
-![HBV genome showing overlapping ORFs](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HBV_Genome.svg/800px-HBV_Genome.svg.png)
+![HBV genome showing overlapping ORFs](img/hbv_genome.svg)
 
 Figure from https://commons.wikimedia.org/wiki/File:HBV_Genome.svg
 
@@ -618,7 +621,7 @@ The region that is spliced out is called an outron
 
 http://www.wormbook.org/chapters/www_transsplicingoperons/transsplicingoperons.html
 
-![Spliced leader trans-splicing mechanism](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4cc1/3795323/f86c4346ec6f/fgene-04-00199-g0001.jpg)
+![Spliced leader trans-splicing mechanism](img/spliced_leader.jpg)
 
 Figure from Lasda & Bhatt (2013)
 https://pmc.ncbi.nlm.nih.gov/articles/PMC3795323/
@@ -684,7 +687,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC2756026/
 An example from drosophila, C. elegans, and rat shows a gene with a 5' exon
 being shared between two genes
 
-![](img/twosplice.png)
+![A 5' exon shared between two genes](img/twosplice.png)
 
 https://www.fasebj.org/doi/full/10.1096/fj.00-0313rev
 
@@ -699,7 +702,7 @@ sequences. Both are RNase A superfamily members; ANG is an angiogenic
 ribonuclease with ALS-associated mutations. The shared-exon arrangement is
 conserved in mouse.
 
-![](img/ang.png)
+![ANG and RNASE4 sharing a non-coding first exon](img/ang.png)
 
 https://academic.oup.com/nar/article/33/3/1077/1064173 (Dyer & Rosenberg 2005)
 
@@ -779,7 +782,7 @@ transcripts are "cryptogenes" — essentially unreadable without extensive RNA
 editing. The guide RNAs that direct this editing are encoded on thousands of
 minicircles (~1 kb each) in the same network. See also the RNA editing section.
 
-<img width="327" height="283" alt="image" src="https://github.com/user-attachments/assets/a812b3ef-738d-4743-a3a0-905b482da55d" />
+![Kinetoplast DNA network](img/maxicircle.png)
 
 Figure from
 https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/kinetoplast-dna
@@ -800,7 +803,7 @@ Some cells — famously insect salivary glands — copy their chromosomes throug
 repeated rounds of replication without cell division, giving giant banded
 chromosomes https://en.wikipedia.org/wiki/Polytene_chromosome
 
-![](img/polytene.png)
+![Polytene chromosome banding](img/polytene.png)
 
 Figure source https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768140/
 
@@ -841,7 +844,7 @@ macronucleus, including virtually all transposons. Even in Tetrahymena and
 Paramecium, 20-30% of the germline genome is discarded
 https://pmc.ncbi.nlm.nih.gov/articles/PMC3839606/
 
-![Programmed DNA elimination in Tetrahymena](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29e4/5666084/a71b9b78f525/rsob-7-170172-g1.jpg)
+![Programmed DNA elimination in Tetrahymena](img/pde_tetrahymena.jpg)
 
 Figure from Noto & Mochizuki (2017)
 https://pmc.ncbi.nlm.nih.gov/articles/PMC5666084/
@@ -1078,7 +1081,7 @@ region exons downstream — as Janeway's Immunobiology puts it: "To make a
 complete immunoglobulin light-chain messenger RNA, the V-region exon is joined
 to the C-region sequence by RNA splicing after transcription."
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/VDJ_recombination.png/600px-VDJ_recombination.png)
+![V(D)J recombination](img/vdj_recombination.png)
 
 Figure from https://commons.wikimedia.org/wiki/File:VDJ_recombination.png
 
@@ -1301,7 +1304,10 @@ https://www.cancer.gov/news-events/press-releases/2024/genetic-factors-predict-x
 In organisms with normally linear chromosomes, circular or "ring" chromosomes
 can form from aberrant processes https://en.wikipedia.org/wiki/Ring_chromosome
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/da/NLM_ring_chromosome.jpg)
+![Ring chromosome](img/ring_chromosome.jpg)
+
+Figure from the National Library of Medicine
+https://commons.wikimedia.org/wiki/File:NLM_ring_chromosome.jpg
 
 There are also smaller fragments that can be circularized called "supernumerary
 small ring chromosomes" (sSRC) or their linear counterparts, "supernumerary
