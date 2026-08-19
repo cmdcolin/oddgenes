@@ -1355,26 +1355,34 @@ Three blocks hold 88% of NA12878's 156,293 chrY reads: the X-transposed region
 kb satellite block just proximal to PAR2 (48,351). Her sons pile into the same
 three blocks, on top of a Y. Depth divided by the autosomal mean:
 
-| region                     | NA12878 mother | NA12879 daughter | NA12882 son | NA12886 son | NA12889 unrelated man |
+| region                     | NA12878 mother | NA12879 daughter | NA12882 son | NA12886 son | NA12889 father-in-law |
 | -------------------------- | -------------- | ---------------- | ----------- | ----------- | --------------------- |
 | X-transposed region        | 0.037          | 0.032            | 0.462       | 0.471       | 0.459                 |
 | MSY, unique sequence       | 0.0039         | 0.0031           | 0.487       | 0.497       | 0.491                 |
 | centromeric satellite      | 0.081          | 0.073            | 0.721       | 0.739       | 0.716                 |
 | satellite proximal to PAR2 | 1.14           | 0.96             | 37.5        | 38.6        | 37.4                  |
 
+NA12889 is NA12877's father, so he is no blood relation to NA12878 but carries
+the very Y her sons inherited — a useful pair of properties. Her own father
+NA12891 carries an unrelated Y and sits at 0.353x across the MSY, low enough for
+an aged cell line to raise the question of mosaic loss of Y, and still two
+orders of magnitude above the XX floor.
+
 Correlating 10 kb window profiles across chrY erases the family tree. Against
 NA12878, Pearson r runs 0.25 for her son NA12882, 0.25 for her son NA12886, 0.24
-for her husband NA12877 and 0.25 for the unrelated NA12889 — and 0.99 for her
-daughter NA12879. Sex fixes the profile; relatedness does not move it.
+for her husband NA12877 and 0.25 for NA12889 — and 0.99 for her daughter
+NA12879. Sex fixes the profile; relatedness does not move it.
 
 ![Window-by-window comparison of the XX mother against XX and XY relatives, and X-allele sharing](img/chry_similarity.png)
 
 The alleles say where her reads came from. Inside the X-transposed region her
 chrY reads disagree with the chrY reference at 1,003 positions covered at least
 3x, and another XX individual — her daughter — carries 97.7% of those same
-alleles. Her sons carry 21.6% and 18.3%, and an unrelated man 15.2%. Those
-positions are fixed X-versus-Y differences, so a son's real Y lacks them while
-any second X reproduces them.
+alleles. Her sons carry 21.6% and 18.3%, NA12889 15.2%, and her father NA12891
+39.0%. Those positions are largely fixed X-versus-Y differences, so a son's real
+Y lacks them while any second X reproduces them — and the spread across the four
+men, 15% to 39%, is itself a warning that a shared-allele percentage moves with
+whichever man you compare against.
 
 Read for read the sequences are still nearly the same. Her chrY reads mismatch
 the chrY reference at 0.95% of aligned bases in the X-transposed region and
@@ -1388,17 +1396,26 @@ https://github.com/Platinum-Pedigree-Consortium/Platinum-Pedigree-Datasets
 
 A percent-identity figure between two chrY read sets carries almost no
 information, because every comparison of that kind starts at 99.8%. Take
-chrY:13-20 Mb, call a consensus base wherever a sample has reads, and compare:
-NA12878, karyotypically XX with no Y chromosome, matches her son NA12882 at
-99.837% and an unrelated man at 99.840%. Two men with real Y chromosomes match
-each other at 99.999%. The XX sample scores marginally _worse_ against her own
-son than against a stranger.
+chrY:13-20 Mb, call a consensus base wherever a sample has reads, and score
+every pair over the same 546,417 positions the XX sample covers:
+
+| comparison                                                 | % identical | differing positions |
+| ---------------------------------------------------------- | ----------- | ------------------- |
+| NA12882 and his grandfather NA12889 — genuinely the same Y | 99.9989%    | 6                   |
+| NA12882 and NA12891 — two unrelated Ys                     | 99.9864%    | 72                  |
+| NA12878 (XX) and her son NA12882                           | 99.8375%    | 887                 |
+| NA12878 (XX) and NA12891, an unrelated Y                   | 99.8317%    | 893                 |
+
+Two people who really do share a Y differ at six positions. NA12878 differs from
+her son at 887 — and from an unrelated man's Y at 893, which is the same number.
+Her chrY reads are no closer to her son's Y than to a stranger's, and they are
+148 times further from it than a genuinely shared Y would be.
 
 ![Where an XX sample's chrY reads come from, and why a 99.8% match to a male sample means nothing](img/chry_composite.png)
 
 Panels A and B of that figure say where an XX sample's chrY reads come from;
 panels C to F say what a percent match computed from them measures, and the box
-at the foot names the three mistakes.
+at the foot names the four mistakes.
 
 Conditioning is what inflates the number. NA12878 has at least one read at
 546,490 of the 7,000,000 positions in that window — 7.8% — and a percent
@@ -1414,11 +1431,11 @@ region, a 4.5-fold swing from the direction of the comparison alone.
 
 Depth is what separates a real Y from an artifact, and it separates them
 cleanly. Across unique MSY sequence NA12878 sits at 0.0039x the autosomal mean
-and her daughter at 0.0031x, while the four XY samples land between 0.481x and
-0.497x — one copy of a haploid chromosome, flat, with nothing in the 125-fold
-gap between the two groups. A 47,XXY sample would sit with the men at 0.5x, and
-at 30x sequencing that is roughly 15x of coverage on the Y, which no analysis
-could miss.
+and her daughter at 0.0031x, while the XY samples land between 0.353x and 0.497x
+— one copy of a haploid chromosome, flat, with nothing in the hundred-fold gap
+between the two groups. A 47,XXY sample would sit with the men at 0.5x, and at
+30x sequencing that is roughly 15x of coverage on the Y, which no analysis could
+miss.
 
 Fetal microchimerism does not reach that floor. At a typical 1 in 10^5 cells,
 Y-bearing DNA would contribute on the order of ten reads across 7 Mb of MSY at
@@ -1427,6 +1444,18 @@ sample — a few hundred to one against, which is why the assay for microchimeri
 is ddPCR against Y-specific loci rather than WGS. NA12878 bore four sons before
 her cell line was drawn and her chrY profile is indistinguishable from her
 daughter's.
+
+The failure mode generalises past chromosomes. "Humans and chimpanzees are 98.8%
+identical" is the same construction: the figure counts substitutions in the
+sequence that aligns, and everything that could not be aligned — indels,
+segmental duplications, lineage-specific gene families — sits outside the
+denominator. Add indels and the divergence roughly quadruples, and on the Y
+specifically the two species are not comparable at all, with large parts of each
+male-specific region having no counterpart in the other. Any percent identity is
+a statement about the positions someone chose to compare, and the interesting
+biology usually lives in the positions they could not.
+
+https://www.nature.com/articles/nature08700
 
 ### A complete Y moves more chrY reads than a different person does
 
