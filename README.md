@@ -1386,6 +1386,46 @@ quality filter removes hers.
 
 https://github.com/Platinum-Pedigree-Consortium/Platinum-Pedigree-Datasets
 
+### "My Y matches my son's Y 99.9%" is what an XX sample gives
+
+A percent-identity figure between two chrY read sets carries almost no
+information, because every comparison of that kind starts at 99.8%. Take
+chrY:13-20 Mb, call a consensus base wherever a sample has reads, and compare:
+NA12878, karyotypically XX with no Y chromosome, matches her son NA12882 at
+99.837% and an unrelated man at 99.840%. Two men with real Y chromosomes match
+each other at 99.999%. The XX sample scores marginally _worse_ against her own
+son than against a stranger.
+
+![Why a 99.8% chrY match between an XX sample and a male sample means nothing](img/chry_match.png)
+
+Conditioning is what inflates the number. NA12878 has at least one read at
+546,490 of the 7,000,000 positions in that window — 7.8% — and a percent
+identity can only be computed where both samples have data, so the 92% of the Y
+she has no reads for never enters the calculation. Her missing coverage is the
+entire signal, and the statistic discards it by construction.
+
+Which sample defines the site list matters just as much. Among positions where
+her chrY reads disagree with the reference in the X-transposed region, her son
+shares 21.6%. Turn it around, start from the positions where _his_ reads
+disagree, and she shares 96.2% of those. Same two samples, same reads, same
+region, a 4.5-fold swing from the direction of the comparison alone.
+
+Depth is what separates a real Y from an artifact, and it separates them
+cleanly. Across unique MSY sequence NA12878 sits at 0.0039x the autosomal mean
+and her daughter at 0.0031x, while the four XY samples land between 0.481x and
+0.497x — one copy of a haploid chromosome, flat, with nothing in the 125-fold
+gap between the two groups. A 47,XXY sample would sit with the men at 0.5x, and
+at 30x sequencing that is roughly 15x of coverage on the Y, which no analysis
+could miss.
+
+Fetal microchimerism does not reach that floor. At a typical 1 in 10^5 cells,
+Y-bearing DNA would contribute on the order of ten reads across 7 Mb of MSY at
+30x, against the ~6,600 artifact reads the same window already holds in an XX
+sample — a few hundred to one against, which is why the assay for microchimerism
+is ddPCR against Y-specific loci rather than WGS. NA12878 bore four sons before
+her cell line was drawn and her chrY profile is indistinguishable from her
+daughter's.
+
 ### A complete Y moves more chrY reads than a different person does
 
 Swapping the reference changes NA12878's chrY read count by more than swapping
